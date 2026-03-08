@@ -1,0 +1,24 @@
+# Build/deploy artifacts
+deploy/
+temp-push/
+
+# Gumroad packaging
+gumroad-package/
+
+# Archives
+*.zip
+
+# IDE/tool files
+.claude/
+
+# Misc
+image.png
+
+# Root-level duplicates (originals are in real-estate/)
+/404.html
+/config.js
+/index.html
+/robots.txt
+/script.js
+/sitemap.xml
+/style.css
