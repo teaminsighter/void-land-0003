@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>My Top Agent — Find Your Best Real Estate Agent in New Zealand</title>
+  <meta name="description" content="A free, independent service that matches Kiwi property owners with the best-performing agent in their area, based on real sales data — not advertising." />
+  <link rel="icon" href="assets/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Archivo+Black&family=Archivo:ital,wght@0,700;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/main.css?v=61" />
+</head>
+<body class="mta-body">
+
+  <!-- ============ NAV ============ -->
+  <header class="mta-nav" id="mta-nav">
+    <div class="mta-nav__inner">
+      <a href="#top" class="mta-nav__logo" aria-label="My Top Agent home">
+        <img src="assets/logo.png" alt="My Top Agent" />
+      </a>
+      <nav class="mta-nav__menu" aria-label="Primary">
+        <a href="#top">Home</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#articles">Articles</a>
+      </nav>
+      <a href="#quiz" class="mta-btn mta-btn--gold mta-nav__cta">Find My Top Agent Now</a>
+      <button class="mta-nav__burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ 1. HERO ============ -->
+  <section class="mta-hero" id="top">
+    <div class="mta-hero__media">
+      <video class="mta-hero__video" autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.webp">
+        <source src="assets/hero-agent-villa.mp4" type="video/mp4" />
+      </video>
+      <div class="mta-hero__grad"></div>
+      <div class="mta-hero__noise"></div>
+    </div>
+
+    <div class="mta-hero__inner">
+      <div class="mta-hero__copy">
+        <span class="mta-eyebrow" data-mta-anim="up">New Zealand · Nationwide</span>
+        <h1 class="mta-hero__title" data-mta-anim="stagger">
+          <span>Find Your Best</span>
+          <span><em>Real Estate Agent</em></span>
+          <span>in <mark class="mta-hero__brush">New Zealand</mark></span>
+        </h1>
+        <p class="mta-hero__sub" data-mta-anim="up">
+          A free, independent service that matches Kiwi property owners with the best-performing agent in their area, based on real sales data — not advertising.
+        </p>
+        <div class="mta-hero__cta" data-mta-anim="up">
+          <a href="#quiz" class="mta-btn mta-btn--gold mta-btn--xl mta-cta-scroll">
+            Find My Top Agent Now
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <p class="mta-hero__note">No cost. No obligation. We never sell your data.</p>
+        </div>
+        <div class="mta-hero__badges" data-mta-anim="up">
+          <!-- Google Reviews trust badge -->
+          <div class="mta-badge mta-badge--google" role="img" aria-label="Rated 4.8 out of 5 across 102 Google reviews">
+            <svg class="mta-badge__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+            </svg>
+            <div class="mta-badge__body">
+              <div class="mta-badge__top">
+                <span class="mta-badge__score">4.8</span>
+                <span class="mta-badge__stars">★★★★★</span>
+              </div>
+              <div class="mta-badge__label">102 Google Reviews</div>
+            </div>
+          </div>
+
+          <!-- NZ Certified trust badge -->
+          <div class="mta-badge mta-badge--nz" role="img" aria-label="45,500 plus Kiwi vendors helped nationwide">
+            <svg class="mta-badge__icon" viewBox="0 0 40 40" aria-hidden="true">
+              <circle cx="20" cy="20" r="19" fill="#0B1F3A"/>
+              <circle cx="20" cy="20" r="17.5" fill="none" stroke="#FF5900" stroke-width="1.2"/>
+              <!-- Silver-fern silhouette -->
+              <path fill="#FF5900" d="M20 7 C 21 12, 24 15, 22 21 C 24 18, 27 17, 27 22 C 25 22, 23 24, 22 27 C 24 26, 26 27, 25 30 C 23 29, 21 30, 21 33 L 19 33 C 19 30, 17 29, 15 30 C 14 27, 16 26, 18 27 C 17 24, 15 22, 13 22 C 13 17, 16 18, 18 21 C 16 15, 19 12, 20 7 Z"/>
+              <text x="20" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-size="4.6" font-weight="800" fill="#FFFFFF" letter-spacing="1">NZ</text>
+            </svg>
+            <div class="mta-badge__body">
+              <div class="mta-badge__top">
+                <span class="mta-badge__score">45,500+</span>
+              </div>
+              <div class="mta-badge__label">Kiwi Vendors Helped</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Trust bar -->
+    <div class="mta-hero__trust">
+      <div class="mta-trust__inner">
+        <span>Independent</span><i></i>
+        <span>Free for vendors</span><i></i>
+        <span>48 hour turnaround</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUIZ (multi-step) — MODAL ============ -->
+  <div class="mta-modal" id="quiz" role="dialog" aria-modal="true" aria-labelledby="mta-quiz-title" aria-hidden="true">
+    <div class="mta-modal__backdrop" data-mta-close></div>
+    <div class="mta-modal__panel">
+      <button type="button" class="mta-modal__close" aria-label="Close" data-mta-close>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="mta-quiz" data-mta-quiz>
+        <div class="mta-quiz__head">
+          <span class="mta-eyebrow">Get Started · Free</span>
+          <h2 id="mta-quiz-title">Get your free agent shortlist</h2>
+          <p>Takes under a minute · Reply within 48 hours</p>
+        </div>
+
+        <div class="mta-quiz__progress" aria-hidden="true">
+          <div class="mta-quiz__bar" data-mta-quiz-bar></div>
+          <div class="mta-quiz__count"><span data-mta-quiz-step>1</span> / 3</div>
+        </div>
+
+        <form class="mta-quiz__form" onsubmit="return false;" novalidate>
+
+          <!-- Step 1 — Property location -->
+          <fieldset class="mta-quiz__step is-active" data-step="1">
+            <legend>Where is your property?</legend>
+            <label class="mta-field">
+              <span>Property address</span>
+              <input type="text" name="address" placeholder="e.g. 12 Queen Street" required />
+            </label>
+            <label class="mta-field">
+              <span>Suburb</span>
+              <input type="text" name="suburb" placeholder="e.g. Mount Eden" required />
+            </label>
+            <div class="mta-quiz__nav">
+              <span></span>
+              <button type="button" class="mta-btn mta-btn--gold mta-btn--lg" data-mta-next>
+                Continue
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </fieldset>
+
+          <!-- Step 2 — About the property -->
+          <fieldset class="mta-quiz__step" data-step="2">
+            <legend>About your home</legend>
+            <div class="mta-field">
+              <span>Bedrooms</span>
+              <div class="mta-chips" data-mta-chips="bedrooms">
+                <button type="button" data-value="1">1</button>
+                <button type="button" data-value="2">2</button>
+                <button type="button" data-value="3">3</button>
+                <button type="button" data-value="4">4</button>
+                <button type="button" data-value="5+">5+</button>
+              </div>
+              <input type="hidden" name="bedrooms" required />
+            </div>
+            <div class="mta-field">
+              <span>Property type</span>
+              <div class="mta-chips" data-mta-chips="type">
+                <button type="button" data-value="House">House</button>
+                <button type="button" data-value="Townhouse">Townhouse</button>
+                <button type="button" data-value="Apartment">Apartment</button>
+                <button type="button" data-value="Section">Section</button>
+              </div>
+              <input type="hidden" name="type" required />
+            </div>
+            <div class="mta-quiz__nav">
+              <button type="button" class="mta-btn mta-btn--ghost" data-mta-back>← Back</button>
+              <button type="button" class="mta-btn mta-btn--gold mta-btn--lg" data-mta-next>
+                Continue
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </fieldset>
+
+          <!-- Step 3 — Contact -->
+          <fieldset class="mta-quiz__step" data-step="3">
+            <legend>Where should we send it?</legend>
+            <label class="mta-field">
+              <span>Your name</span>
+              <input type="text" name="name" placeholder="Full name" required />
+            </label>
+            <div class="mta-field-row">
+              <label class="mta-field">
+                <span>Phone</span>
+                <input type="tel" name="phone" placeholder="021 xxx xxxx" required />
+              </label>
+              <label class="mta-field">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@email.co.nz" required />
+              </label>
+            </div>
+            <div class="mta-quiz__nav">
+              <button type="button" class="mta-btn mta-btn--ghost" data-mta-back>← Back</button>
+              <button type="submit" class="mta-btn mta-btn--gold mta-btn--lg" data-mta-submit>
+                Find My Top Agent Now
+              </button>
+            </div>
+            <p class="mta-form__note">No cost. No obligation. We never sell your data.</p>
+          </fieldset>
+
+          <!-- Success -->
+          <fieldset class="mta-quiz__step mta-quiz__done" data-step="4">
+            <div class="mta-quiz__check">
+              <svg viewBox="0 0 60 60" width="60" height="60"><circle cx="30" cy="30" r="28" fill="none" stroke="#C9A24B" stroke-width="2"/><path d="M18 31l9 9 15-19" fill="none" stroke="#C9A24B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Thanks — we're on it.</h3>
+            <p>We'll research recent local sales around your address and email your top agent shortlist within 48 hours.</p>
+          </fieldset>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 2. HOW IT WORKS ============ -->
+  <section class="mta-section mta-how" id="how-it-works">
+    <div class="mta-container">
+      <header class="mta-sec-head" data-mta-anim="up">
+        <span class="mta-eyebrow">How It Works</span>
+        <h2>How My Top Agent Works</h2>
+        <p>A simple, free and independent way to find the best agent to sell your property.</p>
+      </header>
+
+      <ol class="mta-steps">
+        <li class="mta-step" data-mta-step="1">
+          <div class="mta-step__media">
+            <img src="assets/step-1.webp" alt="Entering property details on a phone" />
+          </div>
+          <div class="mta-step__card">
+            <h3>Enter your details</h3>
+            <p>Tell us your property address, type and price range. It takes under a minute.</p>
+          </div>
+        </li>
+        <li class="mta-step" data-mta-step="2">
+          <div class="mta-step__media">
+            <img src="assets/step-2.webp" alt="Researching local property sales with a laptop and magnifying glass" />
+          </div>
+          <div class="mta-step__card">
+            <h3>Get your free property file</h3>
+            <p>We research recent local sales and activity around your address and send you a free property file.</p>
+          </div>
+        </li>
+        <li class="mta-step" data-mta-step="3">
+          <div class="mta-step__media">
+            <img src="assets/step-3.webp" alt="Three shortlisted agent profile cards on a table" />
+          </div>
+          <div class="mta-step__card">
+            <h3>Receive your agent shortlist</h3>
+            <p>We email you the top 2–3 local agents we trust to sell your property. All this is absolutely free.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="mta-center">
+        <a href="#quiz" class="mta-btn mta-btn--gold mta-btn--lg">Find My Top Agent Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. AGENTS BEHIND THE NUMBERS (sticky split) ============ -->
+  <section class="mta-section mta-agents" id="about">
+    <div class="mta-container mta-split">
+      <div class="mta-split__sticky">
+        <span class="mta-eyebrow" data-mta-anim="up">How we know who's good</span>
+        <h2 class="mta-h2" data-mta-anim="up">Data tells you who sold the most. <em>We find out who's actually good.</em></h2>
+        <p data-mta-anim="up">Sales data only tells half the story. We interview agents ourselves to understand how they communicate, negotiate, and follow through. Then we match you with those who consistently deliver — not just those with the best numbers.</p>
+        <p class="mta-strong" data-mta-anim="up">So when we match you, it's an agent we'd trust with our own home.</p>
+        <a href="#quiz" class="mta-btn mta-btn--gold" data-mta-anim="up">Find My Top Agent Now</a>
+      </div>
+      <div class="mta-split__scroll">
+        <figure class="mta-portrait" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80" alt="" /><figcaption>Interviewed · Auckland</figcaption></figure>
+        <figure class="mta-portrait" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80" alt="" /><figcaption>Interviewed · Wellington</figcaption></figure>
+        <figure class="mta-portrait" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80" alt="" /><figcaption>Interviewed · Christchurch</figcaption></figure>
+        <figure class="mta-portrait" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="" /><figcaption>Interviewed · Tauranga</figcaption></figure>
+        <figure class="mta-portrait" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80" alt="" /><figcaption>Interviewed · Hamilton</figcaption></figure>
+        <figure class="mta-portrait" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?w=800&q=80" alt="" /><figcaption>Interviewed · Dunedin</figcaption></figure>
+        <figure class="mta-portrait" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&q=80" alt="" /><figcaption>Interviewed · Napier</figcaption></figure>
+        <figure class="mta-portrait" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?w=800&q=80" alt="" /><figcaption>Interviewed · Queenstown</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. WHY USE MTA ============ -->
+  <section class="mta-section mta-why">
+    <div class="mta-container">
+      <header class="mta-sec-head" data-mta-anim="up">
+        <span class="mta-eyebrow">Why Us</span>
+        <h2>Why Use My Top Agent?</h2>
+        <p>Six reasons Kiwi property owners trust us to find their top local agent.</p>
+      </header>
+      <div class="mta-grid mta-grid--6">
+        <article class="mta-card">
+          <div class="mta-card__media" aria-hidden="true">
+            <img src="assets/icons/why-1-independent.gif" alt="" width="56" height="56" loading="lazy" />
+          </div>
+          <h3>Truly Independent</h3>
+          <p>We are not a real estate company and do not have pre-selected agents. Every recommendation is based purely on our own research.</p>
+        </article>
+        <article class="mta-card">
+          <div class="mta-card__media" aria-hidden="true">
+            <img src="assets/icons/why-2-data.gif" alt="" width="56" height="56" loading="lazy" />
+          </div>
+          <h3>Backed by Real Data</h3>
+          <p>We use independent sales statistics — not advertising spend — to find agents with a proven record of selling properties like yours, in your suburb.</p>
+        </article>
+        <article class="mta-card">
+          <div class="mta-card__media" aria-hidden="true">
+            <img src="assets/icons/why-3-free.gif" alt="" width="56" height="56" loading="lazy" />
+          </div>
+          <h3>Completely Free</h3>
+          <p>The agent pays us a referral fee from their commission only if your property sells. It is always free for vendors, with no obligation.</p>
+        </article>
+        <article class="mta-card">
+          <div class="mta-card__media" aria-hidden="true">
+            <img src="assets/icons/why-4-fast.gif" alt="" width="56" height="56" loading="lazy" />
+          </div>
+          <h3>Fast 48-Hour Turnaround</h3>
+          <p>Tell us about your property, and we aim to send your top agent shortlist within 48 hours, so you can move quickly.</p>
+        </article>
+        <article class="mta-card">
+          <div class="mta-card__media" aria-hidden="true">
+            <img src="assets/icons/why-5-private.gif" alt="" width="56" height="56" loading="lazy" />
+          </div>
+          <h3>Your Data Stays Private</h3>
+          <p>We have zero tolerance for spam and will never sell your information. Your details are only ever used to find your agent.</p>
+        </article>
+        <article class="mta-card">
+          <div class="mta-card__media" aria-hidden="true">
+            <img src="assets/icons/why-6-local.gif" alt="" width="56" height="56" loading="lazy" />
+          </div>
+          <h3>Local Knowledge</h3>
+          <p>From a proven record in your own suburb to coverage across all 16 regions, we match you with the right local expert.</p>
+        </article>
+      </div>
+      <div class="mta-center" data-mta-anim="up">
+        <a href="#quiz" class="mta-btn mta-btn--gold">Find My Top Agent Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. PROMISE + STATS ============ -->
+  <section class="mta-section mta-promise">
+    <div class="mta-container">
+      <header class="mta-sec-head" data-mta-anim="up">
+        <span class="mta-eyebrow">Our Promise</span>
+        <h2>Our Promise To You</h2>
+      </header>
+      <ul class="mta-promise__list">
+        <li>We will never sell your information.</li>
+        <li>We will never charge you a cent.</li>
+        <li>We aim to get the job done within 48 hours.</li>
+        <li>We will always be free for vendors.</li>
+      </ul>
+      <div class="mta-stats">
+        <div class="mta-stat"><div class="mta-stat__num" data-mta-count="45500">0</div><div class="mta-stat__label">Vendors helped</div></div>
+        <div class="mta-stat"><div class="mta-stat__num"><span data-mta-count="4.8">0</span>★</div><div class="mta-stat__label">102 Google reviews</div></div>
+        <div class="mta-stat"><div class="mta-stat__num"><span data-mta-count="48">0</span>hrs</div><div class="mta-stat__label">Turnaround promise</div></div>
+      </div>
+      <div class="mta-center" data-mta-anim="up">
+        <a href="#quiz" class="mta-btn mta-btn--gold">Find My Top Agent Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. REVIEWS (Google style) ============ -->
+  <section class="mta-section mta-reviews" id="reviews">
+    <div class="mta-container">
+      <header class="mta-sec-head" data-mta-anim="up">
+        <span class="mta-eyebrow">Reviews</span>
+        <h2>What Kiwi Vendors Say</h2>
+        <p>Verified reviews from Google My Business · 4.8 average across 102 vendors.</p>
+      </header>
+
+      <div class="mta-greviews-marquee" aria-label="Google reviews carousel">
+        <div class="mta-greviews-track">
+          <!-- 1 -->
+          <article class="mta-greview">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Cliff T.</div>
+                <div class="mta-greview__loc">Tauranga · 4 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24" aria-label="Google"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars" aria-label="5 out of 5"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">Prompt, efficient replies and a very comprehensive report. After 30 years of selling, I agree with it all.</p>
+            <div class="mta-greview__date">2 weeks ago</div>
+          </article>
+          <!-- 2 -->
+          <article class="mta-greview">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Jo M.</div>
+                <div class="mta-greview__loc">Manukau City · 2 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24" aria-label="Google"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars" aria-label="5 out of 5"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">Over the moon with the price and the whole process was stress free. Outstanding professionalism from start to finish.</p>
+            <div class="mta-greview__date">a month ago</div>
+          </article>
+          <!-- 3 -->
+          <article class="mta-greview">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Sarah &amp; Tom</div>
+                <div class="mta-greview__loc">Christchurch · 1 review</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24" aria-label="Google"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars" aria-label="5 out of 5"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">They matched us with a brilliant local agent in two days. Could not fault the service. Highly recommend to any Kiwi vendor.</p>
+            <div class="mta-greview__date">3 weeks ago</div>
+          </article>
+          <!-- 4 -->
+          <article class="mta-greview">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">David K.</div>
+                <div class="mta-greview__loc">Wellington · 3 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24" aria-label="Google"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars" aria-label="5 out of 5"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">Was dreading choosing an agent from all the flyers in the letterbox. My Top Agent cut through the noise in a day. Sold above CV.</p>
+            <div class="mta-greview__date">5 days ago</div>
+          </article>
+          <!-- 5 -->
+          <article class="mta-greview">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Emma R.</div>
+                <div class="mta-greview__loc">Auckland · 6 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24" aria-label="Google"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars" aria-label="5 out of 5"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">The property file they sent through was more thorough than the appraisals I got directly. Genuinely felt independent.</p>
+            <div class="mta-greview__date">1 week ago</div>
+          </article>
+          <!-- 6 -->
+          <article class="mta-greview">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Mike P.</div>
+                <div class="mta-greview__loc">Hamilton · 2 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24" aria-label="Google"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars" aria-label="5 out of 5"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">No pressure, no upsell. Just a shortlist of three agents who all knew our street. Went with the middle one, sold in 12 days.</p>
+            <div class="mta-greview__date">2 months ago</div>
+          </article>
+          <!-- 7 -->
+          <article class="mta-greview">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Angela S.</div>
+                <div class="mta-greview__loc">Queenstown · 5 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24" aria-label="Google"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars" aria-label="5 out of 5"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">Selling from overseas felt impossible. Their agent handled everything, kept us in the loop weekly. Settled without us stepping foot in NZ.</p>
+            <div class="mta-greview__date">6 weeks ago</div>
+          </article>
+          <!-- 8 -->
+          <article class="mta-greview">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Rob &amp; Linda</div>
+                <div class="mta-greview__loc">Dunedin · 1 review</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24" aria-label="Google"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars" aria-label="5 out of 5"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">First time downsizing, we had no clue. My Top Agent walked us through it and matched us with someone patient and honest.</p>
+            <div class="mta-greview__date">3 weeks ago</div>
+          </article>
+
+          <!-- Duplicate set for seamless loop -->
+          <article class="mta-greview" aria-hidden="true">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Cliff T.</div>
+                <div class="mta-greview__loc">Tauranga · 4 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">Prompt, efficient replies and a very comprehensive report. After 30 years of selling, I agree with it all.</p>
+            <div class="mta-greview__date">2 weeks ago</div>
+          </article>
+          <article class="mta-greview" aria-hidden="true">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Jo M.</div>
+                <div class="mta-greview__loc">Manukau City · 2 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">Over the moon with the price and the whole process was stress free. Outstanding professionalism from start to finish.</p>
+            <div class="mta-greview__date">a month ago</div>
+          </article>
+          <article class="mta-greview" aria-hidden="true">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Sarah &amp; Tom</div>
+                <div class="mta-greview__loc">Christchurch · 1 review</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">They matched us with a brilliant local agent in two days. Could not fault the service. Highly recommend to any Kiwi vendor.</p>
+            <div class="mta-greview__date">3 weeks ago</div>
+          </article>
+          <article class="mta-greview" aria-hidden="true">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">David K.</div>
+                <div class="mta-greview__loc">Wellington · 3 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">Was dreading choosing an agent from all the flyers in the letterbox. My Top Agent cut through the noise in a day. Sold above CV.</p>
+            <div class="mta-greview__date">5 days ago</div>
+          </article>
+          <article class="mta-greview" aria-hidden="true">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Emma R.</div>
+                <div class="mta-greview__loc">Auckland · 6 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">The property file they sent through was more thorough than the appraisals I got directly. Genuinely felt independent.</p>
+            <div class="mta-greview__date">1 week ago</div>
+          </article>
+          <article class="mta-greview" aria-hidden="true">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Mike P.</div>
+                <div class="mta-greview__loc">Hamilton · 2 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">No pressure, no upsell. Just a shortlist of three agents who all knew our street. Went with the middle one, sold in 12 days.</p>
+            <div class="mta-greview__date">2 months ago</div>
+          </article>
+          <article class="mta-greview" aria-hidden="true">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Angela S.</div>
+                <div class="mta-greview__loc">Queenstown · 5 reviews</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">Selling from overseas felt impossible. Their agent handled everything, kept us in the loop weekly. Settled without us stepping foot in NZ.</p>
+            <div class="mta-greview__date">6 weeks ago</div>
+          </article>
+          <article class="mta-greview" aria-hidden="true">
+            <header class="mta-greview__head">
+              <span class="mta-greview__avatar"><img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=200&h=200&fit=crop&q=80" alt="" /></span>
+              <div class="mta-greview__meta">
+                <div class="mta-greview__name">Rob &amp; Linda</div>
+                <div class="mta-greview__loc">Dunedin · 1 review</div>
+              </div>
+              <svg class="mta-greview__glogo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09 0-.73.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            </header>
+            <div class="mta-greview__stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <p class="mta-greview__text">First time downsizing, we had no clue. My Top Agent walked us through it and matched us with someone patient and honest.</p>
+            <div class="mta-greview__date">3 weeks ago</div>
+          </article>
+        </div>
+      </div>
+
+      <div class="mta-center" data-mta-anim="up">
+        <a href="#quiz" class="mta-btn mta-btn--gold">Find My Top Agent Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. RECENT SALES ============ -->
+  <section class="mta-section mta-sales">
+    <div class="mta-container">
+      <header class="mta-sec-head" data-mta-anim="up">
+        <span class="mta-eyebrow">Proof</span>
+        <h2>Recent Sales By Our Matched Agents</h2>
+        <p>Genuine, recorded sales. Results vary by property and market.</p>
+      </header>
+      <div class="mta-grid mta-grid--3">
+        <article class="mta-sale">
+          <div class="mta-sale__media" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80" alt="Mount Eden home" /><span class="mta-tag">SOLD $1.62M</span></div>
+          <div class="mta-sale__body">
+            <h3>Mount Eden, Auckland</h3>
+            <p class="mta-mini">4 bed · 2 bath · House</p>
+            <p>Sold by Ray White in <strong>11 days</strong>.</p>
+          </div>
+        </article>
+        <article class="mta-sale">
+          <div class="mta-sale__media" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80" alt="Riccarton home" /><span class="mta-tag">SOLD $845K</span></div>
+          <div class="mta-sale__body">
+            <h3>Riccarton, Christchurch</h3>
+            <p class="mta-mini">3 bed · 1 bath · Townhouse</p>
+            <p>Sold by Harcourts in <strong>18 days</strong>.</p>
+          </div>
+        </article>
+        <article class="mta-sale">
+          <div class="mta-sale__media" data-mta-anim="reveal-img"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80" alt="Karori home" /><span class="mta-tag">SOLD $1.28M</span></div>
+          <div class="mta-sale__body">
+            <h3>Karori, Wellington</h3>
+            <p class="mta-mini">5 bed · 3 bath · House</p>
+            <p>Sold by Tommy's in <strong>9 days</strong>.</p>
+          </div>
+        </article>
+      </div>
+      <p class="mta-center mta-mini">See what a top agent could do for your property.</p>
+      <div class="mta-center"><a href="#quiz" class="mta-btn mta-btn--gold mta-btn--lg">Find My Top Agent Now</a></div>
+    </div>
+  </section>
+
+  <!-- ============ 8. MID CTA ============ -->
+  <section class="mta-midcta">
+    <div class="mta-container mta-midcta__inner" data-mta-anim="up">
+      <div>
+        <h2>Ready to find your top agent?</h2>
+        <p>It takes under a minute, and you will hear from us within 48 hours.</p>
+      </div>
+      <a href="#quiz" class="mta-btn mta-btn--gold mta-btn--lg">Find My Top Agent Now</a>
+    </div>
+  </section>
+
+  <!-- ============ 9. REGIONS ============ -->
+  <section class="mta-section mta-regions" id="contact">
+    <div class="mta-container">
+      <div class="mta-regions__layout">
+        <!-- LEFT — title + description + CTA -->
+        <header class="mta-sec-head mta-regions__intro" data-mta-anim="up">
+          <span class="mta-eyebrow">Nationwide Coverage</span>
+          <h2>Covering Every Region of New Zealand</h2>
+          <p>From Northland to Southland, we match property owners with top local agents in all 16 regions.</p>
+          <a href="#quiz" class="mta-btn mta-btn--gold" style="margin-top:24px;">Find My Top Agent Now</a>
+        </header>
+
+        <!-- RIGHT — region list + map -->
+        <div class="mta-regions__stage">
+          <div class="mta-regions__list-col">
+            <h3 class="mta-regions__island-title">North Island</h3>
+            <ul class="mta-regions__list">
+          <li><a href="#" class="mta-region-link" data-region-link="northland"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Northland</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="auckland"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Auckland</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="waikato"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Waikato</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="bay-of-plenty"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Bay of Plenty</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="gisborne"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Gisborne</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="hawkes-bay"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Hawke's Bay</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="taranaki"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Taranaki</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="manawatu-whanganui"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Manawatū-Whanganui</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="wellington"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Wellington</span></a></li>
+            </ul>
+            <h3 class="mta-regions__island-title">South Island</h3>
+            <ul class="mta-regions__list">
+          <li><a href="#" class="mta-region-link" data-region-link="tasman"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Tasman</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="nelson"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Nelson</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="marlborough"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Marlborough</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="west-coast"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">West Coast</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="canterbury"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Canterbury</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="otago"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Otago</span></a></li>
+          <li><a href="#" class="mta-region-link" data-region-link="southland"><span class="mta-region-arrow" aria-hidden="true">→</span><span class="mta-region-name">Southland</span></a></li>
+            </ul>
+          </div>
+          <div class="mta-regions__map-col" data-mta-anim="up">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1927.56 2432.122" class="mta-nzmap" role="img" aria-label="Map of New Zealand regions">
+  <title>New Zealand regions</title>
+  <!-- Map: "Regions location in New Zealand" by Peetel (Wikimedia Commons),
+       derived from "New Zealand location map" by NordNordWest. CC BY-SA 4.0. -->
+  <g class="mta-regions-g">
+    <path id="region-northland" data-region="Northland" class="mta-region" d="m 1232,381 1,-3 2,0 3,-3 0,-3 2,-2 3,1 0,-3 3,0 0,-4 3,-3 0,0 c -1,-1 -1,-3 -1,-5 0,-1 2,-2 2,-3 0,-2 -2,-5 -3,-6 -2,-1 -3,1 -5,0 0,0 -2,-1 -2,-1 -1,-1 -1,-1 -1,-2 -2,-1 -3,-1 -4,-2 -1,-1 -2,-2 -3,-3 0,-1 1,-1 1,-2 0,-1 -1,-2 -1,-4 0,-2 0,-5 -1,-7 -1,0 -1,-1 -2,-2 l 0,-1 c 1,0 2,-1 3,-1 1,-2 1,-2 1,-3 1,-1 3,-1 3,-5 -1,-1 -2,-1 -3,-2 -1,-1 -2,-2 -3,-2 -1,0 -2,0 -3,0 -2,0 -4,-1 -7,-1 l -1,1 c -1,0 -1,-1 -2,-1 -1,0 -2,1 -2,1 0,1 0,3 -1,4 l -3,0 c -1,-1 -2,-2 -2,-3 0,-1 0,-2 0,-3 1,-2 1,-3 0,-5 0,-1 0,-2 1,-3 0,0 0,-3 0,-3 0,-1 -1,-2 -1,-4 l 1,-2 0,-1 c 1,1 3,2 3,3 0,0 0,1 0,1 0,1 1,1 1,2 0,2 -3,5 0,7 1,-1 3,-3 3,-4 l 1,-1 c 2,0 3,3 5,2 1,0 2,-2 3,-2 1,0 2,0 3,0 l 1,1 c -1,0 -1,1 -1,2 l 1,1 3,0 1,1 0,1 c -1,1 -1,3 0,4 1,0 3,0 4,1 0,1 0,2 1,3 1,2 3,3 4,3 1,0 2,0 3,-1 0,0 0,-1 0,-1 0,-1 -1,-1 -1,-2 0,-1 -1,-1 -1,-2 0,0 -1,-1 -1,-1 0,-1 0,-3 0,-4 0,-1 0,-3 1,-4 l 0,-1 -1,-1 c -1,0 -2,1 -2,1 l -1,0 c -1,-1 -1,-2 -2,-3 -1,0 -2,0 -2,-1 l -1,-1 c 1,-2 4,-1 4,-4 0,-1 0,-1 0,-2 -1,0 -4,0 -5,-1 1,0 2,-1 2,-1 l 0,-1 c -1,0 -3,0 -4,0 -1,-1 -3,-2 -3,-4 l 1,-1 c 1,0 4,0 5,0 0,0 1,1 1,1 1,0 3,0 4,0 1,0 2,1 2,1 l 1,-1 c 0,-1 0,-2 0,-3 0,-1 0,-2 1,-2 0,-2 -1,-5 -3,-6 -1,0 -1,-1 -2,-1 0,0 -1,0 -1,0 -1,-1 -2,-2 -2,-2 0,-1 -1,-1 -2,-2 -1,-1 -1,-2 -2,-3 -1,-1 -3,0 -4,0 -1,-1 -1,-1 -1,-2 l 0,-2 1,-1 c 1,0 2,0 3,0 1,0 2,0 3,0 l 0,-1 c 0,-1 -1,-1 -1,-2 -1,-2 -4,-4 -4,-7 0,-1 0,-2 -1,-2 l -1,0 0,1 -1,0 c 0,0 -3,-1 -3,-1 -1,0 -2,0 -3,0 -1,-2 -1,-3 -2,-5 0,-1 -2,-3 -2,-4 0,0 -1,0 -1,-1 -1,-1 -1,-3 -2,-5 -1,-1 -2,-1 -3,-2 l 0,-1 c 1,0 2,1 2,1 0,0 1,1 1,1 1,0 1,1 2,1 0,1 1,3 2,4 h 1 c 1,0 1,2 1,2 l 1,1 1,0 c 1,-1 1,-3 1,-4 -1,-2 -3,-2 -5,-3 l 0,-1 c 1,0 2,-1 2,-1 l 0,-1 c -2,0 -4,1 -5,1 0,0 -1,0 -1,0 0,0 -1,-1 -1,-2 0,-1 -1,-2 -1,-2 0,0 0,-1 0,-1 0,-1 0,-5 0,-6 0,-1 3,-4 3,-4 0,0 0,-1 0,-2 0,-1 0,-3 0,-4 l -1,-1 c -3,0 -3,3 -5,5 -1,1 -2,1 -3,1 -1,1 0,3 0,4 l -1,1 -1,0 -1,-1 c -1,-1 -3,0 -4,0 0,1 0,2 1,2 l 0,1 c -2,0 -4,0 -6,0 -2,-1 -4,-3 -6,-1 l 0,1 -1,1 -1,0 c 0,1 0,1 1,2 1,2 2,1 4,1 0,0 3,0 3,0 1,0 1,1 2,1 l 1,0 c 1,0 1,1 2,1 0,0 1,1 1,1 1,1 1,3 1,4 l -1,0 -1,-1 c 0,-1 -1,-2 -2,-3 -1,0 -2,0 -3,1 l 0,1 1,1 0,1 -1,0 c -1,0 -2,-1 -3,-1 l 0,-1 -1,0 c 0,1 -1,3 -1,4 0,1 0,2 0,3 l -1,0 c -1,0 -2,-2 -2,-2 0,-2 2,-5 0,-6 -1,0 -5,-4 -6,-5 0,-1 -1,-1 -1,-2 0,-1 1,-2 2,-3 0,-1 0,-5 0,-6 l -1,-1 c -2,0 -4,0 -5,1 l -1,-1 c -1,0 -2,1 -3,1 0,-1 -1,-1 -2,-1 0,-1 -1,-2 0,-2 1,-1 4,-1 6,-1 l 0,-1 c -1,-2 -3,-3 -4,-4 v -1 c 1,0 2,0 3,0 0,-1 1,-1 2,-1 1,0 2,2 2,3 l 1,0 c 0,-1 1,-1 1,-2 l 1,-1 1,1 c 0,1 0,3 0,4 0,1 1,1 2,1 2,0 3,-1 5,-1 l 1,1 1,-1 c 0,-3 -1,-3 -3,-5 0,-1 -1,-1 -1,-2 -1,-1 -1,-3 -2,-4 l -1,0 c -2,0 -6,1 -9,1 -1,0 -3,0 -4,0 -1,0 -1,-1 -2,-1 0,0 -1,0 -1,0 0,0 -2,-2 -2,-2 -1,-2 -1,-5 -2,-7 -1,-1 -3,-2 -4,-2 -1,0 -1,-1 -2,-1 -1,-1 -2,-1 -3,-1 0,-1 0,-2 0,-3 0,-1 0,-2 -1,-2 -1,0 -2,0 -3,0 -2,0 -3,0 -4,0 -1,0 -1,1 -2,1 -1,0 -2,0 -3,0 -1,2 1,4 -1,7 -1,0 -2,1 -2,1 -1,1 0,2 1,3 0,1 0,2 0,2 l -1,0 c -1,0 -3,-1 -4,0 l -1,-1 0,-1 c -1,-1 -2,-2 -3,-2 l -1,-1 v -1 c 1,-1 2,-1 3,-1 1,-1 3,-3 3,-4 0,-1 0,-2 0,-3 l 1,0 1,-1 c -1,-2 -4,-1 -5,-3 -1,-2 -1,-3 -2,-5 l -1,-1 -1,0 c -1,1 -1,1 -2,2 -1,0 -2,0 -2,0 0,0 -1,0 -1,0 -4,1 -4,-3 -5,-5 0,0 -1,-1 -2,-1 l -1,0 -2,2 c -3,-1 -2,-3 -3,-4 l -1,0 c -2,1 -2,1 -2,3 0,1 -1,3 1,4 1,1 1,1 2,1 1,0 1,1 2,2 0,1 0,3 0,4 l -1,1 -1,-1 c 0,-1 -1,-2 -1,-2 -2,-3 -5,-2 -8,-1 -1,0 -2,1 -3,1 0,0 -1,0 -1,0 -1,0 -2,0 -2,-1 -1,-1 -2,-1 -3,-2 0,0 -1,0 -1,-1 0,0 0,-1 -1,-1 0,0 -1,0 -1,-1 -1,-1 -2,-3 -2,-4 -1,-2 -3,-5 -2,-7 0,-1 1,-1 2,-1 2,0 4,1 7,-1 1,0 1,-1 2,-1 1,0 3,0 4,-1 l 0,-1 c -1,-1 -2,-1 -3,-2 0,-1 0,-2 0,-2 h -1 c -1,1 -2,2 -4,3 0,-1 0,-1 0,-2 1,-4 1,-4 -1,-8 h -1 c -1,1 -2,2 -2,2 1,1 2,3 2,4 l 0,1 c 0,0 -2,2 -2,3 -1,1 -4,1 -5,2 -2,0 -4,0 -6,1 0,2 1,3 1,5 1,3 3,9 2,12 0,1 -1,2 -2,3 l -1,0 -1,1 c 0,2 -1,4 -1,5 l -1,0 -1,0 c -1,0 -1,-1 -2,-2 -1,0 -2,1 -3,2 l -1,0 c -1,-1 -1,-3 -1,-4 0,-1 -1,-3 -1,-4 0,-2 1,-5 3,-7 1,0 1,-1 2,-1 1,-1 1,-1 1,-2 l 0,-1 c -1,-1 -5,-3 -6,-3 0,0 -1,0 -1,-1 0,0 -1,0 -1,0 0,0 -1,0 -1,-1 0,0 -1,0 -1,0 -2,-1 -4,-2 -6,-4 -1,0 -1,-1 -2,-2 -1,-1 -2,-1 -3,-1 -1,0 -2,-2 -3,-2 -1,-1 -3,-5 -3,-6 0,0 0,-1 0,-1 l 1,-1 c 1,0 1,1 2,1 1,1 2,1 3,2 1,1 1,2 2,3 1,1 3,3 4,4 0,-1 0,-1 0,-2 0,-1 -1,-3 -2,-3 0,0 -1,-1 -1,-1 -1,-1 -1,-3 -2,-4 -4,-5 -10,-7 -13,-13 -1,-2 -2,-5 -2,-7 0,-1 0,-2 0,-3 0,0 0,-1 0,-1 0,-1 0,-1 0,-2 0,-2 -1,-4 -1,-5 0,-1 0,-3 -1,-4 0,0 0,-1 0,-1 0,-1 0,-2 -1,-2 -1,0 -1,-1 -2,-1 l -1,0 0,1 c 1,1 2,3 2,4 0,2 0,4 0,6 0,1 0,3 0,5 0,1 -1,3 -2,3 l -1,0 c -1,-1 -1,-7 -1,-8 0,0 0,-1 0,-1 0,-1 0,-4 -1,-5 l -1,0 c 0,1 -1,2 -1,2 l -1,0 c -1,0 -1,-1 -1,-2 0,-2 1,-3 1,-5 l -1,0 c -1,0 -1,1 -2,1 0,1 0,2 0,3 l -1,1 c -1,0 -1,-1 -2,-1 -1,-1 -2,-2 -3,-3 0,-1 1,-2 2,-2 0,-1 0,-2 0,-3 1,0 1,1 2,1 h 1 l 1,-1 c 1,-2 0,-4 0,-5 0,-1 0,-2 0,-3 l 1,-1 1,1 c 1,0 2,1 2,0 0,1 0,3 0,4 l 1,1 h 2 l 1,1 c 0,1 0,3 1,4 1,1 5,0 5,-2 0,-1 0,-2 0,-3 0,-1 0,-2 -1,-2 0,-2 -1,-6 0,-8 2,-3 4,-2 5,-4 0,0 -1,-1 -2,-2 -1,-1 -3,-1 -4,0 l -1,1 c 0,3 -3,3 -5,3 -2,0 -5,0 -7,0 -2,0 -5,-1 -7,-1 -1,0 -2,1 -3,2 -1,0 -1,1 -2,1 0,0 -1,1 -1,1 l -1,0 c -2,0 -2,0 -4,1 0,0 -3,-1 -3,-1 -1,0 -2,0 -3,0 0,0 -1,0 -1,0 -1,0 -5,0 -6,0 0,0 -1,-1 -1,-1 -1,-1 -2,-1 -3,-2 l -1,0 -1,1 c 0,2 2,4 1,6 -1,1 -2,1 -3,3 1,1 1,1 3,2 0,0 1,0 1,0 1,0 2,0 3,0 1,1 1,2 1,3 1,1 2,2 4,3 1,1 2,2 4,3 1,1 2,2 2,2 1,0 1,1 2,1 1,1 1,1 1,2 0,0 1,0 1,1 1,1 2,3 3,5 0,0 0,1 0,1 0,0 1,0 1,1 0,0 0,1 1,1 0,0 1,1 1,1 1,1 1,2 2,3 1,1 3,3 4,4 1,1 1,2 2,3 0,0 1,1 1,1 1,1 2,3 2,4 0,0 1,0 1,1 1,1 1,2 2,3 0,0 1,1 1,1 0,1 1,1 1,2 1,2 3,3 5,5 0,1 1,1 2,2 1,1 3,4 3,6 0,1 0,2 1,2 1,2 3,5 4,7 0,1 1,1 2,2 1,1 1,2 2,3 1,1 2,2 2,2 0,0 0,1 1,1 0,0 1,0 1,1 1,1 1,2 2,3 0,0 0,1 0,1 0,0 0,1 1,1 1,1 1,3 2,4 1,2 2,3 3,5 1,2 1,4 1,5 0,0 0,1 0,1 0,2 0,8 0,9 0,0 0,1 0,1 0,1 0,3 -1,4 -1,3 -1,3 -2,5 -1,2 -2,4 -4,4 -1,0 -2,-1 -4,-1 -1,0 -2,0 -3,0 l -1,1 c 0,1 0,3 -1,4 1,1 3,3 4,4 1,0 1,1 2,1 0,0 0,1 0,1 0,1 1,1 1,2 1,1 1,2 2,3 1,1 4,3 6,4 1,0 2,0 3,0 1,-1 2,-2 2,-2 1,0 1,-1 2,-1 h 1 c 0,1 0,2 0,3 0,0 -1,1 -1,1 -2,2 -3,2 -5,3 l 0,1 c 0,0 0,1 0,1 0,0 4,7 4,7 0,0 1,1 1,1 1,0 1,-2 1,-3 0,-1 0,-3 1,-4 1,-1 3,-3 4,-3 1,0 1,-1 2,-1 h 1 c 0,2 -2,3 -3,5 0,1 -1,1 -1,2 l 1,1 3,-1 0,1 c -2,2 -6,4 -6,7 0,1 2,5 2,6 0,1 3,5 4,6 1,1 2,2 3,3 2,2 4,8 7,9 l 1,-1 c 0,-1 0,-2 0,-3 0,-1 0,-2 1,-2 0,-1 1,-6 1,-7 l -2,-3 c 0,0 1,-2 1,-2 1,-1 2,0 3,-2 0,-1 0,-2 -1,-3 l 0,-1 1,-1 c 1,0 3,0 3,-1 1,1 2,2 3,3 1,0 1,-1 2,-1 1,0 2,0 2,-1 l 1,-1 c 0,-1 -1,-2 -1,-3 l 1,-1 1,0 c 1,1 2,1 3,2 1,0 2,0 2,-1 1,0 2,1 2,1 l 1,0 1,0 c 0,-1 0,-3 0,-4 -1,-1 -2,-2 -2,-3 0,-1 0,-6 0,-7 0,0 1,-1 1,-1 l 1,0 1,1 c 0,1 0,2 0,3 0,2 1,4 1,5 0,1 1,1 1,2 l 1,-1 c 0,-1 0,-4 0,-4 0,-1 1,-2 1,-2 l 1,0 1,1 c 0,1 0,4 1,5 l 1,0 c 0,-1 1,-2 2,-3 l 1,0 1,0 v 2 c 0,1 -1,1 -1,2 0,0 -2,3 -2,3 -1,2 0,5 -3,5 -1,0 -1,-1 -1,-2 h -1 c -1,0 -1,1 -1,2 -1,1 -2,2 -2,2 -1,2 1,5 0,7 -1,0 -2,-4 -4,-5 l -1,1 c 0,0 0,1 0,1 0,0 0,1 0,1 0,2 1,4 0,6 l -1,0 c -3,-1 -3,-4 -5,-7 l -1,0 0,1 -1,1 c 0,0 -1,-1 -2,-1 l -1,0 c 0,1 0,2 0,3 0,0 -1,-1 -1,-1 h -1 c -1,3 1,5 0,8 -1,2 -2,2 -3,4 0,0 -1,1 -1,1 0,1 -1,2 -1,3 -1,1 -2,2 -2,3 0,1 0,2 0,2 0,2 4,3 5,4 l 1,2 c 0,0 0,1 0,1 0,1 1,2 2,3 1,1 1,2 2,3 1,1 2,3 4,4 1,1 2,1 2,2 0,0 0,1 1,1 1,1 3,2 4,4 1,1 2,3 3,4 0,0 0,1 0,1 1,1 1,2 2,3 1,1 1,2 2,3 1,1 2,3 3,4 0,0 1,1 1,1 0,0 0,1 1,1 0,0 1,0 1,1 0,1 1,1 1,2 0,0 1,0 1,1 1,1 1,1 1,2 1,2 2,3 3,5 1,1 1,2 2,3 1,1 2,2 3,4 1,1 2,2 3,3 0,0 0,1 1,1 0,0 1,0 1,1 1,1 2,3 3,5 0,0 1,0 1,1 1,1 2,3 3,4 l 3,4 c 2,2 4,4 5,6 1,1 2,2 3,4 0,1 1,1 1,2 0,0 0,1 1,1 0,1 1,2 1,2 0,0 0,1 1,1 0,0 0,1 0,1 0,0 0,1 1,1 0,0 0,1 0,1 1,2 3,4 4,6 3,4 5,8 8,11 1,2 3,4 4,6 1,1 1,2 2,3 1,1 1,2 1,3 0,0 0,1 0,1 0,0 0,1 0,1 0,1 1,2 1,3 0,0 0,1 0,1 0,0 0,1 1,1 0,1 0,2 1,2 0,0 0,1 0,1 0,1 0,2 1,2 0,0 0,1 1,1 0,1 1,2 1,3 1,1 2,2 3,2 3,-1 6,-3 9,-4 1,0 2,-1 3,-1 1,0 2,0 3,0 1,-1 1,-2 1,-3 0,-3 0,-4 -1,-7 0,-1 -1,-1 -1,-2 -1,-1 -2,-1 -3,-1 l 1,-1 c 1,0 2,-1 3,-2 l 0,-1 -1,-1 c -2,0 -4,0 -6,0 l -1,-1 c 0,0 0,-1 0,-1 0,0 -1,-1 -1,-1 -1,-1 -2,-2 -3,-3 -1,-1 -2,-4 -3,-5 -1,-1 -2,-1 -3,-2 -1,-1 -1,-2 -2,-3 0,0 -2,-3 -2,-3 -1,0 -1,-1 -2,-1 -1,-1 -2,-2 -3,-3 -1,-1 -2,-3 -2,-4 0,0 0,-1 0,-1 0,0 0,-1 0,-1 0,-3 0,-4 -1,-7 -1,-1 -2,-2 -3,-3 0,0 -1,-1 -1,-2 -1,-2 -2,-4 -3,-6 -1,-1 -2,-1 -3,-2 -1,-1 -2,-2 -3,-3 l 0,-2 c 1,-3 6,-1 8,-5 0,-3 -4,-4 -4,-7 0,-1 1,-1 1,-2 0,1 1,2 2,3 0,1 1,1 2,2 2,3 2,5 0,7 -1,1 -3,2 -4,3 l -1,1 c 1,2 2,2 3,3 2,2 3,5 4,7 0,1 1,1 1,2 0,0 0,1 1,1 1,1 1,1 1,2 2,4 1,10 2,12 1,2 5,3 7,5 2,1 2,4 5,5 1,0 3,0 4,-1 2,0 3,1 4,1 1,0 2,0 3,1 1,0 4,5 5,6 0,1 1,2 1,3 0,0 1,1 1,1 0,0 1,1 1,1 1,1 3,0 4,1 1,1 1,1 1,2 0,1 1,1 2,2 1,0 2,0 2,0 0,-1 1,-3 2,-3 1,0 2,-1 3,-1 0,0 1,0 1,0 0,0 1,0 1,0 l 0,-1 c -2,-2 -3,-1 -4,-4 l -1,0 c -1,1 -1,2 -2,3 l -1,0 -1,0 -1,-1 c 0,-2 1,-7 -2,-7 -1,1 -2,0 -4,0 0,0 -1,0 -1,0 0,0 -1,-1 -2,-1 l 0,-1 1,-1 0,-1 c -1,0 -1,0 -2,-1 l 1,-1 c 0,-1 1,-1 1,-2 1,-1 2,-1 2,-1 1,0 1,-2 2,-2 l 1,0 0,1 c -1,2 -2,3 -1,5 l 1,0 c 0,0 1,-1 1,-1 0,-1 1,-1 2,-2 1,-1 1,-2 2,-2 l 1,0 c 0,2 -1,3 -2,5 0,0 0,1 0,2 0,1 0,3 0,4 l 1,0 c 1,0 2,-1 3,-2 1,0 2,0 2,1 1,1 1,3 0,4 l 1,1 1,0 1,-1 1,0 1,1 c 0,1 -2,3 -2,4 l 1,1 c 1,0 2,-1 2,-1 4,-2 2,-4 4,-8 0,0 1,-1 1,-1 0,0 0,-1 0,-1 0,-1 1,-1 1,-2 0,-1 -1,-3 0,-4 l 1,0 c 1,0 1,1 1,1 0,0 1,0 1,0 0,0 1,0 1,1 2,1 4,1 5,3 v 1 l -1,1 c -1,0 -2,0 -2,0 0,-1 -1,-1 -2,-2 0,1 -1,2 -1,4 0,1 1,2 0,2 -1,1 -2,1 -3,2 0,1 0,2 -1,2 -1,0 -1,1 -2,1 l 0,1 c -1,0 -1,1 -2,1 0,1 0,2 0,3 0,1 1,2 0,3 l -1,1 -1,0 c -2,-1 -1,-3 -4,-4 -1,0 -3,0 -4,1 -1,1 0,3 1,3 2,1 3,0 4,2 1,0 2,0 3,-1 0,0 1,0 1,0 0,0 1,-1 1,-1 2,-1 2,-2 4,-4 l 1,0 1,0 c 0,1 0,2 0,3 1,-1 2,-1 3,-2 1,0 1,-1 1,-2 1,-2 4,-2 6,-2 0,0 1,-1 1,-1 z M 899,30 c -1,-1 -2,-2 -2,-4 l 1,0 1,-1 1,0 c 1,0 2,-1 4,-1 l 1,1 -1,1 -1,0 c -1,1 -2,3 -3,3 0,0 0,0 -1,0 z M 1158,173 c -1,0 -2,0 -2,-1 l 0,-1 c 1,-1 2,-1 3,-2 l 1,0 c 0,1 0,3 -1,3 l -1,0 -1,0 z m 31,39 -1,0 1,-1 1,0 0,1 c 0,0 -2,0 -2,0 z m 4,-1 -1,-1 0,-1 1,0 0,1 -1,1 -1,-1 0,-1 z m 6,0 c 0,-1 -1,-1 -1,-2 0,-1 1,-1 2,-1 0,1 0,2 0,3 l -1,1 -1,-1 0,-1 z m 67,124 0,-1 1,-1 c 1,0 2,0 3,0 1,1 3,2 3,4 l -1,0 -1,0 c 0,0 -1,-1 -1,-1 0,0 -2,-1 -3,-1 z"/>
+    <path id="region-auckland" data-region="Auckland" class="mta-region" d="m 1250,361 -3,3 0,4 -3,0 0,3 -3,-1 -2,2 0,3 -3,3 -2,0 -1,3 0,0 c 0,-1 1,-1 2,-1 0,1 0,2 1,2 l 1,0 0,1 c 0,1 -1,2 -2,3 -1,0 -2,0 -3,-1 -2,0 -2,3 -4,4 l -1,0 -1,-1 -1,0 c -1,1 -2,2 -3,2 0,1 -1,2 -2,3 -1,0 -2,0 -3,0 0,1 -1,1 -1,2 l -1,0 -1,-1 -2,0 -1,1 c -3,1 -4,-2 -6,-3 l -1,0 c 0,1 -1,2 -1,2 0,0 0,1 0,1 0,0 -1,1 -1,1 0,0 -1,-1 -2,0 0,1 0,2 0,3 0,1 2,4 2,4 0,1 2,2 3,2 2,0 5,-1 6,-1 0,0 1,0 1,0 1,0 2,1 3,2 3,-1 2,-2 4,-4 3,-1 2,-2 3,-4 l 1,0 c 0,1 1,1 1,2 1,1 3,0 4,2 l 0,1 c -1,1 -3,2 -4,3 l 0,1 c 1,2 2,3 4,4 l 0,1 c -1,1 -1,2 -2,3 -1,1 0,2 0,4 0,0 0,2 0,3 0,0 -1,1 -1,1 0,1 0,2 0,3 l 0,1 h 1 c 1,0 1,-1 1,-2 l 1,0 c 0,2 0,3 -1,4 0,1 0,2 -1,2 0,1 0,2 0,3 0,1 0,2 0,3 l 1,1 c 1,0 2,0 3,0 v 1 c -1,1 -1,1 -1,2 0,0 -1,1 -2,1 -1,2 0,7 -1,8 l -1,0 -1,-1 -1,1 0,2 -1,1 -1,0 c -2,-1 -1,-5 -1,-7 0,-1 -1,-2 -2,-2 0,1 0,4 0,5 -1,0 -1,-1 -2,-1 0,0 -1,-1 -1,-1 0,0 -2,-1 -2,-1 l -1,-1 1,-1 0,-1 0,-1 c -1,0 -2,-1 -2,-1 l 1,-1 c 1,0 3,1 4,0 l 1,-1 v -1 c -1,-2 -3,-1 -5,-2 -1,0 -2,-1 -2,-1 l 0,-1 c 1,0 1,-1 2,-1 l 0,-1 c -1,-1 -4,-2 -5,-3 -1,-1 -4,-4 -5,-6 0,0 0,-1 0,-1 0,-1 -1,-1 -1,-2 -2,-3 -1,-6 -4,-7 -6,1 -4,4 -5,6 l -1,1 -1,-1 c 0,-1 0,-3 0,-4 0,-1 1,-2 1,-4 l -1,0 c -2,1 -2,2 -3,4 0,1 0,2 0,3 0,0 0,1 0,1 0,1 1,3 1,4 0,1 2,5 3,7 0,1 1,1 1,2 1,1 2,3 3,4 0,0 1,1 1,1 0,1 1,1 1,2 0,0 1,0 1,1 1,1 1,1 1,2 0,1 1,1 2,1 1,1 1,1 1,2 0,1 1,1 2,2 1,1 2,3 3,5 1,1 2,2 3,4 1,1 1,3 2,4 1,1 2,2 3,4 0,0 0,1 0,1 0,1 1,1 1,2 1,1 1,2 1,3 0,0 1,1 1,1 1,2 2,4 2,6 0,1 1,3 1,4 0,1 0,2 1,2 0,1 0,2 0,3 0,0 0,1 0,1 0,1 0,1 0,2 0,1 0,3 1,4 0,2 1,4 1,5 0,1 1,1 1,2 0,0 0,1 0,1 0,1 1,2 1,3 0,1 1,3 1,4 0,0 0,1 1,1 0,1 0,2 1,2 1,2 1,3 2,4 1,1 1,2 2,2 h 1 c 1,-1 3,-2 4,-3 0,0 1,-1 1,-1 0,0 1,0 1,0 0,-1 1,-2 2,-3 1,0 2,3 4,4 l 1,0 c 0,-2 0,-4 0,-6 0,-1 1,-1 1,-2 1,-2 2,-4 4,-5 0,0 0,0 0,0 1,0 1,0 2,-1 0,0 1,0 1,0 2,-1 4,0 6,0 1,0 2,0 3,-1 0,0 3,0 3,0 l 3,0 c 1,0 1,0 2,0 1,0 3,0 4,0 l 1,1 c 0,0 -1,2 -1,2 0,0 -1,1 -1,1 -1,0 -1,1 -2,1 0,0 -1,0 -1,0 -2,1 -3,3 -3,6 0,1 0,2 1,3 1,0 3,-1 3,-2 0,-1 1,-2 1,-2 l 1,0 c 2,1 2,3 2,5 1,1 2,3 3,3 l 1,-1 1,1 c 0,1 1,1 1,2 l 1,1 c 2,0 5,-1 7,0 0,0 1,1 1,2 l 0,1 -1,1 c 0,2 3,3 2,5 0,1 -1,1 -2,1 -3,-1 -2,-3 -4,-4 -1,0 -3,0 -3,-1 0,-1 0,-2 -1,-2 l -1,0 c -2,0 -4,2 -5,4 0,1 -1,1 -1,2 0,1 -1,1 -1,2 -1,1 -3,1 -3,1 0,-1 0,-3 -1,-4 l -1,0 c 0,0 -1,1 -1,1 0,0 0,1 0,1 0,1 -1,2 -2,3 -1,1 -4,1 -6,3 l 1,1 c 2,1 5,-1 7,0 l 1,1 c 1,1 3,0 4,1 -1,1 -3,2 -4,2 -1,0 -2,-1 -3,-1 l -1,0 -1,1 c 0,2 0,4 1,5 0,0 1,1 1,1 1,1 1,4 0,5 l -1,0 c -1,0 -3,-2 -3,-3 0,0 -1,-5 -1,-5 0,-1 0,-2 0,-4 -1,-1 -2,-1 -3,-2 -1,-1 0,-2 -1,-2 0,-1 -2,-2 -2,-3 0,-1 0,-2 0,-2 -1,0 -1,-1 -2,-1 l 0,-1 c 1,-1 2,-2 3,-3 0,-1 0,-2 -1,-2 -4,-2 -5,0 -8,0 -3,0 -4,-2 -7,-1 -1,0 -1,1 -1,2 0,3 3,5 4,7 1,1 3,6 3,7 0,1 0,2 1,2 0,1 1,2 1,2 0,0 0,1 1,1 1,2 3,7 4,9 1,2 1,3 1,5 0,1 1,2 2,3 0,0 0,1 1,1 l 0,0 6,-4 4,-1 2,1 3,-3 4,-1 1,-2 6,1 1,3 3,-1 2,-3 6,1 1,-5 3,-2 h 3 l 3,4 3,-3 5,-3 7,0 2,2 4,-2 v -5 l 2,-2 -2,-5 2,-16 4,5 4,-2 14,-1 0,0 c 0,-2 -1,-3 -1,-4 -1,-2 -2,-3 -4,-4 0,-1 -1,-1 -1,-2 -1,-2 -3,-2 -5,-2 -1,-1 -1,-3 -3,-3 0,1 -1,2 -2,3 -2,1 -3,0 -5,-1 l -1,1 -1,1 c -1,0 -2,1 -3,2 -1,0 -2,1 -2,1 0,0 -1,0 -1,0 -1,0 -2,0 -3,0 -1,0 -1,0 -2,-1 -1,-1 -1,-2 -1,-4 0,-2 1,-2 2,-3 0,0 -1,-4 -1,-4 0,-1 -4,-3 -5,-3 -2,-1 -3,1 -5,-1 l -1,0 c -1,0 -1,1 -2,2 0,3 3,5 3,8 l -1,1 c -1,0 -2,0 -2,1 -1,-1 -2,-2 -3,-1 l -1,1 -1,0 c -1,-2 1,-3 1,-5 0,0 0,0 0,0 -1,-2 -2,-2 -3,-3 -2,-2 -1,-5 -2,-7 l -1,0 c 0,1 0,2 -1,3 0,2 0,4 0,6 -1,2 -3,4 -3,5 0,2 1,4 -1,7 l -1,0 -1,0 c -1,-1 -1,-4 -1,-5 0,-1 0,-2 -1,-2 1,-2 3,-2 4,-4 1,-1 1,-3 1,-4 0,-2 -4,-4 -6,-4 -2,0 -4,1 -5,1 -1,0 -2,-1 -3,-1 0,0 -1,0 -1,0 -1,0 -2,0 -2,-1 -1,0 -2,0 -3,1 l -1,1 c -4,2 -2,1 -4,4 l -1,0 -1,0 -1,1 c 0,1 1,4 1,5 l -1,1 -1,0 c -1,-1 -2,-3 -2,-5 0,-3 3,-6 -1,-8 -1,0 -2,0 -3,0 l -1,-1 0,-1 c 1,-1 4,-1 5,-2 l 0,-1 c -1,-1 -5,-2 -6,-1 0,0 -1,1 -2,2 l -1,0 c 0,-1 0,-2 0,-3 1,-1 1,-1 2,-1 0,0 1,-1 1,-1 1,0 1,-1 2,-1 2,0 5,-2 6,-1 l 1,1 c 0,1 0,3 1,4 1,1 3,0 4,1 0,1 -1,2 -1,3 0,0 1,1 2,1 2,0 3,-2 5,-3 1,0 1,1 2,1 1,1 1,3 3,3 l 1,-1 0,0 0,-1 c 0,-1 -1,-1 -1,-2 0,-1 -1,-1 -1,-2 -1,-2 -1,-4 -1,-5 0,-1 -1,-2 -2,-3 0,0 0,-1 0,-1 0,-1 -1,-2 -1,-3 0,-2 0,-4 -1,-6 0,-1 -1,-2 -2,-2 0,-1 -1,-1 -1,-2 0,-1 -1,-1 -1,-2 0,0 0,-1 -1,-1 -1,-1 -1,-2 -2,-3 2,1 3,2 5,3 1,0 3,0 4,-1 1,0 1,-1 2,-1 1,0 2,0 3,0 1,0 4,-2 5,-3 l -1,-1 c -2,-1 -3,1 -5,1 -2,0 -4,0 -5,1 -1,0 -1,0 -2,-1 -1,0 -2,0 -3,-1 0,0 -1,0 -1,-1 -1,-1 -2,0 -3,-1 -1,-2 3,-6 -1,-9 -1,-1 0,-3 0,-4 1,0 2,0 3,0 l 1,-1 c 0,-1 1,-3 0,-4 -1,-1 -3,-2 -4,-2 l 0,-1 c 1,0 2,0 3,0 l 0,-1 c 0,-4 -2,-5 -2,-9 l 1,-1 c 1,0 4,3 4,4 0,0 1,4 1,4 1,0 1,-1 2,-1 1,1 0,4 0,6 l 1,0 c 0,0 1,-4 1,-5 0,0 0,-3 0,-3 0,-1 -2,-3 -3,-4 -1,-2 0,-4 -1,-6 0,-1 -1,-2 -1,-3 0,-1 0,-2 0,-2 l 1,-1 c 2,0 4,4 8,3 0,-1 2,-1 2,-1 1,0 2,1 2,1 1,0 3,-1 4,-1 l 0,-1 c -1,-1 -3,-1 -4,-1 -2,0 -4,-2 -6,-1 l -1,0 c -1,-2 -1,-3 0,-5 l 1,-1 c 1,0 1,1 2,1 1,-1 -1,-3 1,-5 l 0,-1 c -2,0 -3,-1 -5,-1 0,0 -1,0 -1,0 -1,0 -4,-2 -5,-3 0,0 0,-1 -1,-1 0,0 -1,0 -1,-1 -1,-1 -1,-2 -2,-3 0,0 -1,0 -1,-1 0,0 -1,-1 -1,-2 -1,-1 -1,-3 -2,-4 -1,-2 -3,-3 -4,-5 -1,-2 -2,-4 -2,-5 l -1,0 0,1 -1,0 c 0,0 -1,-1 -1,-1 z m 34,54 c 0,-1 -1,-1 -1,-2 0,-1 0,-2 0,-2 0,-1 0,-3 1,-3 1,0 2,0 2,0 1,0 2,1 2,1 1,1 1,1 1,2 0,0 0,1 0,1 0,1 1,4 1,6 -1,0 -2,1 -3,1 -1,0 -1,0 -2,0 -1,0 -3,1 -4,0 0,-1 2,-3 2,-4 z m 6,28 1,0 c 0,1 0,2 0,2 l -1,1 -1,0 c 0,-1 0,-2 0,-3 z m -5,32 c 0,-1 -1,-1 -1,-2 l 0,-1 c 1,-1 3,-1 4,-1 l 1,0 c 0,1 1,3 0,4 0,1 -3,2 -4,2 0,0 -1,-1 -1,-2 z m 7,-5 c 0,-1 0,-3 1,-4 1,0 2,0 3,0 1,1 1,5 1,7 -1,0 -2,1 -2,1 l 0,1 h -1 c -1,-2 0,-4 -1,-5 h 0 z m 36,12 0,1 c 0,-1 -1,-1 -1,-2 -1,1 -2,1 -3,2 l -1,-1 -1,0 -1,1 c -1,0 -3,1 -4,1 0,-1 -1,-1 -1,-2 -1,0 -2,0 -3,0 l -1,-1 c 0,-1 1,-1 1,-2 -1,-1 -2,-1 -3,-2 l 0,-2 -1,0 c -1,1 -2,3 -4,3 -1,0 -1,-1 -1,-2 0,-1 1,-1 1,-2 0,-1 0,-2 1,-2 l 1,0 c 1,1 1,1 2,2 1,0 3,0 4,0 0,-1 1,-1 2,-2 l 1,1 c 0,1 0,2 0,3 1,1 3,1 4,1 1,-1 1,-2 3,-4 1,0 3,-1 4,-1 2,-1 2,-4 5,-4 l 0,1 -1,1 0,1 c 1,1 2,1 3,2 l 0,2 c -1,1 -3,1 -4,2 l 0,1 c 0,1 0,2 1,2 1,2 1,3 0,5 -1,0 -2,0 -2,1 z m 5,10 c -1,-1 -1,-2 -1,-3 1,-2 1,-5 3,-6 l 1,0 c 0,1 0,2 0,3 0,2 2,5 0,7 l -1,0 c -1,0 -2,-1 -3,-1 z m -14,-113 c -1,0 -2,0 -3,-1 0,-1 0,-2 0,-4 2,-1 2,-3 4,-4 1,0 2,-1 2,-1 l 1,1 c 0,1 3,3 4,4 v 2 c 0,1 -1,1 -2,1 -1,1 -1,2 -3,3 -1,0 -2,0 -3,-1 z m 60,21 c -1,0 -2,0 -2,-1 l -1,-1 c 0,-1 1,-1 1,-2 0,-2 -2,-2 -3,-3 -1,1 -1,2 -2,3 l -1,0 c -2,-1 -2,-7 -1,-9 l -1,0 c -1,1 -3,2 -5,1 0,-1 0,-2 0,-2 l 0,-1 -1,-1 -1,0 -1,1 c -3,1 -3,-2 -5,-3 -1,0 -1,-1 -2,-1 0,0 -1,-1 -1,-1 0,0 -1,0 -1,0 -1,-1 -1,-2 -1,-3 l 1,-1 c 1,0 1,1 2,1 1,1 1,2 2,3 h 1 c 0,-1 1,-2 2,-3 0,-1 -1,-2 0,-4 2,-1 2,-3 2,-4 0,-1 -2,-2 -3,-2 -1,0 -1,1 -2,1 -1,-1 -1,-2 -2,-3 l 0,-1 c 2,-1 6,1 7,-3 l 0,-1 c -1,0 -3,-2 -3,-3 0,-1 0,-2 1,-2 0,-1 1,-1 1,-2 1,-1 4,-1 5,-1 3,2 2,5 3,6 1,1 2,0 3,1 l 0,2 c 0,1 -2,1 -2,1 l 0,1 c 0,2 3,4 5,5 0,0 1,0 1,0 1,0 3,1 3,1 1,0 2,1 3,1 0,1 -2,3 -2,4 0,1 0,2 0,2 -1,0 -1,1 -2,1 0,0 0,1 0,1 0,1 2,4 2,4 0,0 2,2 2,2 1,0 1,0 2,1 0,1 0,2 1,2 0,1 1,1 1,2 1,1 1,2 2,3 l 0,1 -1,0 c -1,1 0,3 -1,5 -1,0 -2,-1 -2,-1 z m -3,-38 1,0 1,1 0,1 -1,0 -1,-1 c 0,0 0,-1 0,-1 z"/>
+    <path id="region-waikato" data-region="Waikato" class="mta-region" d="m 1283,797 -5,-5 c 0,0 -2,1 -4,1 -2,0 -4,1 -9,0 -6,0 -12,-2 -12,-2 l 0,0 c 0,-1 0,-2 0,-2 1,-6 1,-12 1,-18 0,0 0,-1 0,-1 0,-2 0,-3 0,-5 0,-1 0,-2 0,-3 0,-2 1,-3 1,-4 0,-2 0,-5 0,-7 0,-1 2,-3 3,-4 1,-1 1,-2 2,-3 0,-1 1,-1 1,-2 0,-1 1,-3 1,-4 0,0 0,-1 0,-1 0,0 0,-1 0,-1 0,0 0,-1 0,-1 0,0 0,-1 0,-1 0,-1 1,-2 1,-3 0,0 0,-1 0,-2 0,-2 0,-3 0,-5 0,-1 0,-2 0,-3 0,-1 0,-2 1,-3 0,0 0,-1 0,-1 0,0 0,-1 0,-1 1,-2 1,-4 1,-6 0,-2 -1,-4 -1,-5 -1,-2 -3,-3 -3,-6 l 1,0 c 2,0 4,2 5,1 0,0 1,0 1,-1 1,0 1,-1 2,-1 h 1 c 0,3 2,4 4,6 l 1,-1 0,-1 h 1 c 1,1 1,3 2,4 1,1 4,0 5,-1 l 0,-1 c -1,0 -2,-1 -2,-1 l -1,-1 0,-1 c 1,-1 3,-2 5,-1 0,1 1,1 2,1 h 1 c 3,-2 3,0 6,-4 -2,-1 -3,0 -5,1 l 0,-1 c 1,0 1,-1 1,-2 0,-2 -2,-2 -4,-3 l -1,-1 -1,0 -1,1 c -1,0 -2,-1 -2,-1 l -1,0 c 0,1 -1,4 -2,4 0,0 -1,1 -2,1 -1,0 -2,0 -2,0 -1,0 -1,-3 -1,-4 0,0 0,-1 0,-1 0,-1 0,-3 1,-4 1,-1 2,-2 3,-2 3,-1 3,0 5,0 l 1,-1 c 0,-1 0,-2 1,-3 1,-2 3,-4 5,-5 l 0,-1 c -2,-1 -2,-4 -5,-5 -1,1 -1,3 -4,4 -1,1 -1,4 -1,5 -1,1 -2,2 -3,1 0,0 -1,-1 -2,-1 -1,-1 -1,-1 -1,-2 0,-3 1,-7 1,-10 0,-1 0,-2 0,-3 0,-1 0,-2 0,-3 0,-1 0,-2 0,-2 0,-1 0,-2 0,-3 1,-1 2,-1 3,-2 1,-1 1,-1 1,-2 0,0 7,-4 7,-4 1,0 3,0 4,0 2,0 4,1 6,0 0,0 1,0 1,0 1,0 2,0 3,-1 l 0,-1 c -1,-1 -3,-2 -4,-3 1,-1 2,-1 3,-2 0,-1 0,-2 0,-3 0,-1 0,-2 0,-3 -2,0 -4,0 -5,1 0,0 -1,1 -1,1 -1,1 -1,3 -2,4 -1,0 -2,-1 -2,-1 l -1,0 c -1,1 -2,2 -4,2 0,-1 -2,-2 -2,-3 0,-1 -1,-3 -1,-4 -1,-2 -1,-4 -2,-6 0,-1 0,-3 -1,-4 -1,-2 -1,-4 -2,-6 0,-1 0,-2 -1,-3 0,-2 -1,-3 -1,-5 0,0 0,-1 -1,-1 -1,-2 -1,-3 -1,-5 0,-1 -1,-2 -1,-2 0,0 0,-1 -1,-1 0,0 0,-1 0,-1 0,-1 -1,-1 -1,-2 0,0 0,-1 0,-1 0,-1 -1,-1 -1,-2 0,0 0,-1 0,-1 0,-1 -1,-1 -1,-2 -1,-2 -1,-3 -2,-5 0,-1 -1,-1 -1,-2 -1,-2 -2,-5 -1,-8 1,-2 5,-2 7,-4 0,0 1,-1 1,-2 0,-1 0,-1 0,-2 0,-1 0,-1 1,-2 1,-2 1,-3 2,-4 1,0 2,0 3,0 1,-1 2,-2 3,-3 l 0,-1 c -1,0 -2,0 -3,0 -3,1 -4,2 -6,4 -1,1 -3,2 -4,3 -1,2 -1,6 -3,6 l -1,0 c -1,-1 -2,-2 -3,-3 -1,-1 -1,-3 -2,-4 -1,-2 -2,-4 -3,-6 l 0,0 6,-4 4,-1 2,1 3,-3 4,-1 1,-2 6,1 1,3 3,-1 2,-3 6,1 1,-5 3,-2 h 3 l 3,4 3,-3 5,-3 7,0 2,2 4,-2 v -5 l 2,-2 -2,-5 2,-16 4,5 4,-2 14,-1 0,0 c 0,1 0,2 0,2 0,2 -2,2 -1,5 -1,3 -1,4 0,8 0,1 0,1 0,2 0,1 0,3 0,4 0,0 1,3 1,3 0,1 1,1 2,1 1,1 1,1 1,2 1,1 3,4 3,5 0,1 1,1 2,2 1,0 3,0 4,0 0,0 1,0 1,0 1,0 2,0 3,0 1,0 3,0 4,-1 1,0 5,-2 6,-2 1,0 2,-2 3,-2 0,0 0,-1 1,-1 1,-1 2,-1 4,-1 l 1,1 0,0 c 0,2 0,2 0,4 0,1 0,2 0,3 0,0 0,1 0,1 0,0 0,1 0,1 1,1 2,2 3,2 1,0 2,-1 3,-1 -5,-1 -4,-8 -4,-12 0,-1 -1,-3 -1,-4 -1,-2 -3,-5 -4,-7 -1,-2 0,-5 0,-7 0,-4 -1,-9 -2,-13 -1,-2 -1,-4 -2,-6 -1,-1 -2,-2 -3,-4 0,-1 -1,-1 -1,-2 -1,0 -1,-1 -2,-1 0,0 -1,0 -1,0 -1,0 -1,-1 -2,-1 0,-1 0,-2 0,-3 0,-2 -2,-3 -4,-4 l 1,-1 c 1,0 3,0 4,0 1,0 1,1 2,1 1,0 3,-1 4,-1 0,-1 1,-1 1,-2 -2,-1 -6,1 -8,-1 l 0,-1 c 1,-1 3,-1 4,0 l 1,-1 0,-1 c -1,-1 -2,-1 -4,-1 l 0,-1 c 1,0 3,-1 4,-1 1,0 3,0 4,-1 0,0 1,0 1,-1 1,-1 0,-4 0,-5 l -1,1 -1,1 -1,0 c 0,-1 -1,-2 -1,-2 l -1,-1 0,-1 c 0,-1 1,-2 1,-2 -1,-2 -3,-2 -4,-4 0,0 0,-2 0,-3 1,-1 2,-2 2,-3 0,0 0,-1 0,-1 1,-2 1,-2 2,-4 0,-1 0,-2 0,-2 -2,-1 -4,0 -6,-2 -1,-1 -2,-3 -2,-4 l -1,-1 c -1,-1 -3,-1 -5,-2 0,0 -1,0 -1,-1 0,0 -1,0 -1,0 -1,-1 -4,-3 -4,-4 -1,-2 -1,-5 -1,-7 0,-2 0,-4 0,-5 l 1,-1 c 1,0 2,0 3,0 1,0 5,0 6,0 1,0 2,0 3,0 0,1 0,2 1,2 2,1 1,2 2,4 1,0 3,1 3,1 1,1 1,2 3,2 l 1,0 c 0,-2 1,-3 2,-4 l 1,0 c 1,1 1,3 1,4 1,1 1,1 2,2 0,0 0,1 0,2 1,5 -3,4 -4,7 l 0,1 c 1,1 2,1 4,1 0,0 1,0 1,0 1,0 4,1 4,2 0,1 0,3 0,4 0,1 0,3 0,4 l -1,1 -1,0 c -1,0 -2,-2 -2,-2 l -1,0 -1,1 c 0,1 1,2 1,3 1,1 4,1 5,0 l 1,0 c 2,3 1,4 0,6 0,1 0,2 -1,2 0,1 0,3 1,4 1,1 3,0 4,0 0,-1 1,-2 1,-2 1,0 2,0 3,0 l 1,-1 c -1,-2 -3,-2 -3,-3 l 1,-1 c 1,0 2,0 3,1 3,1 5,1 8,0 1,-1 2,-3 3,-3 1,0 2,0 3,0 1,0 2,-1 3,-1 1,1 1,3 2,4 l 1,0 c 0,-1 1,-1 1,-2 l 1,0 c 2,1 1,4 1,6 -1,1 -3,-1 -5,0 -2,1 -3,4 -4,6 -1,1 -2,1 -4,1 l -1,0 c 0,0 -1,1 -1,1 -1,0 -1,1 -2,1 0,1 -1,2 -2,3 0,0 -1,1 -1,1 0,0 0,1 -1,1 0,1 -1,1 -2,2 0,1 1,1 2,2 0,1 -1,2 -1,2 0,1 1,2 2,3 0,0 1,0 1,0 1,0 1,1 2,1 l 0,-1 0,-1 1,-1 1,0 0,-1 c 0,-1 -1,-2 -2,-3 0,-1 0,-3 1,-4 l 1,0 c 1,1 2,2 4,2 1,-1 1,-2 2,-3 2,0 4,1 5,3 2,2 0,5 1,8 1,2 4,3 4,6 0,1 -1,2 -1,4 0,1 1,4 1,5 0,1 1,2 1,2 0,0 0,1 0,2 l -1,1 -1,0 c 0,1 1,2 0,4 -2,1 -2,4 -2,6 l 1,1 c 1,-1 2,-2 3,-2 0,-1 1,-2 1,-2 l 1,0 c 1,1 0,2 1,2 0,1 1,2 1,2 0,2 -1,4 -2,6 -1,1 -1,2 -2,3 -1,1 -2,1 -2,3 l 0,1 1,0 c 1,0 2,-1 2,-1 l 1,0 0,1 c 0,0 -1,2 -1,2 0,0 0,1 0,1 0,2 1,4 1,6 -1,-2 -3,-4 -4,-6 l -1,0 c 0,0 0,1 0,1 0,0 0,1 0,1 0,1 0,2 0,3 l 0,1 c 1,1 2,1 2,2 0,1 0,2 0,2 l -1,0 -1,1 1,1 c 1,0 3,0 4,0 1,0 1,1 1,2 0,1 0,1 0,2 0,0 0,1 0,1 0,1 0,3 1,4 0,1 1,2 1,2 0,0 0,1 0,1 0,1 1,3 1,4 0,2 1,4 1,6 l 0,0 -2,1 v 2 l -2,2 0,4 -1,2 -3,0 -2,3 1,2 2,0 1,3 -5,1 -5,-4 -2,2 0,4 2,1 c 0,0 0,1 0,2 0,2 0,2 -2,4 -2,2 0,3 0,3 l 4,7 -1,2 2,6 2,0 3,7 c 0,0 4,10 6,12 2,2 -2,8 -2,8 l 4,2 1,7 4,2 -1,2 2,2 -4,2 2,6 3,0 0,3 6,1 7,6 2,4 0,7 c 0,0 0,4 0,6 0,2 2,7 2,7 l 3,0 6,9 4,-3 3,0 2,2 2,3 2,-1 2,-3 6,5 4,4 8,8 3,1 2,-2 4,3 0,4 3,1 4,6 0,6 -3,14 0,4 -4,4 -26,40 v 13 1 4e-5 l 1,8 -2,4 -7,6 c 0,0 -3,4 -6,6 -2,2 -2,4 2,4 4,0 0,2 -1,2 -1,0 -7,3 -7,3 v 3 l -2,2 v 10e-6 m -45,-446 c -1,0 -3,0 -4,0 l 0,-1 c 1,0 2,-1 3,-2 1,0 2,1 2,1 l 1,1 0,1 c 0,0 -1,0 -2,0 z m 0,33 -1,0 -1,-1 c 0,-1 0,-2 0,-2 -1,0 -3,0 -3,-1 l 0,-1 c 0,-1 2,-2 3,-2 l 1,0 c 0,1 1,1 1,2 0,1 0,3 2,3 1,0 2,0 2,1 l 0,1 0,1 c -1,0 -3,0 -4,0 z m 18,-1 c 1,0 2,0 2,1 l 0,1 -1,0 -1,-1 v 0 c 0,0 0,-1 0,-1 z m 2,68 c 0,-1 0,-3 1,-3 l 1,0 1,1 c 0,1 -1,2 -2,3 l -1,0 0,-1 z m -155,278 0,0 h 4 l 0,-2 3,0 2,-2 6,0 c 0,0 0,-1 0,-2 -1,-1 0,-2 2,-4 2,-2 2,-4 2,-4 l 0,-6 c 0,0 4,0 6,0 2,0 5,0 6,-1 1,-1 3,-1 4,-2 1,-1 2,-3 2,-3 0,0 1,1 2,1 1,0 2,-2 2,-2 0,0 0,2 4,2 h 6 c 0,0 1,1 3,1 2,0 4,0 4,-1 1,-1 2,-2 2,-2 0,0 3,-1 4,-2 1,-2 1,-2 1,-2 l 2,2 c 0,0 2,-1 2,-2 0,-2 -1,-4 0,-4 1,-1 2,-2 3,-1 1,1 2,4 2,4 h 5 c 0,0 2,-6 4,-7 2,-1 1,-4 1,-4 l 4,-3 c 0,0 0,-2 2,-3 2,-1 3,-2 3,-2 l 0,3 c 0,0 6,-1 8,-2 1,0 2,-1 3,0 1,1 4,3 4,3 l 6,-2 c 0,0 1,4 1,7 0,2 0,2 1,4 2,2 2,2 2,4 0,2 -1,4 -1,5 0,1 -4,8 -4,8 l -3,2 c 0,0 0,4 -2,6 -1,1 -1,4 -1,4 0,0 -3,2 -3,4 0,2 -2,5 -2,5 l -2,1 1,4 2,4 c 0,0 2,0 3,2 1,1 2,5 1,6 -1,1 -3,3 -3,3 l -1,5 3,3 c 0,0 1,2 1,3 0,1 -2,7 -2,7 l 2,6 c 0,0 6,-2 8,-2 2,0 7,0 7,0 l -2,3 c 0,0 0,4 -1,5 0,1 -2,2 -2,2 h -3 l -1,2 2,1 c 0,0 -2,2 -1,3 1,2 3,3 3,3 0,0 2,3 1,6 -1,4 -9,18 -10,19 0,1 -3,6 -3,6 l -2,2 3,2 c 0,0 10,0 11,0 2,0 6,1 9,2 3,1 4,1 5,0 2,0 5,0 5,0 l 1,1 h 2 l 4,-4 4,-2 0,-2 c 0,0 0,-2 1,-2 2,-1 3,-2 3,-3 0,-2 0,-3 0,-4 1,0 6,-2 8,-2 1,-1 3,-4 4,-5 0,-1 3,-6 4,-7 2,-1 1,-3 2,-4 1,-1 2,-2 3,-4 1,-1 2,0 2,1 0,2 0,2 1,4 1,1 3,2 4,2 l 4,4"/>
+    <path id="region-bay-of-plenty" data-region="Bay of Plenty" class="mta-region" d="m 1485,561 c 0,-1 -1,-2 -1,-2 0,-1 1,-2 2,-3 l 1,0 0,1 c 0,1 -1,2 -2,3 z m 22,58 c 0,-1 1,-1 1,-2 0,-1 0,-2 0,-3 l 1,-1 c 1,1 2,2 2,3 -1,2 -1,4 -3,5 l -1,0 c 0,-1 0,-2 0,-2 z m 110,-21 -1,-1 1,-1 c 1,0 2,0 2,0 l -1,1 z m -34,61 0,-1 c 1,-1 1,-2 2,-3 1,1 1,1 1,2 1,0 2,0 2,1 l -1,1 c -1,0 -2,1 -4,1 z m -142,-82 c 0,2 1,3 2,5 0,1 1,1 2,2 1,1 3,4 3,6 h -1 c 0,-1 -1,-1 -2,-2 l -1,0 c -1,1 -1,2 -1,2 1,4 6,2 9,3 0,0 0,0 0,0 1,0 1,1 2,1 1,0 1,1 2,1 0,0 0,1 1,1 0,0 1,0 1,1 0,0 0,1 1,1 1,1 2,2 3,4 1,2 2,4 3,6 0,1 1,1 2,2 0,0 0,1 1,1 2,2 3,3 4,5 l 0,1 c -2,0 -3,-1 -4,-2 0,0 -1,0 -1,-1 0,0 -1,-1 -1,-1 0,0 -1,0 -1,0 0,0 -1,0 -1,0 0,0 -2,0 -2,0 -2,0 -5,-1 -5,-3 0,-1 1,-1 2,-1 1,0 2,0 2,0 l 1,-1 c -1,-1 -2,-2 -3,-3 -1,-1 -1,-1 -1,-2 -1,-1 -5,-4 -6,-5 -1,0 -4,0 -6,1 -1,0 -3,0 -4,0 l -1,1 c 1,1 2,2 2,2 l 0,1 -1,1 c 0,1 0,1 0,2 0,1 0,2 0,3 l 1,1 c 1,0 1,0 2,-1 1,0 2,1 2,1 l 1,1 0,1 c 0,1 -1,1 -1,2 l 0,1 1,1 c 0,1 -1,2 0,4 1,0 3,0 4,1 l 1,0 c 0,-1 1,-1 1,-2 l 1,0 c 1,0 2,0 3,0 l 1,1 c 0,2 1,4 2,6 1,0 1,-1 2,-1 l 1,0 1,1 c 1,1 1,3 3,4 l 1,0 c 1,-1 0,-3 2,-4 1,0 2,0 3,1 1,0 3,2 3,3 0,1 0,3 0,4 0,0 0,1 0,1 0,0 0,1 0,1 l 1,0 c 3,-2 4,0 6,-1 0,-2 -1,-3 -2,-4 -1,-2 0,-5 -1,-7 0,-1 -1,-1 -2,-2 -1,-1 -1,-1 -1,-2 l 0,-1 1,-1 1,0 c 2,1 3,4 4,6 0,0 1,1 1,2 0,0 1,0 1,1 1,1 1,1 1,2 1,1 3,3 4,4 0,0 3,2 3,2 0,0 1,0 1,0 0,0 1,0 1,0 0,0 1,0 1,0 1,0 2,0 3,0 0,0 1,0 1,0 0,0 1,0 1,0 2,0 5,2 6,3 v 0 c 1,1 3,3 5,3 1,0 2,-1 2,-1 l 1,0 c 0,1 1,2 3,2 l 1,0 c 2,0 3,3 4,4 2,2 5,3 7,4 1,1 2,2 3,3 0,0 1,0 1,1 0,0 1,1 1,1 0,0 1,0 1,1 0,0 2,1 2,1 0,0 1,1 1,1 1,1 2,1 3,2 0,0 1,0 1,1 1,1 3,1 5,2 0,0 1,0 1,1 1,1 2,1 4,1 0,0 1,0 1,1 2,1 4,1 6,2 0,0 1,0 1,0 1,0 1,0 2,0 1,0 2,0 3,1 2,1 4,2 6,2 2,0 4,1 5,1 0,0 1,0 1,0 0,0 1,0 1,0 1,0 2,1 2,1 2,1 3,1 5,2 3,1 5,2 8,3 3,1 11,1 13,3 l 0,1 c -2,0 -8,-2 -9,0 l 0,1 1,1 c 1,0 2,1 2,1 1,0 5,3 6,4 1,0 3,0 4,-1 l 0,-1 c 0,-2 -1,-3 -2,-5 1,0 2,-1 3,-1 1,0 2,1 2,1 1,1 1,1 2,2 2,1 6,-1 9,0 1,1 1,2 2,3 1,0 2,1 2,1 l 1,-1 c 0,-1 0,-2 0,-3 l 1,-1 c 2,-1 5,-1 8,-1 1,0 3,-1 5,-1 1,0 3,1 4,0 1,0 2,-1 3,-2 2,-1 4,-1 5,-2 0,0 2,-2 3,-2 1,0 1,-1 2,-1 1,-1 6,-4 7,-5 0,0 1,-1 1,-1 1,0 1,-1 2,-1 1,-1 4,-4 4,-5 0,-1 0,-3 -1,-4 0,0 1,-1 2,-2 1,-1 1,-3 1,-4 0,-1 1,-1 1,-2 1,0 3,0 4,0 1,-1 1,-1 1,-2 0,0 1,-1 1,-1 0,0 0,-1 1,-1 1,-1 2,-3 3,-4 0,-2 -1,-3 -1,-5 1,-1 2,-1 3,-2 2,-1 3,-4 3,-6 1,0 1,-1 2,-1 1,0 2,0 2,0 1,0 3,-1 4,-1 0,0 1,0 1,-1 0,0 1,0 1,0 0,0 1,0 1,-1 1,0 2,0 3,-1 1,0 1,1 2,1 1,0 2,0 2,0 4,-1 4,-5 6,-7 2,-1 4,0 6,-1 1,0 3,-1 4,-1 1,0 1,-1 2,-1 0,0 1,0 1,0 0,0 1,-1 2,-1 -1,-2 -1,-4 -3,-5 l 0,-1 c 1,0 2,1 4,1 3,0 5,-2 7,-1 3,2 3,1 6,0 l 0,0 1,8 1,3 -9,0 -4,2 -4,1 c 0,0 0,3 0,4 1,1 2,5 2,5 0,0 0,4 -1,5 -1,1 0,3 0,3 l -2,3 2,4 7,-4 2,2 4,2 -15,14 -11,30 -5,14 -9,-5 -8,-7 -2,-3 -4,0 -2,-2 -2,2 3,8 -1,2 2,4 -4,2 c 0,0 -1,1 -2,2 -1,2 -1,4 -1,4 l -3,1 -3,2 0,3 -4,1 -3,2 h -3 l -2,2 -2,-1 -2,1 -1,4 0,4 -1,5 -4,7 -19,9 -10,6 1,14 -2,0 -2,4 -2,-1 -5,8 0,0 -2,-1 -2,2 -1,4 -4,-2 c 0,0 -2,1 -4,2 -2,1 -4,6 -4,6 0,0 -1,2 -2,4 0,1 -7,6 -7,6 l -6,-2 c 0,0 -4,-1 -4,-3 0,-2 2,-4 0,-3 -1,1 -6,3 -6,3 0,0 2,-2 1,-1 -2,1 -7,4 -7,4 0,0 -2,-2 -4,-2 -2,-1 -4,4 -4,4 l -2,2 c 0,0 -2,2 -4,2 -2,-1 -2,1 -2,2 0,1 -1,6 -1,6 l -1,7 1,3 -1,5 -4,0 0,-4 -2,0 0,-2 -6,-1 -3,2 -1,-4 c 0,0 -5,-2 -6,-2 -2,0 -2,3 -2,3 l 4,2 -2,6 -8,3 -4,6 3,4 -4,5 2,4 -2,2 c 0,0 -3,-1 -4,-2 -1,0 -5,-4 -5,-4 0,0 -2,-2 -2,-4 0,-1 -3,-2 -3,-2 0,0 -1,-1 -2,-2 -1,-1 0,-3 0,-5 0,-2 -1,-2 -2,-2 -1,0 -4,-1 -5,-2 -1,0 -2,1 -2,1 v -1 -13 l 26,-40 4,-4 0,-4 3,-14 0,-6 -4,-6 -3,-1 0,-4 -4,-3 -2,2 -3,-1 -8,-8 -4,-4 -6,-5 -2,3 -2,1 -2,-3 -2,-2 -3,0 -4,3 -6,-9 -3,0 c 0,0 -2,-5 -2,-7 0,-2 0,-6 0,-6 l 0,-7 -2,-4 -7,-6 -6,-1 0,-3 -3,0 -2,-6 4,-2 -2,-2 1,-2 -4,-2 -1,-7 -4,-2 c 0,0 4,-6 2,-8 -2,-2 -6,-12 -6,-12 l -3,-7 -2,0 -2,-6 1,-2 -4,-7 c 0,0 -1,-1 0,-3 2,-2 2,-2 2,-4 0,-2 0,-2 0,-2 l -2,-1 0,-4 2,-2 5,4 5,-1 -1,-3 -2,0 -1,-2 2,-3 3,0 1,-2 0,-4 2,-2 v -2 l 2,-1 z"/>
+    <path id="region-gisborne" data-region="Gisborne" class="mta-region" d="m 1744,603 c 0,0 0,0 1,0 1,0 1,1 2,1 0,0 1,0 1,0 0,0 1,0 1,0 3,1 4,-1 7,-2 0,0 1,0 1,1 1,0 3,0 4,0 3,0 9,1 12,3 l 1,1 0,1 c 0,1 -1,1 -2,1 l 0,1 c 1,0 4,2 4,2 0,0 0,1 1,1 1,2 3,3 5,3 2,0 4,0 6,0 1,1 2,2 3,2 1,1 4,1 5,1 1,0 2,-1 3,0 0,0 2,1 2,1 1,0 1,1 1,2 0,0 1,0 1,1 0,0 0,1 1,1 1,1 3,2 4,4 1,1 1,2 1,4 0,2 -2,2 -3,3 -1,1 -1,2 -1,3 0,1 -1,1 -1,2 -1,2 -2,4 -5,4 l -1,1 c 0,1 0,2 1,3 0,1 -1,2 -1,3 -1,1 -3,3 -4,5 0,1 0,1 -1,2 -1,1 -2,1 -3,2 0,0 0,1 -1,1 0,0 -1,1 -1,1 0,1 -1,2 -1,2 -1,1 -2,3 -2,4 0,2 0,4 -1,5 -1,3 -6,7 -7,9 0,1 0,2 0,3 2,1 2,3 3,6 0,1 1,1 1,2 0,1 0,4 0,4 0,1 -2,3 -3,3 0,0 -1,0 -1,0 -1,0 -2,2 -2,3 -1,6 4,7 3,11 0,1 -2,3 -2,4 0,0 0,1 0,1 -1,1 -2,1 -2,3 0,1 0,1 0,2 0,1 3,6 4,7 0,0 1,0 1,1 0,0 1,1 1,2 0,1 -1,1 -2,2 -1,1 -1,2 -1,3 l -1,1 c 0,1 0,2 0,3 0,1 -1,1 -1,2 0,0 -1,2 -1,2 l 1,1 2,1 c 1,1 1,4 1,5 -1,2 -5,1 -7,5 0,1 0,3 0,4 0,0 0,1 0,1 0,2 1,5 0,7 -1,1 -1,1 -2,1 -1,0 -1,1 -2,1 -1,1 -2,1 -3,2 -1,0 -1,1 -2,2 -1,0 -2,1 -2,1 -2,1 -1,4 -3,5 -1,1 -2,1 -3,2 -1,1 -2,2 -3,3 -1,1 -3,2 -4,3 -1,1 -4,3 -5,5 0,0 0,1 -1,1 -1,1 -2,3 -4,3 -1,0 -1,1 -2,0 l -1,-1 c 0,-1 -1,-2 -1,-4 -1,-2 -5,-1 -7,-1 -1,0 -2,-1 -3,-1 l -1,0 c -1,1 -2,2 -2,3 l -3,1 c -1,4 5,7 5,11 -1,1 -2,2 -3,4 0,1 0,3 -1,4 0,1 -1,2 -1,2 0,1 0,3 0,4 0,0 0,1 0,1 0,1 0,4 0,5 0,0 0,1 0,1 0,1 0,2 0,3 0,0 0,1 0,1 -1,2 -1,4 -1,6 0,1 -1,2 -1,4 0,0 0,1 0,2 l 0,0 -6,-2 0,-2 2,-4 -5,-2 -2,-4 -3,3 c 0,0 -3,-2 -3,-1 0,2 -4,1 -4,1 l 0,-3 c 0,0 -2,0 -3,0 -2,0 -5,1 -5,1 0,0 0,-6 1,-7 1,-2 -1,-4 -2,-3 -1,1 -3,2 -3,2 l 0,-4 -4,2 0,-5 0,-4 c 0,0 -3,-1 -4,0 -1,0 -4,2 -4,2 l -2,-8 -3,0 -2,-4 c 0,0 0,-3 0,-4 0,-1 -1,-4 -1,-4 0,0 -2,-1 -4,-2 -2,-1 -3,-1 -3,-1 0,0 2,-4 4,-6 2,-1 2,-4 2,-4 l -6,-1 c 0,0 -2,-2 -4,-2 -2,0 -4,0 -4,0 l -5,-4 -1,11 -14,-9 -11,-5 0,0 5,-8 2,1 2,-4 2,0 -1,-14 10,-6 19,-9 4,-7 1,-5 0,-4 1,-4 2,-1 2,1 2,-2 h 3 l 3,-2 4,-1 0,-3 3,-2 3,-1 c 0,0 0,-2 1,-4 1,-2 2,-2 2,-2 l 4,-2 -2,-4 1,-2 -3,-8 2,-2 2,2 4,0 2,3 8,7 9,5 5,-14 11,-30 15,-14 -4,-2 -2,-2 -7,4 -2,-4 2,-3 c 0,0 0,-2 0,-3 1,-1 1,-5 1,-5 0,0 -1,-4 -2,-5 -1,-1 0,-4 0,-4 l 4,-1 4,-2 9,0 -1,-3 -1,-8 z"/>
+    <path id="region-hawkes-bay" data-region="Hawke's Bay" class="mta-region" d="m 1716,848 c 0,3 -1,8 0,11 -1,1 -2,1 -3,2 0,1 0,4 -1,5 4,0 8,0 11,1 0,0 1,0 1,0 0,0 2,2 2,2 1,1 2,2 2,3 -1,1 -1,1 -2,2 -1,1 -1,1 -2,1 -1,0 -4,3 -4,4 -1,2 -1,4 -2,6 0,0 0,1 0,1 0,0 0,1 0,1 0,0 0,1 -1,1 0,0 -1,2 -1,2 0,1 0,3 -1,4 -1,2 -2,2 -4,3 -1,1 -1,2 -2,3 0,0 -1,-1 -1,-1 0,-1 0,-2 -1,-3 0,-1 -1,-2 -1,-2 0,0 -1,-1 -1,-1 0,0 -1,-2 -1,-2 0,-1 0,-3 0,-4 0,0 -1,-1 -1,-1 0,-1 -1,-1 -1,-2 0,0 0,-1 0,-2 0,-1 1,-1 1,-2 0,0 0,-1 0,-1 0,-1 1,-1 1,-2 0,-1 0,-3 1,-4 1,-1 1,-2 2,-3 0,-1 1,-3 0,-4 -1,-1 -4,0 -5,0 l -1,2 -1,0 c -2,-1 -3,-3 -5,-4 -2,-1 -6,0 -8,0 -2,0 -4,-1 -5,-1 -2,0 -3,0 -5,0 -1,0 -2,0 -3,0 -2,0 -3,0 -5,0 -2,0 -4,0 -7,0 -1,0 -2,0 -3,0 -2,0 -4,0 -6,0 -1,0 -1,0 -2,0 -2,0 -3,0 -5,0 -1,-1 -1,-2 -2,-3 l -1,0 c 0,0 -1,1 -1,2 0,0 -1,0 -1,0 0,0 -1,1 -1,1 -1,0 -2,1 -2,1 0,0 -1,0 -1,1 -1,1 -2,1 -3,2 0,0 -1,0 -1,1 0,0 -1,0 -1,0 0,0 -1,0 -1,1 -2,1 -4,2 -6,3 -1,0 -3,1 -4,1 -1,0 -2,1 -3,2 0,0 -1,1 -1,1 0,0 -1,0 -1,0 -1,0 -2,1 -2,1 -2,1 -4,2 -6,3 0,0 -1,0 -1,0 -1,1 -3,2 -5,3 -1,1 -3,2 -5,2 -1,0 -2,0 -2,1 0,1 -1,2 -1,3 0,1 0,2 0,3 0,1 -2,6 -3,7 -1,1 -4,4 -5,5 0,0 -1,0 -1,1 0,0 0,1 -1,1 0,1 -1,1 -2,2 -1,1 -1,2 -2,3 -3,0 -4,3 -4,6 -1,1 -2,2 -3,3 0,0 0,1 0,1 0,0 0,1 0,1 0,1 0,2 0,3 0,0 0,1 0,1 0,1 1,3 1,4 1,1 4,1 5,4 0,1 0,2 0,3 0,1 0,2 0,2 0,2 0,4 1,6 0,2 0,3 0,5 0,1 0,2 0,3 0,0 -3,5 -3,5 0,1 -1,3 -1,4 0,2 1,5 2,6 l 1,-1 h 0 0 c 0,-1 0,-2 0,-3 0,0 0,-1 0,-1 0,-2 0,-5 2,-6 l 1,0 c 1,0 1,1 2,2 1,1 2,2 4,3 1,1 2,1 4,2 1,0 2,1 3,1 1,0 3,-1 4,-1 1,0 3,0 5,0 l 1,1 c 0,1 0,2 -1,2 -1,1 -1,2 -2,3 0,0 0,1 0,1 -1,1 -1,2 -2,3 0,0 0,1 0,1 0,1 -2,2 -2,3 -1,1 -3,1 -5,2 0,0 -1,1 -1,2 -1,2 0,3 -1,5 -1,1 -1,2 -2,3 0,2 1,4 1,5 -1,1 -3,1 -4,3 -1,1 -3,4 -3,5 0,0 0,1 0,1 0,0 0,1 0,1 0,1 0,3 -1,4 0,0 0,1 0,1 0,1 -1,2 -1,3 -1,1 -1,3 -2,4 0,1 -1,2 -1,3 0,1 0,2 0,3 -1,2 -3,1 -3,6 0,2 1,5 0,7 -1,0 -1,1 -1,2 l -2,0 -1,1 c 1,1 1,3 1,4 -1,2 -3,2 -4,4 -1,1 -1,2 -1,4 0,1 -2,3 -3,5 0,1 -1,2 -1,2 0,0 -2,2 -2,2 -1,0 -1,1 -2,1 -1,0 -1,1 -2,1 -1,1 -3,2 -4,3 l -1,0 -1,-1 0,-1 c 0,0 -1,0 -2,0 -1,0 -3,2 -4,3 0,0 0,1 0,1 0,1 -1,1 -1,2 0,1 -1,2 -1,2 0,1 -1,1 -1,2 l 1,1 c 1,-1 2,-2 2,-3 l 1,-1 1,1 c 0,1 -1,4 -2,5 0,0 -1,1 -1,1 -1,1 -1,2 -1,3 -1,1 -1,2 -2,3 -1,2 -3,4 -3,6 0,1 -1,3 -1,4 0,1 0,3 0,4 0,1 0,3 0,4 l 0,0 -5,0 -5,-4 -1,3 -8,-4 -1,2 -7,-2 c 0,0 0,-1 -2,-3 -2,-2 -5,-5 -5,-5 l 3,-4 c 0,0 -3,-4 -1,-5 2,-2 2,-5 2,-5 l -3,-4 0,-4 -2,-6 3,-8 -2,-2 -4,-2 -6,-5 2,-4 -6,-4 -1,-4 -6,-4 -9,-2 -3,2 -4,-6 c 0,0 5,-4 4,-6 -1,-2 -2,-8 -2,-8 0,0 2,-4 2,-5 0,-1 2,-10 2,-10 l 3,-10 1,-11 3,-6 2,-2 -4,-5 c 0,0 3,-4 3,-4 0,-1 -2,-3 -3,-3 -2,0 -2,-4 -2,-4 0,0 1,-6 3,-7 2,-1 2,-2 2,-3 0,-1 1,-5 1,-5 l -3,0 -4,-6 1,-4 c 0,0 -2,-3 -2,-5 v -4 l -2,-3 -4,1 -4,-1 0,-3 3,1 4,-4 4,-1 v -3 c 0,0 -2,-1 -2,-2 0,-2 0,-4 0,-5 0,-1 -2,-4 -2,-4 l 3,-5 1,-2 -2,-1 -2,1 -1,-2 c 0,0 3,-1 2,-3 0,-2 -2,-3 0,-3 2,0 3,-1 2,-2 -1,-1 -2,-6 -2,-6 l 2,-2 v -3 c 0,0 6,-2 7,-3 1,0 5,-2 1,-2 -4,0 -4,-3 -2,-4 2,-2 6,-6 6,-6 l 7,-6 2,-4 -1,-8 c 0,0 1,-2 2,-1 1,0 4,2 5,2 1,0 2,0 2,2 0,2 0,4 0,5 1,1 2,2 2,2 0,0 3,1 3,2 0,1 2,4 2,4 0,0 4,4 5,4 1,0 4,2 4,2 l 2,-2 -2,-4 4,-5 -3,-4 4,-6 8,-3 2,-6 -4,-2 c 0,0 1,-3 2,-3 2,0 6,2 6,2 l 1,4 3,-2 6,1 0,2 2,0 0,4 4,0 1,-5 -1,-3 1,-7 c 0,0 1,-5 1,-6 0,-1 0,-3 2,-2 2,1 4,-2 4,-2 l 2,-2 c 0,0 2,-4 4,-4 2,1 4,2 4,2 0,0 5,-3 7,-4 2,-1 -1,1 -1,1 0,0 6,-2 6,-3 1,-1 0,2 0,3 0,2 4,3 4,3 l 6,2 c 0,0 6,-4 7,-6 0,-1 2,-4 2,-4 0,0 2,-6 4,-6 2,-1 4,-2 4,-2 l 4,2 1,-4 2,-2 14,6 14,9 1,-11 5,4 c 0,0 3,0 4,0 2,0 4,2 4,2 l 6,1 c 0,0 0,3 -2,4 -2,1 -4,6 -4,6 0,0 1,0 3,1 2,1 4,2 4,2 0,0 1,3 1,4 0,1 0,4 0,4 l 2,4 3,0 2,8 c 0,0 3,-2 4,-2 1,0 4,0 4,0 l 0,4 0,5 4,-2 0,4 c 0,0 2,-1 3,-2 1,-1 2,2 2,3 -1,2 -1,7 -1,7 0,0 3,-1 5,-1 2,0 3,0 3,0 l 0,3 c 0,0 3,0 4,-1 0,-2 3,1 3,1 l 3,-3 2,4 5,2 -2,4 0,2 6,2 z"/>
+    <path id="region-taranaki" data-region="Taranaki" class="mta-region" d="m 1275,996 c -1,0 -1,0 -2,-1 -2,1 -3,1 -4,2 -2,0 -4,0 -6,-1 -1,-1 -2,-2 -3,-2 -1,0 -2,-1 -3,-1 -1,0 -2,0 -3,0 0,0 -1,0 -1,0 -3,0 -6,0 -9,-1 0,0 -1,0 -1,0 -1,0 -2,0 -3,-1 -1,0 -2,-1 -2,-2 -2,-1 -2,-2 -3,-4 -1,-1 -2,-2 -3,-3 -1,-1 -1,-1 -2,-1 -1,0 -1,-1 -2,-1 0,0 -1,0 -1,-1 -1,-1 -3,-3 -4,-4 0,0 0,-1 -1,-1 0,0 -1,0 -1,-1 -1,-1 -1,-2 -2,-3 -1,-1 -2,-2 -3,-4 -2,-3 -2,-7 -6,-9 -1,0 -1,-1 -2,-1 0,0 -1,-1 -1,-1 -1,-1 -3,-2 -5,-2 -2,-1 -4,-1 -5,-1 -1,-1 -3,-2 -4,-3 -2,-1 -7,-1 -9,-1 0,0 -1,0 -1,0 -1,0 -1,0 -2,0 -1,0 -2,0 -3,0 -2,0 -3,0 -5,0 -1,0 -3,-2 -4,-2 0,0 -1,-1 -1,-1 -2,-1 -5,0 -8,0 -1,0 -2,-1 -2,-1 -1,-1 -2,-2 -3,-2 0,0 -1,0 -1,-1 -1,-1 -2,-2 -4,-3 0,0 -1,0 -1,-1 -1,-1 -2,-2 -3,-2 -1,-1 -2,-1 -3,-2 -1,0 -1,-1 -2,-2 -1,-1 -2,-1 -3,-2 0,0 0,-1 -1,-1 -1,-1 -2,-2 -3,-3 0,-1 -1,-1 -1,-2 0,0 -1,-1 -1,-1 0,0 0,-1 0,-1 0,0 -1,-1 -1,-1 -1,-1 -1,-2 -2,-3 0,0 0,-1 0,-1 0,0 0,-1 -1,-1 -1,-2 -1,-5 -2,-8 0,-1 0,-1 0,-2 0,0 0,-1 0,-1 0,-1 0,-1 0,-2 0,-2 -1,-4 0,-6 0,-2 2,-4 3,-7 1,-3 0,-6 2,-9 2,-2 5,-6 8,-7 2,-1 5,-2 7,-3 2,-1 4,-1 5,-1 0,0 1,0 1,0 0,0 1,0 1,-1 0,0 1,0 1,0 1,-1 7,-4 8,-5 1,-1 2,-2 2,-2 0,0 1,0 1,-1 0,0 1,-1 1,-1 0,0 1,0 1,0 0,0 1,0 1,-1 1,-1 3,-1 5,-2 1,0 2,-1 3,-1 0,0 1,0 1,-1 0,0 1,0 1,0 0,0 1,0 1,-1 1,-1 2,-1 3,-1 1,-1 2,-2 4,-3 0,0 3,-2 3,-2 0,0 0,0 0,0 1,0 1,-1 2,-1 1,0 3,0 5,0 0,0 1,0 1,0 1,0 2,0 3,0 5,0 10,3 14,1 1,-1 2,-2 4,-3 1,-1 3,-2 4,-2 1,-1 2,-2 4,-3 2,-2 3,-4 5,-5 0,0 1,0 1,-1 0,0 1,-1 1,-1 0,0 1,0 1,-1 0,0 1,-1 1,-1 1,0 1,-1 2,-1 1,-1 2,-2 2,-3 0,-1 1,-1 1,-1 1,-1 1,-2 2,-2 0,0 1,-1 1,-1 0,0 1,-2 1,-2 1,-2 1,-5 1,-7 0,-1 1,-3 1,-5 0,-2 0,-4 0,-6 l 1,-1 2,0 0,-1 c -1,-2 -1,-3 0,-5 0,0 0,-1 1,-1 0,0 0,-1 0,-1 l 0,0 c 0,0 7,1 12,2 6,0 7,0 9,0 2,0 4,-1 4,-1 l 5,5 0,0 -5,8 v 6 c 0,2 2,8 3,10 1,2 -2,3 -3,2 -2,-1 -1,2 -1,3 0,1 0,2 -1,2 -1,0 -2,2 -2,2 0,0 2,2 3,3 1,2 -1,2 -2,1 -1,-2 -2,0 -2,0 l 2,6 0,4 0,2 c 0,0 2,2 2,4 0,2 -2,3 -4,3 -2,0 -3,-1 -3,-1 0,0 -2,2 -2,4 0,1 -2,4 -5,4 -2,0 -2,4 0,5 1,2 2,5 2,6 0,1 0,6 0,6 l 8,5 c 0,0 0,7 0,9 0,2 2,3 2,3 l 1,-2 2,-1 4,4 c 2,2 2,6 2,6 0,0 2,0 3,0 1,0 2,1 2,1 l 4,1 0,2 -2,1 1,3 -2,2 6,14 c 0,0 4,2 6,2 2,1 2,4 2,6 0,2 0,4 2,4 1,0 2,3 -1,4 -2,2 0,8 0,8 0,0 -2,4 0,8 2,4 0,4 0,4 l -3,0 -3,1 c 0,0 -1,4 0,6 0,2 -1,6 -1,6 l -4,0 -4,4 -2,0 -1,5 c 0,0 -2,1 -4,1 -2,0 -2,5 -2,5 l -4,1 0,4 z"/>
+    <path id="region-manawatu-whanganui" data-region="Manawatū-Whanganui" class="mta-region" d="m 1465,865 -4,-4 c -1,-1 -3,-2 -4,-2 -1,-1 -2,-2 -1,-4 0,-2 -1,-2 -2,-1 -1,1 -2,2 -3,4 -1,1 0,3 -2,4 -2,1 -4,6 -4,7 0,1 -2,4 -4,5 -1,1 -6,2 -8,2 -1,0 -1,2 0,4 0,2 -2,2 -3,3 -2,1 -1,2 -1,2 l 0,2 -4,2 -4,4 h -2 l -1,-1 c 0,0 -4,0 -5,0 -2,0 -2,0 -5,0 -3,-1 -8,-2 -9,-2 -2,0 -11,0 -11,0 l -3,-2 2,-2 c 0,0 2,-4 3,-6 0,-1 8,-16 10,-19 1,-4 -1,-6 -1,-6 0,0 -2,-2 -3,-3 -1,-2 1,-3 1,-3 l -2,-1 1,-2 h 3 c 0,0 1,-1 2,-2 0,-1 1,-5 1,-5 l 2,-3 c 0,0 -6,0 -7,0 -2,0 -8,2 -8,2 l -2,-6 c 0,0 2,-6 2,-7 0,-1 -1,-3 -1,-3 l -3,-3 1,-5 c 0,0 2,-2 3,-3 1,-1 0,-5 -1,-6 -1,-1 -3,-2 -3,-2 l -2,-4 -1,-4 2,-1 c 0,0 2,-4 2,-5 0,-2 3,-4 3,-4 0,0 0,-3 1,-4 1,-1 2,-6 2,-6 l 3,-2 c 0,0 4,-6 4,-8 0,-1 1,-3 1,-5 0,-2 0,-3 -2,-4 -2,-2 -1,-2 -1,-4 0,-2 -1,-7 -1,-7 l -6,2 c 0,0 -2,-2 -4,-3 -1,-1 -2,-1 -3,0 -1,0 -8,2 -8,2 l 0,-3 c 0,0 -1,1 -3,2 -2,1 -2,3 -2,3 l -4,3 c 0,0 0,3 -1,4 -2,1 -4,7 -4,7 h -5 c 0,0 -1,-2 -2,-4 -1,-1 -2,0 -3,1 -1,1 0,3 0,4 0,2 -2,2 -2,2 l -2,-2 c 0,0 0,1 -1,2 -1,2 -4,2 -4,2 0,0 -1,2 -2,2 -1,1 -3,1 -4,1 -2,0 -3,-1 -3,-1 h -6 c -4,0 -4,-2 -4,-2 0,0 -1,2 -2,2 -1,0 -2,-1 -2,-1 0,0 -1,2 -2,3 -1,1 -3,1 -4,2 -1,1 -4,1 -6,1 -2,0 -6,0 -6,0 l 0,6 c 0,0 0,2 -2,4 -2,2 -3,3 -2,4 1,1 0,2 0,2 l -6,0 -2,2 -3,0 0,2 h -4 l -5,8 v 6 c 0,2 2,8 3,10 1,2 -2,3 -3,2 -2,-1 -1,2 -1,3 0,1 0,2 -1,2 -1,0 -2,2 -2,2 0,0 2,2 3,3 1,2 -1,2 -2,1 -1,-2 -2,0 -2,0 l 2,6 0,4 0,2 c 0,0 2,2 2,4 0,2 -2,3 -4,3 -2,0 -3,-1 -3,-1 0,0 -2,2 -2,4 0,1 -2,4 -5,4 -2,0 -2,4 0,5 1,2 2,5 2,6 0,1 0,6 0,6 l 8,5 c 0,0 0,7 0,9 0,2 2,3 2,3 l 1,-2 2,-1 4,4 c 2,2 2,6 2,6 0,0 2,0 3,0 1,0 2,1 2,1 l 4,1 0,2 -2,1 1,3 -2,2 6,14 c 0,0 4,2 6,2 2,1 2,4 2,6 0,2 0,4 2,4 1,0 2,3 -1,4 -2,2 0,8 0,8 0,0 -2,4 0,8 2,4 0,4 0,4 l -3,0 -3,1 c 0,0 -1,4 0,6 0,2 -1,6 -1,6 l -4,0 -4,4 -2,0 -1,5 c 0,0 -2,1 -4,1 -2,0 -2,5 -2,5 l -4,1 0,4 0,0 0,0 c 0,0 0,0 1,0 2,0 4,1 5,1 1,1 2,1 3,2 1,0 2,1 3,1 1,0 2,1 3,2 0,0 1,0 1,0 1,0 1,1 2,1 1,1 3,1 4,2 0,0 1,1 1,1 0,0 1,0 1,1 1,1 2,2 3,3 1,1 2,2 3,3 1,1 1,1 1,2 0,0 1,0 1,1 0,0 0,1 1,1 1,1 1,1 2,1 1,1 1,1 1,2 1,1 2,1 2,3 -1,0 -2,-2 -3,-2 0,0 0,1 0,1 0,1 4,5 5,5 1,0 1,1 2,1 1,1 2,2 3,4 0,1 1,1 1,1 1,1 2,2 2,3 1,1 4,8 4,9 0,0 0,1 0,1 0,1 1,1 1,2 0,1 1,2 1,2 0,2 0,4 0,6 0,2 1,4 1,6 0,1 0,2 0,3 2,2 4,2 6,2 4,0 7,-2 9,-5 0,0 1,-1 1,-2 1,-1 1,-3 2,-4 0,-1 1,-2 1,-3 l 1,0 c 0,2 0,5 -1,7 0,1 -1,1 -1,2 -1,1 -1,1 -1,2 0,0 -1,1 -1,1 -1,1 -1,2 -2,2 -1,0 -2,1 -2,1 -1,0 -1,1 -2,1 -2,0 -4,-1 -6,0 0,2 1,4 1,6 0,0 0,1 0,1 0,1 0,2 -1,3 0,1 -1,2 -1,3 -1,2 -2,8 -2,9 0,0 0,1 0,1 0,1 0,1 0,2 0,0 0,1 0,1 0,1 0,2 1,2 l -1,1 c -1,0 -2,0 -3,0 0,3 0,6 -1,8 0,1 0,2 0,3 0,2 0,4 -1,5 0,0 0,1 0,1 0,0 0,1 0,1 0,1 0,2 -1,2 0,1 0,2 0,3 0,0 0,1 -1,1 0,0 0,1 0,1 0,0 0,1 -1,1 -1,1 -1,3 -2,4 0,0 0,1 0,1 0,0 0,1 0,1 0,0 0,1 0,1 0,0 0,1 0,1 -1,2 -1,4 -2,6 0,0 0,1 -1,1 0,0 0,1 0,1 0,0 0,0 0,1 l 0,0 10,4 0,3 c 0,0 1,0 3,1 2,2 1,2 0,3 -1,1 -4,2 0,2 4,1 12,4 12,4 l 2,-3 4,-1 3,1 1,-5 6,0 c 0,0 2,3 4,2 2,-1 3,-3 4,-4 0,-1 2,-3 2,-3 0,0 5,2 6,2 2,0 6,2 6,2 v 2 h 5 l 4,3 c 0,0 0,-1 2,-2 2,0 3,-3 3,-3 0,0 3,0 4,-2 0,-2 1,-4 1,-4 l 6,0 2,2 3,0 c 0,0 2,3 1,5 -2,2 -3,4 -3,4 l 6,3 2,-4 2,2 3,-2 2,3 4,-4 4,4 2,-8 3,-2 c 0,0 2,1 4,0 1,-1 3,-3 3,-3 l 3,2 4,0 4,-8 h 4 l 5,2 1,-4 4,0 3,1 3,2 9,3 0,0 c 0,0 0,0 0,0 0,0 0,-1 1,-1 1,-1 1,-2 2,-3 0,-1 1,-1 1,-2 1,-1 2,-2 3,-4 1,-1 0,-3 0,-4 1,-2 3,-1 5,-2 1,-1 1,-1 1,-2 0,0 1,-1 1,-1 0,-1 1,-2 1,-2 1,-1 1,-2 1,-3 0,-1 0,-3 0,-4 1,-1 3,0 4,-1 1,0 1,-1 1,-1 1,-1 1,-2 2,-3 1,-1 2,-2 3,-3 0,0 0,-1 0,-1 0,-1 1,-1 1,-2 0,0 0,-1 0,-1 0,0 2,-2 2,-2 1,-1 2,0 3,-2 0,-1 0,-2 0,-2 1,0 2,0 3,0 l 1,1 c 1,0 4,-1 5,0 1,-1 2,-2 2,-2 0,0 1,-1 1,-2 l 0,0 -5,0 -5,-4 -1,3 -8,-4 -1,2 -7,-2 c 0,0 0,-1 -2,-3 -2,-2 -5,-5 -5,-5 l 3,-4 c 0,0 -3,-4 -1,-5 2,-2 2,-5 2,-5 l -3,-4 0,-4 -2,-6 3,-8 -2,-2 -4,-2 -6,-5 2,-4 -6,-4 -1,-4 -6,-4 -9,-2 -3,2 -4,-6 c 0,0 5,-4 4,-6 -1,-2 -2,-8 -2,-8 0,0 2,-4 2,-5 0,-1 2,-10 2,-10 l 3,-10 1,-11 3,-6 2,-2 -4,-5 c 0,0 3,-4 3,-4 0,-1 -2,-3 -3,-3 -2,0 -2,-4 -2,-4 0,0 1,-6 3,-7 2,-1 2,-2 2,-3 0,-1 1,-5 1,-5 l -3,0 -4,-6 1,-4 c 0,0 -2,-3 -2,-5 v -4 l -2,-3 -4,1 -4,-1 0,-3 3,1 4,-4 4,-1 v -3 c 0,0 -2,-1 -2,-2 0,-2 0,-4 0,-5 0,-1 -2,-4 -2,-4 l 3,-5 1,-2 -2,-1 -2,1 -1,-2 c 0,0 3,-1 2,-3 0,-2 -2,-3 0,-3 2,0 3,-1 2,-2 -1,-1 -2,-6 -2,-6"/>
+    <path id="region-wellington" data-region="Wellington" class="mta-region" d="m 1488,1153 c 0,0 0,1 0,1 -1,1 -2,2 -3,4 -1,2 -1,4 -1,5 0,0 0,1 -1,1 0,0 0,1 0,1 0,1 -1,1 -1,2 0,0 0,1 0,1 0,1 -1,1 -1,2 -1,2 0,4 0,5 -1,1 -2,3 -3,4 -2,1 -4,2 -5,3 -1,1 -2,1 -4,2 -1,1 -1,1 -1,2 0,0 -1,1 -1,1 0,0 0,1 0,1 0,0 0,1 -1,1 0,1 -2,3 -2,4 0,1 0,2 -1,3 0,0 0,1 0,1 -1,2 -1,5 -2,8 0,2 -1,3 -2,5 0,1 -1,2 -1,3 0,1 -1,1 -1,2 0,1 -1,1 -1,2 -1,1 -4,4 -5,5 -1,1 -1,1 -2,1 -1,2 -2,3 -3,5 -1,1 -4,5 -6,6 0,0 -1,0 -1,1 -2,1 -3,3 -5,4 -1,1 -2,1 -3,2 -1,1 -2,2 -3,3 -1,1 -3,3 -4,4 -1,1 -2,2 -3,2 -1,1 -2,1 -3,2 0,0 -1,1 -1,1 -1,0 -2,0 -2,1 0,0 0,1 -1,1 -1,1 -3,3 -4,4 -1,1 -5,2 -6,2 0,0 -1,0 -2,0 -2,1 -3,3 -5,4 -1,0 -4,1 -5,2 0,0 -1,1 -1,2 0,1 -1,2 -1,2 -1,0 -5,2 -6,3 0,0 -1,1 -1,1 -1,0 -1,1 -2,1 0,0 -1,1 -1,1 -1,0 -1,1 -2,1 -1,0 -1,1 -2,2 0,0 -1,0 -1,1 0,0 -1,1 -1,1 -1,1 -1,1 -2,1 0,0 -1,1 -1,1 -1,1 -2,1 -3,2 -1,1 -2,1 -3,2 0,0 -2,1 -2,1 -2,0 -3,-1 -6,1 -3,1 -3,3 -5,5 0,0 -1,1 -1,1 l -1,1 -1,0 c -1,0 -2,0 -2,0 -1,0 -3,0 -4,0 -1,0 -2,0 -2,0 -1,0 -1,0 -2,0 0,0 -1,0 -1,0 -1,0 -2,-1 -2,-1 0,-1 0,-3 -1,-4 -1,-1 -2,-2 -2,-3 0,-2 0,-3 -1,-5 0,0 -1,-1 -1,-1 l 0,-1 c 0,-2 -1,-3 0,-5 0,0 0,-1 0,-1 0,0 0,-1 0,-1 0,-1 1,-2 1,-2 0,0 0,-1 0,-2 0,-2 2,-4 0,-6 -2,-1 -4,-2 -6,-2 -1,0 -2,-1 -2,-1 0,0 -1,0 -1,0 0,0 0,0 0,0 -1,0 -1,-1 -2,-1 -1,0 -2,-1 -2,-1 0,0 -1,-1 -1,-1 -1,0 -3,-1 -4,-1 -2,0 -5,1 -6,2 -1,0 -1,1 -2,1 -1,0 -4,3 -5,4 0,0 0,1 -1,1 -1,1 -1,1 -2,2 0,1 -1,1 -1,2 -1,0 -3,1 -4,1 -1,0 -1,-1 -2,-1 0,0 -1,0 -1,0 -1,-1 -3,-2 -4,-3 l 0,-1 c 0,0 1,-1 1,-1 4,-4 -1,-6 -1,-8 v -2 c 0,-2 1,-3 2,-4 0,0 0,-1 0,-1 0,0 0,-1 1,-1 0,-1 1,-1 1,-2 1,-3 2,-6 2,-9 0,-1 0,-2 -1,-3 -1,-1 -3,-1 -4,-1 0,0 -1,0 -2,0 0,0 -1,0 -1,0 0,0 -3,0 -3,0 -2,0 -2,2 -4,3 -1,0 -2,1 -2,1 0,0 -1,2 -1,2 -1,1 -1,2 -1,4 0,0 3,1 4,1 0,0 3,0 3,0 1,1 2,2 2,3 0,3 -2,6 -5,6 -1,-1 -1,-1 -2,-1 -2,0 -3,1 -4,3 0,0 -1,0 -1,0 -1,0 -5,0 -6,0 0,0 -1,0 -1,0 -2,0 -4,-1 -5,-1 -1,-1 -1,-2 -2,-3 0,0 -1,0 -1,0 -1,-1 -1,-3 -2,-4 -1,-1 -2,-1 -3,-2 0,-2 2,-7 3,-8 l 1,0 c 1,0 2,1 3,1 1,0 4,-1 4,-1 2,-1 6,-5 7,-6 1,-1 2,-3 3,-4 0,0 1,-1 1,-1 0,0 0,-1 0,-1 1,-1 2,-2 2,-3 1,-1 1,-2 2,-3 0,0 1,-1 1,-1 1,-1 1,-1 1,-2 0,-1 2,-2 2,-3 0,0 1,0 1,-1 0,0 1,-1 1,-1 1,-1 3,-1 4,0 0,1 0,2 -1,2 l 0,1 1,1 c 1,0 2,-1 3,-2 0,-1 0,-2 0,-3 -1,-1 -2,-1 -3,-2 -1,-1 -1,-2 -1,-3 0,-3 2,-3 3,-4 0,0 1,-1 1,-2 1,-1 3,-1 4,-1 1,-1 2,-2 3,-3 7,-6 2,-10 5,-16 0,-1 1,-1 1,-2 0,0 0,-1 1,-1 0,0 1,0 1,-1 1,-1 1,-1 1,-2 1,-1 3,-3 4,-4 1,-2 3,-4 4,-6 1,-2 3,-4 4,-6 1,-1 1,-1 2,-2 0,0 0,-1 1,-1 0,0 1,-1 1,-1 1,-1 1,-1 2,-2 l 0,0 10,4 0,3 c 0,0 1,0 3,1 2,2 1,2 0,3 -1,1 -4,2 0,2 4,1 12,4 12,4 l 2,-3 4,-1 3,1 1,-5 6,0 c 0,0 2,3 4,2 2,-1 3,-3 4,-4 0,-1 2,-3 2,-3 0,0 5,2 6,2 2,0 6,2 6,2 v 2 h 5 l 4,3 c 0,0 0,-1 2,-2 2,0 3,-3 3,-3 0,0 3,0 4,-2 0,-2 1,-4 1,-4 l 6,0 2,2 3,0 c 0,0 2,3 1,5 -2,2 -3,4 -3,4 l 6,3 2,-4 2,2 3,-2 2,3 4,-4 4,4 2,-8 3,-2 c 0,0 2,1 4,0 1,-1 3,-3 3,-3 l 3,2 4,0 4,-8 h 4 l 5,2 1,-4 4,0 3,1 3,2 9,3 z m -203,15 c 1,-2 3,-2 4,-3 1,-1 1,-3 2,-5 1,-1 2,-1 2,-1 1,0 2,1 3,2 l 0,1 c -1,1 -2,2 -3,4 -1,1 -2,1 -3,2 0,0 -1,1 -1,1 -1,0 -3,1 -4,1 l 0,-1 c 0,-1 1,-1 1,-2 z"/>
+    <path id="region-tasman" data-region="Tasman" class="mta-region" d="m 1063,1259 c 0,0 -4,-1 -5,-2 -2,-1 -3,-2 -3,-2 0,0 -2,-1 -3,-2 -1,-1 -2,-2 -2,-2 l -2,-1 -1,-2 -2,-4 0,0 c -1,0 -1,0 -1,0 0,0 -1,0 -2,0 -2,0 -5,-1 -7,0 l 0,-1 -1,-1 -2,0 c -1,-1 -2,-2 -2,-3 1,-1 2,-2 3,-2 1,0 1,-1 1,-2 0,-1 -1,-2 -1,-2 -1,-1 -1,-1 -2,-3 0,-1 0,-2 0,-3 0,-2 1,-4 -1,-5 h -1 c 0,1 -1,1 -1,2 l -1,0 c -1,-1 -1,-3 -2,-5 -1,-1 -1,-1 -2,-3 0,-1 1,-2 1,-2 0,-1 0,-2 0,-3 h 1 c 1,0 2,3 3,4 0,0 0,-1 0,-2 0,0 0,0 0,-1 0,0 0,0 0,0 0,-1 -1,-1 -1,-2 0,0 0,-1 0,-1 0,0 0,-1 -1,-1 0,-1 -1,-2 -2,-3 0,0 0,-1 0,-1 0,0 0,-1 0,-1 0,-1 0,-3 -1,-4 0,0 0,-1 0,-1 0,0 0,-1 0,-2 l -1,-1 c -1,0 -3,0 -4,0 l 0,-1 c 1,0 1,-1 2,-1 0,-1 0,-2 1,-2 h 0 l 0,0 c 1,-1 2,-1 3,-1 1,-1 2,-3 2,-4 l -1,-1 c 0,0 -1,-4 -1,-4 l 1,-1 c 1,-2 0,-3 1,-5 l -1,-1 c 0,-1 1,-2 2,-2 0,-1 -2,-3 -3,-3 -1,1 -3,1 -4,1 l -1,-1 c 0,-1 1,-1 2,-2 l 0,-1 c 0,-1 -2,-2 -1,-3 0,-1 1,-2 1,-2 0,-2 -2,-4 -3,-5 0,0 -1,0 -2,-1 -1,0 -1,0 -2,0 l -1,1 c 0,1 0,2 -1,3 l -1,0 c -1,-1 -2,-2 -3,-1 -1,1 -1,3 -1,5 -1,0 -2,1 -3,0 -1,1 -4,3 -5,4 -1,0 -2,0 -3,0 -1,-1 -1,-2 -2,-3 -1,0 -2,-1 -3,0 -1,-1 -2,-3 -3,-4 -1,-1 -1,-1 -2,-1 -1,0 -2,-1 -3,-2 0,0 0,0 0,0 0,0 0,-1 -1,-1 -2,-2 -4,-3 -5,-5 -1,-1 -1,-2 -1,-4 l -1,0 c 0,1 -1,2 -1,2 l -1,0 c 0,0 -1,-2 -1,-2 0,-1 1,-2 1,-2 0,-1 1,-2 1,-3 0,-1 0,-2 0,-3 l -1,-1 c -1,0 -2,0 -3,0 0,-1 0,-2 0,-3 -1,-1 -2,-2 -2,-3 l 1,-1 1,0 c 1,1 1,1 2,2 l 1,0 c 1,-1 0,-4 0,-5 1,0 2,-1 2,-2 1,-2 0,-4 1,-6 0,-1 1,-2 1,-2 1,-2 1,-5 2,-7 l 1,0 c 1,0 2,0 2,1 1,0 2,0 3,-1 1,0 2,0 3,0 2,0 3,0 4,1 1,0 2,0 3,0 0,0 1,0 1,0 1,0 2,0 3,0 1,0 2,0 3,0 3,1 8,2 12,1 l 0,-1 c -2,-1 -4,-1 -6,-1 -1,0 -3,-1 -4,-1 -1,0 -2,-1 -4,-1 -1,0 -5,0 -7,0 0,0 -1,0 -1,0 -1,0 -2,0 -3,0 -1,0 -2,-1 -3,-1 -2,0 -5,1 -7,1 -2,0 -3,-2 -5,-2 0,0 -2,1 -3,1 -2,0 -3,0 -5,0 -1,0 -2,1 -2,1 -1,0 -2,0 -2,1 l -1,1 c -1,0 -2,1 -2,1 -1,0 -1,1 -2,2 -1,1 -2,1 -3,2 -1,1 -1,2 -2,3 l 0,1 1,1 c 2,0 2,-1 3,-2 0,0 3,-1 3,-1 l 1,1 1,0 1,-1 1,0 c 0,1 -1,3 -2,4 -1,0 -2,0 -3,0 l -1,1 v 1 l 1,1 c -2,1 -2,2 -3,3 0,-1 -1,-1 -1,-2 l -1,0 c -1,0 -2,3 -3,4 -1,0 -2,0 -2,0 0,-2 3,-5 3,-8 l -1,0 c 0,0 -1,1 -1,0 -1,1 -2,2 -3,3 -1,1 -2,1 -3,2 0,0 0,1 -1,1 0,0 -1,1 -1,1 -1,1 -1,2 -2,3 -1,1 -1,1 -2,1 -1,1 -2,2 -2,2 0,0 -1,1 -1,1 -1,1 -1,2 -2,3 -1,1 -2,1 -3,2 -1,1 -2,3 -4,4 -2,1 -3,1 -5,2 -1,1 -2,3 -3,4 -1,0 -2,1 -2,1 -2,1 -2,2 -4,3 -1,0 -2,0 -3,0 l 0,0 4,5 c 0,0 -1,2 -1,3 0,1 0,1 0,3 0,1 -1,2 -1,2 -1,1 0,2 0,2 0,0 2,0 2,-2 1,-1 2,-1 2,0 0,1 0,1 1,2 1,0 2,1 2,1 0,0 0,2 0,3 -1,1 0,2 0,2 0,0 2,1 2,1 0,0 0,1 0,2 0,1 1,1 2,1 1,0 2,1 2,1 l 2,0 c 0,0 1,-1 2,-1 1,0 2,0 3,0 1,0 2,2 2,2 0,1 1,2 0,2 -1,1 -2,3 -3,4 -1,1 -1,1 -3,0 -1,0 -2,1 -2,2 0,1 0,2 -2,2 -1,1 0,1 0,2 1,1 3,3 3,3 0,0 0,2 -2,2 -1,1 1,1 2,1 1,0 1,0 1,0 0,0 1,-2 2,-2 0,-1 2,-2 2,-3 0,-1 2,-1 3,0 1,0 3,2 3,2 0,0 2,-1 3,-2 0,-1 2,-1 3,0 1,0 4,0 5,0 1,0 1,1 1,2 0,1 -2,3 -2,3 l 0,2 3,0 c 0,0 1,1 1,2 0,1 0,2 -1,4 0,1 5,1 5,1 l 3,4 2,2 1,2 3,3 c 0,0 0,2 0,3 0,1 1,2 1,2 0,0 2,0 3,0 1,0 2,-1 2,-1 l 4,2 c 0,0 -1,2 -2,3 -1,1 -3,3 -4,3 0,1 -2,1 -3,0 -1,0 -3,2 -3,2 0,0 -4,1 -5,1 -1,0 0,2 1,2 1,1 1,2 1,2 l 2,1 c 0,0 0,3 0,4 -1,0 0,4 -1,4 -1,1 0,3 0,4 0,1 1,3 -1,2 -2,0 -2,2 -3,3 0,1 -1,1 -3,1 -1,0 -2,1 -3,1 -1,0 -1,0 -2,0 -1,-1 -3,0 -4,0 -2,0 -2,-2 -2,-2 0,0 -2,2 -5,2 -2,0 -1,2 1,3 2,0 1,1 0,2 -1,0 0,1 0,2 0,1 -1,2 -1,3 0,1 0,2 -2,2 -1,0 -1,0 -2,2 -1,1 -1,1 -2,1 -1,0 -1,0 -2,2 -1,1 -3,2 -3,2 l 1,3 v 3 c 0,2 -2,2 -2,2 l 0,2 c 0,0 0,2 1,3 0,2 -1,3 -1,3 0,0 -1,1 -3,2 -2,0 -1,2 -1,3 0,1 0,1 -1,1 -1,0 -1,0 -2,-1 -1,-1 -2,0 -2,0 0,0 -2,1 -2,1 l 0,3 2,1 -1,3 1,2 c 0,0 0,1 -1,1 0,0 -2,0 -2,0 0,-1 -3,-1 -4,0 0,1 -1,1 -2,0 -1,-1 -2,0 -2,1 -1,1 -1,1 -2,0 -2,-1 -1,0 -1,1 0,1 -1,1 -2,1 -1,0 0,1 -2,2 -2,1 1,1 1,2 0,1 -1,4 -3,4 -1,1 0,3 0,3 1,0 1,1 1,1 l 0,14 -2,0 0,4 c 0,0 0,0 -2,0 -1,0 -2,1 -2,2 0,0 2,2 2,2 0,0 -2,3 -3,3 -1,0 0,3 0,3 l 2,1 c 0,0 0,2 0,3 1,1 0,1 0,2 1,1 1,1 2,1 1,0 4,1 4,1 0,0 0,2 0,3 0,1 -2,3 -2,3 0,0 1,2 1,3 0,1 0,2 2,2 2,0 1,0 1,2 0,1 0,3 0,3 0,0 2,0 5,0 2,0 5,0 5,0 0,0 1,3 2,4 0,1 1,2 3,1 2,0 2,2 2,2 l 11,0 2,4 c 0,0 0,1 0,2 0,1 0,3 1,5 1,2 0,2 -1,3 -1,1 1,3 2,4 1,2 0,3 0,3 l 6,3 5,1 2,-3 4,0 0,0 4,-2 4,-4 c 0,0 4,-4 5,-4 2,0 4,0 4,0 l 3,-3 c 0,0 -2,-5 -1,-6 1,-2 4,-5 4,-5 0,0 -2,-4 1,-4 2,-1 6,-3 6,-3 l 1,3 5,-1 0,0 c 0,0 1,-5 0,-8 0,-2 -2,-5 2,-4 4,2 5,-3 5,-3 0,0 0,-3 2,-4 2,-1 2,-6 2,-6 l 4,-1 4,-5 v -3 l -2,-2 4,-3 2,-9 6,-6 -2,-3 v -4 c 0,0 3,2 5,0 2,-1 6,-4 6,-4 0,0 6,-9 7,-10 0,-1 0,-5 0,-5 l 5,-1 1,-3 h 2 l 1,-3 c 0,0 3,-1 4,-2 0,-2 2,-4 2,-4 l -1,-2 c 0,0 0,-1 2,-1 2,0 4,-1 6,-1 2,0 4,0 4,0 0,0 2,0 4,0 2,0 4,0 2,-2 -2,-2 -2,-2 -3,-3 -1,-1 -2,-4 -2,-4 0,0 1,-1 3,-3 2,-2 4,-4 4,-4 v -4 l 1,-2 m -20,-19 c -2,0 -3,0 -5,-1 l 0,-1 c 0,0 1,0 1,0 0,0 6,1 6,1 0,0 1,1 1,1 l 0,1 c -1,1 -3,0 -4,0 -1,0 -1,0 -2,0 z"/>
+    <path id="region-nelson" data-region="Nelson" class="mta-region" d="m 1063,1259 4,-2 h 2 c 0,0 3,-1 4,-3 1,-1 3,-4 3,-4 l 3,-2 5,-2 1,-2 0,-5 2,-2 2,-2 4,-3 c 0,0 2,-1 4,-2 2,-1 3,-2 3,-2 0,0 4,-2 6,-4 2,-1 4,-2 4,-2 l 1,-4 c 0,0 0,-3 1,-4 0,-2 1,-3 1,-3 l 0,-1 -1,0 c 0,-2 0,-4 -1,-6 -1,-1 -2,-1 -3,-1 -1,-1 -1,-2 -2,-3 l -1,0 -1,1 c -1,1 -2,1 -3,2 0,0 0,1 -1,1 -1,1 -1,1 -2,1 l 0,1 c 1,0 1,1 2,1 l 0,1 c -2,1 -4,-1 -5,0 0,1 -1,1 -1,2 -1,1 -1,2 -2,3 -1,1 -2,1 -3,2 0,0 -1,0 -1,1 -1,1 -3,1 -5,1 0,-1 1,-2 1,-3 l -1,-1 -1,0 c -1,1 -2,2 -3,3 -1,0 -1,1 -2,1 0,0 -1,1 -1,1 -1,1 -2,1 -3,2 -1,1 -2,2 -3,2 0,0 -1,0 -1,1 0,0 0,1 -1,1 0,0 -1,1 -1,1 -1,1 -2,2 -2,3 0,0 0,1 0,1 0,0 -1,1 -1,1 -1,1 -2,2 -3,3 -1,1 -2,3 -3,4 -1,1 -3,2 -5,2 0,0 -1,0 -1,0 -2,1 -2,3 -5,4 0,0 -2,0 -3,1 h 0 l 2,3 1,2 2,1 c 0,0 1,1 2,2 1,1 3,2 3,2 0,0 1,1 3,2 2,1 5,2 5,2"/>
+    <path id="region-marlborough" data-region="Marlborough" class="mta-region" d="m 1063,1259 -1,2 v 4 c 0,0 -2,2 -4,4 -2,2 -3,3 -3,3 0,0 2,2 2,4 1,1 1,1 3,3 2,2 0,2 -2,2 -2,0 -4,0 -4,0 0,0 -3,0 -4,0 -2,0 -4,1 -6,1 -2,0 -2,1 -2,1 l 1,2 c 0,0 -2,2 -2,4 0,2 -4,2 -4,2 l -1,3 h -2 l -1,3 -5,1 c 0,0 1,4 0,5 0,1 -7,10 -7,10 0,0 -4,3 -6,4 -2,1 -5,0 -5,0 v 4 l 2,3 -6,6 -2,9 -4,3 2,2 v 3 l -4,5 -4,1 c 0,0 -1,6 -2,6 -2,1 -2,4 -2,4 0,0 -2,4 -5,3 -4,-2 -2,1 -2,4 0,2 0,8 0,8 l 0,6 2,4 c 0,0 2,0 4,0 1,0 3,0 3,0 0,0 2,3 4,4 1,1 2,2 2,4 0,2 0,6 2,7 2,1 4,1 3,2 -1,2 -2,6 -2,6 0,0 0,2 2,2 2,0 4,1 6,1 2,0 4,0 4,2 0,2 1,7 1,7 l 8,5 1,6 c 0,0 1,1 2,2 2,1 2,4 2,4 l 4,1 2,-2 10,-2 c 0,0 0,-3 2,-5 2,-2 6,-8 7,-8 1,-1 2,-4 0,-5 -2,-1 -6,-2 -1,-5 5,-3 18,-13 18,-13 l 10,-3 6,-2 2,-3 c 0,0 6,-1 4,-4 -2,-3 -2,-5 -2,-6 0,-2 2,-12 2,-12 0,0 5,0 6,-1 2,0 4,-3 5,-4 1,-2 2,-3 2,-3 l 7,-3 c 0,0 2,-4 4,-4 2,-1 6,-4 6,-4 0,0 0,-2 0,-3 0,-1 2,-4 4,-4 2,0 4,0 4,3 1,3 2,4 3,4 1,0 4,-2 4,-2 l 11,-5 c 0,0 6,-2 6,0 0,2 1,2 3,2 2,0 8,1 9,1 1,0 4,1 4,1 l 4,2 0,0 c 1,-1 2,-2 3,-3 2,-2 6,-4 7,-6 1,-1 6,-7 7,-8 1,-2 1,-4 2,-6 1,-1 1,-2 2,-3 0,0 1,-1 1,-1 0,0 0,0 0,0 0,-1 1,-1 1,-2 0,0 1,-1 1,-1 0,0 1,-3 1,-4 l -1,-1 c -1,0 -2,1 -2,1 -1,0 -2,0 -3,0 l -1,-1 c -2,0 -2,-1 -3,-2 -1,-1 -2,-2 -3,-3 0,0 0,-1 -1,-1 0,-1 -1,-1 -1,-2 0,-1 -1,-2 -1,-3 0,-2 0,-4 0,-5 0,-1 0,-1 0,-2 0,-1 0,-3 -1,-4 0,0 0,-1 0,-1 0,-1 0,-2 -1,-3 -1,-1 -2,-2 -3,-3 0,0 0,-1 -1,-1 -1,-2 -5,-7 -7,-8 l -1,1 c 0,3 4,5 3,8 -1,1 -3,2 -5,1 v -1 c 1,0 1,-1 2,-2 0,-1 -1,-2 -1,-4 -1,-1 -2,-1 -3,-1 -1,-1 -1,-1 -1,-2 l 1,0 c 0,-1 0,-2 0,-3 0,-2 -2,-3 -2,-4 0,0 -1,-4 -1,-4 0,0 1,-3 1,-4 0,0 1,0 1,-1 1,-1 1,-1 2,-2 1,0 2,-1 2,-1 2,-2 2,-5 2,-7 0,0 0,-1 0,-1 0,0 0,-1 1,-1 0,0 0,-1 0,-1 1,-1 3,-2 4,-3 1,-1 1,-2 2,-3 l 1,1 c 0,1 -1,2 -1,2 l 1,1 1,0 c 1,-1 2,-3 4,-3 l 1,1 c -1,2 -3,3 -4,6 l 1,1 1,0 c 1,-1 2,-2 3,-3 2,0 4,0 6,-1 l 0,-1 c 0,-1 0,-2 0,-2 1,0 1,-1 2,-1 l 0,-1 c 1,-1 2,-1 3,-2 0,-2 2,-3 2,-4 0,-1 0,-2 1,-2 1,-1 2,-2 2,-3 l -1,0 c -1,1 -2,1 -2,2 0,0 0,1 -1,1 -1,1 -1,1 -2,1 0,1 -1,1 -1,2 l -1,0 -1,-1 c -1,0 -2,1 -2,1 -1,0 -2,-1 -3,-1 -1,1 -2,2 -2,3 l -1,0 c -2,0 -2,-1 -3,-2 -1,0 -2,0 -3,0 -1,0 -2,-2 -3,-2 -3,1 -3,0 -5,1 -1,0 -2,1 -3,1 l -1,0 c -1,0 -2,-1 -3,-1 -1,0 -3,1 -3,2 0,1 -1,2 -1,2 l -1,1 c -1,0 -2,-1 -3,-2 l -2,0 c -1,0 -1,1 -2,1 -1,1 -3,1 -5,2 l -1,-1 c 0,-1 0,-2 0,-3 1,-1 4,-2 5,-3 l 0,-1 c 1,0 2,1 3,1 1,0 1,-2 1,-2 2,0 2,0 3,0 1,0 1,0 2,1 l 1,0 0,-1 c 1,0 1,-1 2,-1 1,0 2,-1 3,0 0,0 1,1 1,1 1,0 2,0 3,0 1,0 3,-1 4,-1 1,0 1,0 3,0 l 1,-1 c 0,-1 1,-3 1,-4 l 1,-1 c 2,0 3,1 4,1 l 0,-1 c -1,-1 -1,-3 -1,-4 -1,-2 -3,-1 -5,-3 0,-2 -2,-3 -2,-5 l 1,-1 c 1,0 2,1 2,1 0,-1 0,-3 1,-4 l 1,0 c 1,3 -1,7 1,8 1,0 0,0 1,1 1,0 2,0 2,0 1,-1 0,-3 0,-4 1,0 2,0 2,1 l 1,-1 c 1,-1 0,-3 0,-4 1,-1 2,-2 2,-3 1,-1 1,-1 1,-2 0,0 1,-1 1,-1 1,-1 0,-3 1,-4 0,0 1,-1 1,-1 2,-2 4,-5 4,-8 l -1,0 c -4,1 -3,3 -5,4 -1,1 -2,1 -3,2 -1,0 -2,2 -2,3 0,0 0,1 0,1 0,1 -1,1 -1,2 l -1,0 c -1,0 -2,-1 -2,-1 0,0 -1,0 -1,0 -1,0 -2,-2 -2,-3 l 0,-1 1,0 c 1,0 2,1 2,1 1,0 1,-1 1,-2 0,-2 0,-4 -1,-5 0,-1 -1,-1 -1,-2 -1,-1 -2,-3 -3,-4 l -1,1 0,1 c 1,1 1,1 1,2 l -1,1 -1,0 c 0,1 -1,2 -1,2 l -1,0 c -1,-1 -1,-2 -3,-2 l -1,1 c 0,1 -1,2 -1,2 -1,1 -3,1 -4,1 -1,0 -1,-1 -2,-1 v 0 c -1,-1 -4,-3 -6,-3 -2,-2 -1,-3 -2,-5 -1,0 -2,-1 -2,-1 -1,1 -1,2 -1,3 l -3,0 -1,1 c 0,1 1,2 1,2 v 1 c -1,0 -3,0 -4,0 0,1 0,3 1,4 1,0 3,1 3,2 0,1 1,1 1,2 l 1,0 c 1,-1 1,-4 1,-5 1,0 2,-1 3,-1 2,1 1,4 1,6 l -1,0 0,1 c 0,2 2,3 3,5 v 1 l -1,0 c -1,-1 -3,-1 -4,-1 0,1 -1,1 -1,2 0,1 0,2 -1,3 -2,1 0,4 -2,6 l -1,0 c 0,-2 1,-4 -1,-5 l 0,-1 c 1,-1 2,-3 3,-4 -1,0 -2,0 -3,0 -1,0 -2,-1 -2,-1 0,1 0,2 0,3 -1,0 -2,0 -3,0 -1,1 0,3 -1,4 -1,0 -2,1 -3,0 l -1,1 v 2 c -1,1 -2,3 -1,5 0,0 0,1 0,1 0,1 0,2 0,3 1,2 5,2 7,1 1,-1 1,-2 2,-3 l 1,0 1,0 c 0,1 0,2 0,2 l 0,1 c 1,0 3,0 4,-1 0,-1 0,-2 0,-3 l 1,-1 c 1,0 2,1 3,1 2,0 3,-1 5,0 1,0 2,1 3,2 2,0 4,-2 6,-2 l 1,0 v 1 l -1,1 c 0,0 -3,1 -3,1 0,0 -1,1 -1,1 -1,0 -3,1 -4,1 -2,0 -4,-1 -6,-1 l -1,0 0,1 c 1,0 1,1 2,1 l 0,1 c -2,0 -3,0 -5,0 0,0 -1,0 -1,0 -1,0 -2,0 -3,0 -1,0 -1,-1 -2,-1 -1,0 -3,-1 -4,-1 -2,2 -4,0 -6,1 l 0,1 c 1,0 3,0 4,0 1,1 2,1 3,1 l 0,1 c -1,1 -4,1 -5,2 -1,0 -3,1 -4,1 -1,1 -2,1 -3,2 0,0 -1,0 -1,1 0,0 -1,1 -1,1 -1,0 -2,1 -3,1 0,1 -1,1 -2,2 -1,0 -2,0 -3,0 v 0 l -2,0 -2,-3 0,-1 c 1,-1 3,0 4,-1 1,0 1,-1 2,-1 3,-2 3,-1 6,-1 l 1,-1 c 0,-1 0,-3 0,-4 0,0 1,-1 1,-1 0,-1 0,-2 0,-3 0,-1 1,-1 1,-2 0,-1 -1,-1 -2,-2 0,-1 -1,-1 -1,-2 -1,0 -3,0 -4,-1 v -1 c 1,-1 3,-1 4,-1 l 1,-1 c 0,-1 1,-2 2,-3 l 0,-1 1,0 1,1 1,-1 c 1,-2 -1,-3 -2,-5 l 0,-1 c 1,0 3,0 4,0 1,0 1,1 2,1 1,-1 1,-2 2,-3 l 1,-1 h 2 l 1,-1 c -1,-1 -2,-1 -3,-2 -2,0 -5,2 -6,2 -1,0 -2,-1 -2,-1 -1,0 -3,0 -4,0 l -1,1 -1,0 c 0,1 0,2 0,3 l -1,1 -1,-1 -1,0 c 0,1 0,2 0,3 0,1 -1,1 -1,2 -1,0 -1,1 -2,1 0,-1 0,-1 0,-2 l -1,-1 0,-1 c 1,0 2,0 3,-1 l 0,-4 c -1,0 -2,-1 -2,-1 l 0,-1 c 1,-1 2,-2 3,-2 l 0,-1 c -1,-1 -2,0 -3,-1 0,-1 0,-2 0,-2 1,0 2,0 3,0 1,0 2,-2 3,-2 l 2,0 1,1 c 0,1 0,2 0,2 1,0 2,1 3,0 2,-2 4,-2 7,-2 1,0 2,0 3,0 l 1,-1 -1,-1 -1,0 c -1,-1 -1,-1 -1,-2 1,0 2,-1 3,-2 1,0 2,0 2,1 0,-1 0,-2 0,-3 1,-1 2,-1 3,-1 l 0,-1 c 0,-1 -1,-2 -1,-2 l 1,-1 1,0 c 2,1 2,3 5,3 l 1,-1 c 0,-2 0,-4 -1,-5 -1,0 -2,0 -3,0 0,-1 -1,-2 -1,-2 l -1,0 c 0,1 -1,1 -2,2 -2,1 -2,2 -4,3 -1,0 -3,-1 -5,0 0,1 1,3 0,4 -1,0 -3,1 -3,1 -1,1 -3,4 -4,4 0,0 -2,0 -2,0 l 0,-1 c 0,-1 1,-2 1,-2 0,-1 0,-2 0,-3 1,-1 1,-2 0,-3 l -1,-1 -2,0 c -1,1 -2,2 -3,4 0,1 -2,3 -3,3 -3,2 -5,1 -7,1 0,0 -1,1 -1,1 0,0 -1,0 -1,1 0,0 -1,1 -1,2 -1,0 -3,0 -4,1 -2,2 -4,3 -3,6 l 1,1 c 1,0 1,-1 2,-1 1,-1 4,-3 6,-3 2,1 1,3 0,5 -1,1 -2,2 -3,2 -2,1 -6,1 -7,2 l -1,1 c 1,1 2,3 2,5 l -1,1 c -1,0 -1,-1 -2,-2 l -1,0 c 0,1 -1,1 -1,2 l 0,0 0,1 c 0,0 0,2 -1,3 0,2 -1,4 -1,4 l -1,4 c 0,0 -2,1 -4,2 -2,1 -6,4 -6,4 0,0 -1,1 -3,2 -2,1 -4,2 -4,2 l -4,3 -2,2 -2,2 0,5 -1,2 -5,2 -3,2 c 0,0 -2,3 -3,4 -1,1 -4,3 -4,3 h -2 l -4,2 m 125,-28 c 1,0 2,-1 2,-1 1,-1 2,-2 3,-2 1,0 2,0 3,0 2,0 3,-1 4,-3 0,0 1,-1 1,-1 l 0,-1 c 0,0 0,-1 1,-1 0,-1 1,-1 1,-2 l 1,0 1,0 0,1 c 1,1 2,1 3,1 l 1,-1 0,-1 c 2,-2 3,-1 4,-5 l -1,-1 c -1,1 -5,0 -6,-1 l 0,-1 c 2,-1 4,0 5,-1 1,-1 1,-2 2,-3 1,0 2,0 3,0 l 0,1 c -1,2 -1,3 0,5 -1,2 -1,4 -2,6 0,1 0,2 0,3 l -1,1 c -1,0 -3,0 -4,0 -2,0 -3,0 -5,0 -1,0 -5,2 -6,3 v 2 l -1,0 c -2,0 -5,-1 -6,-1 -1,0 -2,1 -3,0 0,0 -1,0 -1,0 0,0 1,-1 1,-1 z m 8,-9 c 1,-1 1,-2 1,-3 l 1,0 c 0,1 0,2 0,3 -1,1 -2,2 -2,3 0,-1 0,-2 0,-2 z m -26,-35 1,0 0,0 c 0,-1 1,-2 0,-2 0,-1 -1,-1 -1,-2 0,-1 1,-2 1,-2 l 1,0 1,1 c 1,2 1,3 1,4 l 0,1 -1,2 -1,1 -1,0 z m 2,-13 0,-1 c 1,0 2,-1 3,-2 l 1,0 0,1 c -1,2 -3,2 -5,2 v 0 z m -14,-21 0,-1 1,-1 1,1 c 0,1 0,2 0,3 l -1,0 0,-1 z m -14,42 0,-1 h 0 c 1,-1 3,-1 4,0 0,0 1,1 1,2 l -1,1 c -1,0 -3,1 -4,0 0,0 0,-1 0,-2 z m -12,-21 c 1,-1 1,-3 0,-4 l -1,0 c 0,0 -1,1 -2,1 -1,-1 -1,-5 -1,-7 l 1,-1 c 3,1 3,5 7,6 0,0 1,0 2,0 l 0,-1 c -1,-1 -2,-2 -3,-3 0,-1 -1,-2 -1,-2 0,-1 -1,-2 -1,-2 0,0 0,-2 0,-3 0,0 0,-1 1,-1 0,-1 1,-2 1,-3 0,-1 0,-4 1,-5 l 1,1 c 0,1 0,2 0,3 l 1,0 c 1,-2 1,-4 3,-5 1,0 2,1 2,1 0,0 0,1 0,1 0,0 0,1 0,1 0,1 -1,4 0,6 0,0 1,-1 1,-2 l 1,0 1,1 c 1,0 1,-1 2,-1 1,-1 2,0 3,-2 -1,0 -3,0 -4,0 l 0,-1 c 1,0 2,-1 3,-2 0,-1 0,-2 1,-2 0,-1 1,-1 1,-2 1,-1 0,-3 0,-4 l 1,-1 1,0 c 0,1 1,5 0,6 0,0 0,1 -1,1 0,1 0,2 0,3 l -1,1 0,1 c 1,1 1,3 1,4 -1,1 -1,1 -2,2 0,1 -1,1 -2,2 -1,1 -2,4 -1,5 0,1 1,3 -1,4 l -1,0 -1,-1 -1,0 c -1,1 -1,2 -2,3 -1,0 -2,0 -3,1 -1,0 -3,1 -3,2 0,1 -1,1 -1,2 -1,2 -4,3 -6,4 l -1,0 0,-1 c 0,-1 1,-1 1,-2 l -1,1 c 1,-1 2,-2 3,-3 z"/>
+    <path id="region-west-coast" data-region="West Coast" class="mta-region" d="m 557,1695 5,-4 6,-6 9,-10 c 0,0 2,-2 4,-2 2,0 5,-2 6,-3 1,-2 0,-2 3,-3 3,-2 8,-6 8,-8 1,-2 2,-7 4,-9 2,-2 7,-6 8,-7 1,-1 3,-3 3,-5 0,-2 -1,-5 0,-6 2,-1 8,-6 8,-6 0,0 6,-3 7,-4 1,-1 3,-3 5,-4 2,-1 9,-3 9,-3 0,0 4,1 6,1 2,0 5,0 6,-2 1,-1 5,-5 5,-5 0,0 2,-1 3,-3 1,-2 2,-3 3,-4 1,0 6,-2 8,-2 1,0 3,1 5,2 2,2 4,2 5,1 1,-1 9,-8 9,-8 v -4 c 0,0 1,-2 3,-2 2,0 5,-3 5,-4 0,-2 2,-2 4,-2 2,0 10,-2 10,-2 l 3,-4 c 0,0 2,-1 3,-2 0,-1 2,-4 2,-4 l 10,-8 2,2 c 0,0 1,0 2,1 2,0 3,0 4,-1 1,-2 4,-7 4,-8 1,-1 8,-11 8,-11 0,0 2,-2 4,-2 2,0 8,-2 11,-3 2,-1 6,-3 7,-5 0,-2 2,-10 5,-11 3,-2 4,-3 6,-4 1,-1 4,-2 7,-1 2,1 5,2 5,2 0,0 3,-1 3,-2 0,-1 5,-6 5,-6 l 5,0 c 0,0 6,2 8,1 2,-1 4,-2 6,-2 2,0 4,-1 6,1 2,2 3,3 6,2 3,-2 4,0 4,-3 0,-2 0,-5 0,-5 0,0 3,-4 3,-5 0,-1 0,-4 2,-5 2,-1 7,1 9,-2 2,-3 3,-3 4,-5 2,-2 5,-6 5,-6 2,-1 3,-3 4,-5 1,-2 3,-7 8,-9 4,-2 8,-2 10,-3 2,0 10,-1 10,-1 l 4,-10 c 0,0 2,-2 4,-3 1,-1 4,-3 4,-3 0,0 7,-9 9,-10 2,-2 4,-2 4,-4 1,-1 5,-4 5,-4 l 4,-7 15,-4 6,-16 0,10e-5 -4,0 -2,3 -5,-1 -6,-3 c 0,0 1,-2 0,-3 -1,-2 -3,-3 -2,-4 1,-1 2,-1 1,-3 -1,-2 -1,-4 -1,-5 0,-1 0,-2 0,-2 l -2,-4 -11,0 c 0,0 0,-2 -2,-2 -2,0 -2,0 -3,-1 0,-1 -2,-4 -2,-4 0,0 -2,0 -5,0 -2,0 -5,0 -5,0 0,0 -1,-2 0,-3 0,-1 1,-2 -1,-2 -2,0 -1,-1 -2,-2 0,-1 -1,-3 -1,-3 0,0 1,-2 2,-3 0,-1 0,-3 0,-3 0,0 -3,0 -4,-1 -1,0 -2,0 -2,-1 -1,-1 0,-2 0,-2 -1,-1 0,-3 0,-3 l -2,-1 c 0,0 -1,-2 0,-3 1,0 3,-3 3,-3 0,0 -1,-2 -2,-2 0,0 0,-2 2,-2 1,0 2,0 2,0 l 0,-4 2,0 0,-14 c 0,0 -1,0 -1,-1 -1,0 -2,-2 0,-3 1,-1 3,-4 3,-4 0,-1 -2,-1 -1,-2 2,-1 1,-2 2,-2 1,0 2,0 2,-1 0,-1 -1,-2 1,-1 2,1 2,1 2,0 1,-1 2,-2 2,-1 1,1 2,1 2,0 0,-1 3,0 4,0 0,1 2,1 2,0 0,0 1,-1 1,-1 l -1,-2 1,-3 -2,-1 0,-3 c 0,0 2,0 2,-1 0,0 2,-1 2,0 1,1 1,1 2,1 1,0 2,0 1,-1 0,-1 0,-3 1,-3 2,0 3,-1 3,-2 0,0 1,-1 1,-3 0,-2 -1,-3 -1,-3 l 0,-2 c 0,0 2,0 2,-2 v -3 l -1,-3 c 0,0 1,0 3,-2 1,-1 2,-2 2,-2 1,0 2,0 2,-1 1,-1 0,-1 2,-2 1,0 2,-1 2,-2 0,-1 1,-1 1,-3 0,-1 -1,-2 0,-2 1,0 2,-1 0,-2 -2,0 -3,-3 -1,-3 2,0 5,-2 5,-2 0,0 0,3 2,2 2,0 4,-1 4,0 1,1 1,1 2,0 1,0 2,-1 3,-1 1,0 2,0 3,-1 0,-1 1,-3 3,-3 2,0 2,-2 1,-2 0,-1 -1,-3 0,-4 1,-1 0,-4 1,-4 1,0 0,-4 0,-4 l -2,-1 c 0,0 0,-2 -1,-2 -1,-1 -1,-2 -1,-2 1,0 5,-1 5,-1 0,0 2,-2 3,-2 1,0 3,0 3,0 0,-1 2,-2 4,-3 1,-1 2,-3 2,-3 l -4,-2 c 0,0 0,0 -2,1 -1,0 -3,0 -3,0 0,0 -1,-1 -1,-2 0,-1 0,-3 0,-3 l -3,-3 -1,-2 -2,-2 -3,-4 c 0,0 -6,0 -5,-1 0,-1 1,-2 1,-4 0,-1 -1,-2 -1,-2 l -3,0 0,-2 c 0,0 2,-1 2,-3 0,-1 0,-2 -1,-2 -1,0 -4,0 -5,0 -1,0 -3,-1 -3,0 0,1 -3,2 -3,2 0,0 -2,-1 -3,-2 -1,0 -2,0 -3,0 0,1 -2,2 -2,3 0,1 -2,2 -2,2 0,0 0,0 -1,0 -1,0 -3,0 -2,-1 1,-1 2,-2 2,-2 0,0 -2,-3 -3,-3 -1,-1 -1,-1 0,-2 1,-1 1,-2 2,-2 0,-1 1,-2 2,-2 1,0 2,1 3,0 1,-1 2,-3 3,-4 1,-1 1,-2 0,-2 0,-1 -1,-2 -2,-2 -1,0 -2,0 -3,0 -1,0 -2,1 -2,1 l -2,0 c 0,0 -1,-1 -2,-1 -1,0 -3,0 -2,-1 0,-1 0,-1 0,-2 0,0 -2,-1 -2,-1 0,0 -1,-1 0,-2 1,-1 0,-3 0,-3 0,0 -1,0 -2,-1 -1,0 -1,-1 -1,-2 0,-1 -1,-1 -2,0 -1,1 -2,2 -2,2 0,0 -1,-2 0,-2 1,-1 2,-1 1,-2 0,-1 -1,-2 0,-3 0,-1 1,-3 1,-3 l -4,-5 0,0 c -1,0 -1,0 -2,0 l -1,1 c 0,1 0,2 -1,2 -1,1 -3,0 -4,1 0,2 -2,6 -3,7 -1,0 -1,1 -2,1 -1,1 0,4 -2,5 -1,0 -2,0 -3,-1 -1,0 -2,2 -2,3 0,2 0,5 0,8 0,1 0,1 0,2 0,0 0,1 0,1 0,1 0,2 0,3 0,3 0,6 1,9 0,1 0,2 0,3 0,1 0,2 0,3 0,2 0,4 0,6 0,3 -2,3 -2,6 0,1 0,2 0,3 0,1 0,2 0,3 0,1 0,2 0,3 0,2 0,3 0,5 0,0 0,1 0,1 0,0 0,1 0,1 0,0 1,2 1,2 -1,1 -1,2 -1,3 2,2 1,4 5,5 l 0,1 -1,0 c -1,0 -2,0 -3,0 -1,0 -1,1 -1,2 l -1,-1 -1,0 -1,1 c 0,2 0,7 0,8 -1,2 -2,4 -3,7 0,2 1,3 0,4 l -1,0 -1,0 c 0,0 -1,1 -1,1 l 0,1 c -1,1 -2,2 -3,3 -2,0 -4,2 -5,3 l -1,1 v 0 c -2,2 0,3 -1,5 0,1 -1,1 -1,2 0,0 0,0 0,0 -1,1 -2,1 -2,3 0,1 0,3 0,5 -1,0 -2,1 -2,1 -1,1 -1,2 -2,3 0,1 -1,1 -1,2 0,1 -1,2 -1,2 0,1 -1,1 -2,2 -1,1 -1,2 -1,4 -1,1 -4,2 -4,4 0,0 0,2 0,2 -1,1 -2,1 -2,1 l -1,-1 -1,0 c -1,1 -3,2 -4,3 0,1 0,1 -1,2 0,0 -1,0 -1,0 -2,1 -4,2 -5,3 -2,1 -4,2 -6,4 -1,0 -1,1 -2,1 -1,1 -2,1 -3,2 -1,0 -2,1 -3,1 0,-1 -1,-1 -2,-2 -1,1 -1,1 -1,2 l -1,0 c 0,-1 -1,-1 -2,-1 -1,1 -2,1 -3,2 -1,0 -7,0 -8,0 -1,0 -1,-1 -2,-1 -1,0 -2,0 -3,-1 l -1,1 c 0,2 0,4 0,5 0,1 0,1 0,2 0,1 0,2 0,3 l 0,1 1,-1 c 1,0 2,1 2,1 v 1 c 0,0 -1,1 -2,2 0,0 -1,0 -1,0 0,0 -1,1 -2,2 -1,2 0,4 0,6 0,2 -1,2 -2,3 -1,1 -1,4 -2,6 0,0 -1,1 -1,1 -1,2 -1,4 -1,6 0,2 -1,5 -1,7 -1,1 -3,2 -4,3 -1,1 -1,2 -2,3 -2,1 -2,4 -2,6 0,1 -1,2 -2,3 0,0 0,1 0,2 0,0 0,2 -1,3 0,0 -1,1 -1,1 -1,2 -1,6 -1,8 0,1 0,1 0,2 0,1 0,2 0,3 0,3 0,4 -1,7 0,2 -1,5 -1,7 0,0 0,1 -1,1 0,0 0,1 0,1 0,1 -3,7 -4,8 0,1 -1,1 -1,2 -1,1 -1,1 -2,1 0,0 0,1 -1,1 0,1 -1,1 -1,2 -1,2 -2,6 -1,8 -1,1 -1,2 -2,3 0,0 -1,1 -1,1 -1,1 -1,1 -1,2 0,1 -1,2 -1,2 0,1 -1,1 -1,2 0,0 0,1 -1,1 0,0 -1,1 -1,1 -1,1 -1,4 -2,5 0,1 0,2 0,3 0,1 -6,9 -7,9 l 1,-2 c -1,1 -2,2 -2,3 0,1 -1,2 -1,2 -1,1 -2,2 -2,3 -1,1 -2,2 -4,3 0,0 -1,0 -1,1 -2,1 -2,5 -4,6 l -1,1 -5,2 c -1,0 -3,2 -4,3 0,0 0,1 -1,1 0,1 -1,1 -1,2 0,1 -1,2 -1,2 0,0 -1,1 -1,1 0,1 -1,1 -1,2 -1,2 -3,3 -5,5 -1,1 -2,3 -2,4 0,1 -1,1 -1,2 0,0 -1,0 -1,1 0,0 0,1 -1,1 0,0 -1,0 -1,1 0,0 -2,1 -2,2 -1,1 -1,3 -2,4 0,0 -1,1 -2,2 0,0 -1,0 -1,0 0,0 -1,1 -1,1 -1,0 -1,1 -2,1 -1,0 -2,1 -2,1 0,0 -1,1 -1,1 -1,1 -2,1 -3,2 0,0 -1,1 -1,1 -1,1 -3,1 -4,1 l -1,0 c -1,0 -2,1 -3,1 -1,1 -3,3 -4,3 0,0 -1,0 -1,0 -2,1 -3,2 -5,2 -1,0 -2,0 -3,1 0,0 -1,1 -1,1 -1,0 -1,1 -2,1 -2,1 -4,1 -5,1 -1,0 -1,1 -2,1 -1,1 -3,2 -5,3 0,1 1,1 1,2 -1,0 -1,0 -2,-1 -1,0 -2,0 -3,1 0,0 -4,5 -4,6 0,0 0,1 0,1 1,0 2,0 3,0 l 1,0 0,1 c -1,0 -1,1 -2,2 -2,0 -3,1 -4,1 l 0,-1 c -1,0 -1,0 -2,0 0,0 -1,0 -2,0 -2,0 -4,0 -5,0 -1,0 -2,0 -3,0 0,1 -3,4 -4,5 0,0 -1,0 -1,1 0,1 -1,2 -1,2 -1,1 -2,2 -2,3 -1,1 -2,3 -2,4 0,1 -1,1 -1,2 0,1 0,2 0,2 l 1,1 c 0,0 1,-1 1,-1 0,0 1,-3 1,-4 1,0 2,-1 3,-2 0,0 0,-1 1,-1 1,-1 4,-3 6,-2 l 1,1 c 0,0 0,1 0,1 0,0 -1,1 -1,1 0,0 0,1 -1,1 0,0 -1,0 -1,1 0,0 0,1 -1,1 -1,1 -3,2 -3,3 -1,1 -1,3 -1,4 l -1,1 -1,0 c -2,0 -3,-1 -4,-3 -2,-1 -5,0 -7,1 -1,0 -1,1 -2,1 0,0 -1,0 -1,0 0,0 -2,1 -2,1 -1,1 -1,2 -2,3 -1,1 -2,2 -2,3 -1,1 -4,2 -5,3 -1,3 -1,6 -4,8 -1,0 -2,0 -3,0 -1,0 -1,1 -2,1 0,0 -1,0 -1,0 -1,0 -2,1 -2,1 -1,1 -2,1 -3,2 -1,1 -3,1 -4,1 -1,0 -3,0 -4,1 0,0 -1,1 -1,1 0,0 -1,0 -1,1 0,1 -1,2 -1,2 -1,1 -2,2 -3,4 l 0,1 -2,4 c -3,-1 -4,1 -5,3 0,0 0,1 0,1 -1,1 -1,3 -2,4 -3,1 -4,4 -5,7 0,1 -1,1 -2,2 -1,1 -3,1 -5,2 -2,1 -3,2 -5,3 -2,1 -6,3 -8,2 -1,0 -1,-1 -2,-2 l -1,-1 c -1,1 -2,1 -3,2 -1,1 -1,1 -2,1 -1,1 -1,1 -2,2 -1,0 -3,-1 -4,0 -1,0 -1,1 -2,2 -1,1 -3,1 -4,1 l -1,-1 c -2,1 -3,1 -6,1 -2,1 -3,2 -4,4 -1,1 -3,3 -4,3 -2,1 -4,1 -6,2 0,0 -1,0 -1,1 -1,0 -2,0 -3,1 0,0 -1,0 -1,1 -1,0 -2,0 -3,1 0,0 -1,0 -1,1 -2,1 -4,2 -6,3 -1,0 -1,1 -2,2 -1,1 -2,1 -3,2 -1,1 -2,2 -4,3 -1,1 -2,1 -3,2 -1,1 -2,2 -4,3 -2,1 -3,1 -5,2 l 0,2 1,1 -2,3 c -2,0 -3,2 -5,3 0,0 -5,2 -5,2 0,0 -1,0 -1,0 -1,0 -3,1 -3,2 -1,1 -3,1 -5,2 -1,1 -3,4 -5,5 0,0 -1,0 -1,1 -1,1 -1,2 -2,3 -2,2 -3,2 -6,3 -1,1 -2,1 -4,2 -1,0 -2,0 -3,0 0,0 -1,0 -1,1 -3,2 -4,3 -7,1 l -1,0 -1,1 c -1,0 -1,0 -2,-1 -2,-1 -4,-1 -5,-3 0,0 0,-1 -1,-1 0,-1 -1,-1 -1,-2 0,0 -1,0 -2,-1 l -1,0 c -1,0 -3,2 -3,3 l -1,0 c -1,0 -2,-1 -2,-1 -2,0 -3,3 -4,4 0,0 -1,1 -1,1 0,0 -1,0 -1,0 -1,0 -2,1 -3,2 0,0 -1,0 -1,0 -1,0 -2,1 -2,1 -1,0 -4,1 -4,1 -2,0 -3,0 -5,-1 -2,0 -7,0 -8,2 1,0 2,1 3,1 l 1,1 c -3,2 -8,4 -9,8 0,1 1,2 1,2 0,2 -2,2 -3,4 0,0 -1,1 -1,1 0,0 -1,0 -1,1 -1,1 -2,4 -2,4 -1,1 -3,0 -4,1 -1,1 -1,2 -3,3 -1,0 -3,1 -3,2 -1,0 -2,1 -3,1 -1,1 -1,2 -2,3 0,0 -1,1 -1,1 0,1 -1,1 -2,2 -1,1 -3,1 -4,1 l -1,-1 c -2,0 -3,2 -5,2 l 0,1 0,0 c 0,0 2,0 4,1 2,2 4,3 6,3 2,0 4,0 6,-2 2,-1 4,-2 5,-2 1,0 4,0 6,2 2,2 1,2 4,2 h 6 c 0,0 2,4 2,5 0,2 0,3 2,4 2,1 5,2 5,2 0,0 1,4 -2,4 -3,1 -5,1 -5,1 0,0 -1,2 -1,5 0,2 -1,5 -1,5 l -3,5 -1,0 c 6,0 18,0 18,0 0,0 7,-3 8,-4 2,-1 3,-2 7,-3 3,-1 7,0 11,-3 4,-3 6,-5 7,-6 1,-1 3,-1 4,0 1,1 7,3 7,3 l 1,-5 5,0 9,-5 0,-9 c 0,0 2,0 2,-2 v -4 l 3,-2 c 0,0 5,-5 7,-5 3,0 6,-1 6,-1 l 1,-5 h 3 l -1,-5 4,-1 2,-3 8,-2 c 0,0 3,0 8,-2 5,-3 6,-1 6,0 0,1 3,2 5,2 2,0 5,0 7,0 2,0 4,-1 4,-2 0,-2 2,-4 2,-4 l 5,0 c 0,0 1,5 3,6 2,1 4,2 6,2 2,0 2,-2 4,-3 2,-1 4,-2 4,-2 l 1,-3 8,-1 2,-3 c 0,0 4,0 5,0 1,0 5,0 5,0 l 1,-8 1,-4 c 0,0 4,0 5,0 2,0 8,0 8,0"/>
+    <path id="region-canterbury" data-region="Canterbury" class="mta-region" d="m 949,1405 -6,16 -15,4 -4,7 c 0,0 -4,3 -5,4 -1,1 -3,2 -4,4 -2,2 -9,10 -9,10 0,0 -3,2 -4,3 -1,1 -4,3 -4,3 l -4,10 c 0,0 -8,1 -10,1 -2,0 -6,1 -10,3 -4,2 -6,7 -8,9 -1,2 -2,4 -4,5 0,0 -4,3 -5,6 -2,2 -2,2 -4,5 -2,3 -7,2 -9,2 -2,1 -2,4 -2,5 0,1 -3,5 -3,5 0,0 0,2 0,5 0,2 -1,2 -4,3 -3,2 -4,0 -6,-2 -2,-2 -4,-1 -6,-1 -2,0 -4,0 -6,2 -2,1 -8,-1 -8,-1 l -5,0 c 0,0 -4,6 -5,6 0,1 -3,2 -3,2 0,0 -3,0 -5,-2 -2,-1 -6,0 -7,1 -1,1 -3,2 -6,4 -3,2 -4,9 -5,11 0,2 -4,4 -7,5 -2,1 -9,3 -11,3 -2,0 -4,2 -4,2 0,0 -8,10 -8,11 -1,1 -4,6 -4,8 -1,2 -2,2 -4,1 -2,0 -2,-1 -2,-1 l -2,-2 -10,8 c 0,0 -1,2 -2,4 0,1 -3,2 -3,2 l -3,4 c 0,0 -8,2 -10,2 -2,0 -4,0 -4,2 0,2 -3,4 -5,4 -2,0 -3,2 -3,2 v 4 c 0,0 -8,7 -9,8 -1,1 -3,0 -5,-1 -2,-2 -4,-2 -5,-2 -1,0 -6,2 -8,2 -1,0 -2,2 -3,4 -1,2 -3,3 -3,3 0,0 -4,4 -5,5 -1,1 -4,2 -6,2 -2,0 -6,-1 -6,-1 0,0 -7,2 -9,3 -2,1 -4,3 -5,4 -1,1 -7,4 -7,4 0,0 -6,5 -8,6 -2,1 -1,4 0,6 0,2 -2,4 -3,5 -1,1 -6,6 -8,7 -2,2 -4,7 -4,9 -1,2 -6,6 -8,8 -3,2 -2,2 -3,3 -1,2 -3,3 -6,3 -2,0 -4,2 -4,2 l -9,10 -6,6 -5,4 m 392,-290 4,-2 4,-4 c 0,0 4,-4 5,-4 2,0 4,0 4,0 l 3,-3 c 0,0 -2,-5 -1,-6 1,-2 4,-5 4,-5 0,0 -2,-4 1,-4 2,-1 6,-3 6,-3 l 1,3 5,-1 h 0 l 0,6 2,4 c 0,0 2,0 4,0 1,0 3,0 3,0 0,0 2,3 4,4 1,1 2,2 2,4 0,2 0,6 2,7 2,1 4,1 3,2 -1,2 -2,6 -2,6 0,0 0,2 2,2 2,0 4,1 6,1 2,0 4,0 4,2 0,2 1,7 1,7 l 8,5 1,6 c 0,0 1,1 2,2 2,1 2,4 2,4 l 4,1 2,-2 10,-2 c 0,0 0,-3 2,-5 2,-2 6,-8 7,-8 1,-1 2,-4 0,-5 -2,-1 -6,-2 -1,-5 5,-3 18,-13 18,-13 l 10,-3 6,-2 2,-3 c 0,0 6,-1 4,-4 -2,-3 -2,-5 -2,-6 0,-2 2,-12 2,-12 0,0 5,0 6,-1 2,0 4,-3 5,-4 1,-2 2,-3 2,-3 l 7,-3 c 0,0 2,-4 4,-4 2,-1 6,-4 6,-4 0,0 0,-2 0,-3 0,-1 2,-4 4,-4 2,0 4,0 4,3 1,3 2,4 3,4 1,0 4,-2 4,-2 l 11,-5 c 0,0 6,-2 6,0 0,2 1,2 3,2 2,0 8,1 9,1 1,0 4,1 4,1 l 4,2 0,0 c 0,0 0,0 0,0 -1,1 -2,2 -3,3 0,1 -1,1 -1,2 -1,1 -1,1 -2,2 0,0 0,1 -1,1 -1,1 -2,1 -3,2 0,0 0,1 -1,1 -1,1 -1,1 -2,2 0,0 0,1 -1,1 -1,1 -1,1 -2,2 -1,1 -4,5 -4,6 -1,1 -2,3 -2,4 0,0 0,1 0,1 0,0 0,1 -1,1 -1,2 -1,4 -1,6 0,2 1,4 0,6 -1,1 -3,3 -3,4 l 0,1 c -1,2 -3,2 -5,4 -1,2 -1,3 -3,5 -1,1 -3,2 -4,2 -1,1 -2,3 -3,3 -1,1 -3,1 -4,3 -1,2 -1,4 -2,6 -1,1 -3,1 -5,1 l -1,1 c 0,1 0,3 -1,4 -2,1 -4,1 -4,4 -1,5 3,5 3,8 l 0,1 -1,1 c -2,-1 -3,-4 -6,-4 -3,0 -5,1 -7,2 0,0 -1,1 -1,1 -1,1 -1,2 -2,3 -1,1 -2,1 -3,2 0,0 -1,1 -1,1 0,0 -1,0 -1,1 -1,1 -2,3 -2,4 -1,1 -1,2 -2,3 -2,4 0,5 -1,8 0,1 -1,2 -1,2 0,0 -1,0 -1,1 -1,1 -1,1 -1,2 -1,1 -2,2 -3,3 0,0 -1,1 -1,1 -1,0 -3,1 -4,1 l 0,1 c 1,0 2,0 2,1 -1,2 -2,7 -4,9 0,1 -1,1 -1,2 0,1 -1,2 -1,2 l -3,5 c 0,1 -1,2 -1,2 0,1 -1,2 -2,3 -1,2 -1,4 -2,6 -1,1 -2,2 -2,3 0,0 0,1 -1,1 0,0 -1,1 -1,1 -1,1 -3,2 -4,3 0,1 0,2 0,3 0,2 2,3 1,6 -1,1 -3,2 -4,3 -1,1 0,3 -1,4 l -1,1 c -1,1 -5,3 -6,4 0,0 -1,1 -1,1 l -1,0 c -3,0 -6,-1 -8,1 -1,0 -3,3 -3,3 -1,1 -1,2 -1,4 -1,1 -2,2 -2,2 0,0 0,1 -1,1 0,1 -1,1 -2,1 -2,1 -3,1 -5,1 -1,0 -1,1 -2,1 -1,1 -3,1 -4,1 0,0 -1,0 -1,0 -2,0 -4,1 -6,1 -1,0 -2,0 -3,0 -1,0 -1,0 -2,1 -3,1 -4,3 -7,5 0,0 -1,1 -1,1 -2,1 -4,2 -6,3 0,0 -1,0 -1,0 0,0 0,0 0,0 0,0 -1,1 -1,1 0,0 -1,0 -1,1 -1,1 -3,4 -3,5 0,1 -1,3 -1,3 0,0 -1,0 -1,1 -1,1 -2,3 -2,4 0,1 0,2 -1,3 0,1 -1,3 -2,3 0,1 0,4 1,5 -1,2 -2,7 -2,10 0,1 0,1 0,2 0,2 -1,4 -1,6 l -1,1 c 0,1 -1,2 -1,3 0,0 1,2 1,2 1,2 1,4 2,6 0,1 0,3 0,4 0,0 0,1 0,1 0,1 0,2 1,3 0,1 1,2 2,3 1,2 2,2 2,4 l -1,1 c -1,0 -2,-2 -2,-3 l -1,0 c 0,1 -1,2 -1,2 1,0 2,1 2,1 0,0 1,1 1,1 2,1 7,1 9,3 l -1,1 c -2,0 -3,0 -5,0 -2,0 -3,0 -5,0 -1,0 -1,0 -2,0 -1,0 -2,0 -3,1 0,0 -1,1 -1,1 -1,0 -4,2 -5,2 0,1 0,2 0,3 1,0 2,1 3,2 1,0 2,0 2,-1 1,0 2,0 3,0 0,0 2,-3 2,-3 1,-1 3,-1 4,-1 0,0 2,1 3,1 2,0 5,-2 7,-1 l 1,1 c 0,2 -1,3 1,5 1,1 2,1 2,1 2,-1 1,-4 2,-6 0,-1 1,-2 1,-2 2,0 3,1 5,2 1,3 -3,8 0,11 l 1,-1 c 0,-1 1,-1 1,-2 0,-1 1,-3 2,-3 0,0 1,-1 2,-1 0,0 0,0 0,0 0,0 1,0 1,0 2,2 3,1 5,2 0,1 1,2 1,2 l 1,0 c 1,-1 2,-3 3,-4 l 1,0 c 1,1 0,3 2,4 1,1 4,2 5,4 0,1 -1,2 -1,4 l 0,1 c 1,0 2,1 2,2 0,1 0,2 0,2 l 1,1 c 0,1 0,2 0,2 l 0,1 -2,3 c 0,2 2,2 1,5 -1,1 -2,2 -3,4 -1,-1 -2,-2 -2,-3 -1,0 -1,1 -2,1 0,1 0,2 0,3 l -1,1 -1,0 c -1,-1 -2,-1 -2,-1 l -1,1 c 0,1 0,2 1,2 l -1,1 c -1,0 -2,-1 -2,-2 l -1,0 c -1,1 -1,1 -1,2 l -1,0 c -1,-1 -1,-2 -1,-3 0,-1 -1,-1 -1,-2 -1,-3 1,-6 0,-8 -1,0 -1,-1 -2,-1 0,0 -1,-2 -1,-2 0,-2 1,-3 0,-5 -1,0 -2,0 -3,0 -1,1 -2,2 -3,3 l 0,1 2,2 c 0,2 -2,4 -2,6 0,3 1,3 1,5 0,1 0,2 0,3 1,2 6,5 5,8 -1,0 -3,-1 -4,-1 -1,0 -2,0 -3,0 -1,0 -3,-1 -4,-1 -1,0 -2,0 -3,1 -3,-1 -3,-3 -4,-4 l -2,0 -1,1 h -1 c -1,0 -1,-1 -2,-2 0,0 -1,-1 -1,-1 0,0 -1,-1 -1,-1 0,0 -1,0 -1,0 -1,0 -1,-1 -2,-2 -1,-1 -4,-2 -4,-4 0,0 0,-2 0,-3 1,-1 2,-2 4,-3 -5,0 -4,2 -7,3 -2,0 -4,1 -6,1 -1,0 -2,0 -3,0 -1,0 -2,0 -3,0 0,0 -1,0 -1,0 0,0 -1,0 -1,0 0,0 -1,0 -1,0 -1,0 -1,0 -2,0 -2,0 -4,1 -6,1 -1,0 -3,1 -4,1 0,0 -1,0 -1,0 0,0 -1,0 -1,0 -1,0 -2,1 -3,1 -1,0 -2,0 -3,1 -1,0 -2,1 -3,1 -1,0 -2,0 -3,0 l -1,-1 c 0,0 1,-1 2,-2 0,0 1,0 1,0 0,0 1,0 1,-1 1,-1 3,-1 4,-1 1,0 2,-1 2,-1 0,0 1,0 1,0 2,0 3,0 5,0 2,0 4,-1 5,-2 1,0 3,-1 4,-1 1,0 3,-1 4,-2 1,0 2,0 2,-1 0,0 1,-1 1,-1 l 0,-1 c -1,0 -5,-2 -5,-2 0,0 -4,1 -4,1 -2,0 -4,-1 -5,-2 0,0 0,-1 -1,-2 0,0 -1,-1 -1,-1 -1,-1 -2,-2 -2,-2 -2,-1 -4,-1 -6,-1 -1,1 -2,2 -3,2 -1,-1 -2,-1 -4,0 0,1 -4,5 -5,5 -1,3 -1,5 -1,8 0,2 2,6 1,8 0,0 -1,1 -1,1 -1,1 -3,1 -4,1 -1,0 -2,1 -3,1 -1,0 -3,0 -4,1 -1,0 -2,1 -3,1 -1,0 -2,0 -3,0 -2,0 -4,1 -6,1 0,0 -2,2 -2,2 0,0 -3,1 -4,2 0,0 -1,0 -1,0 -2,1 -4,2 -5,3 -1,1 -3,1 -4,1 0,0 -1,0 -1,0 0,0 -1,0 -1,0 0,0 -1,1 -2,1 -1,1 -3,1 -5,2 -2,1 -4,2 -6,3 -1,0 -2,1 -3,1 -1,0 -2,1 -3,2 0,0 -1,1 -1,1 -1,1 -2,1 -3,2 0,0 0,1 -1,1 -2,2 -4,3 -6,4 0,0 -1,1 -1,1 -1,1 -4,1 -5,1 0,0 -1,0 -1,0 -2,0 -3,0 -5,0 -1,1 -2,2 -4,3 0,0 -1,1 -1,1 -2,1 -4,2 -6,3 -1,0 -2,0 -3,1 0,0 -1,0 -1,0 -1,0 -3,0 -4,1 0,0 -1,1 -1,1 0,0 -1,0 -1,1 0,0 0,1 -1,1 -1,1 -3,2 -4,3 -1,1 -3,1 -4,1 0,0 -1,0 -1,0 0,0 -1,1 -1,1 0,0 -1,0 -1,1 0,0 -1,1 -1,1 -1,0 -2,1 -2,1 l -4,4 c 0,0 0,1 -1,1 -1,1 -2,1 -2,1 0,0 -1,1 -1,1 -1,0 -2,0 -2,1 0,0 -1,1 -1,1 0,0 -1,0 -1,1 -1,1 -4,3 -5,4 -2,2 -3,4 -6,4 -1,0 -1,-1 -2,-1 -1,1 -3,3 -4,4 0,0 0,1 -1,1 -1,1 -2,2 -3,2 -1,1 -1,1 -2,2 -1,1 -2,3 -3,5 0,0 0,1 0,1 0,0 0,1 -1,1 0,0 0,1 0,1 0,1 -1,1 -1,2 1,0 1,1 1,2 0,0 0,1 0,2 0,3 -1,5 -2,8 0,1 -1,2 -2,3 -1,2 -3,3 -4,4 0,1 0,2 0,3 0,0 0,1 -1,1 0,0 0,1 -1,1 -2,2 -5,1 -6,3 1,1 2,1 3,2 1,1 0,3 0,4 0,1 0,2 0,3 0,1 0,2 0,3 0,1 0,2 0,3 0,0 0,1 0,1 0,0 0,1 0,1 0,1 0,1 0,2 0,2 1,4 2,6 0,1 0,3 1,4 0,3 1,3 1,6 0,1 0,1 -1,2 -1,1 -3,0 -5,1 l -1,1 0,1 c 1,0 2,0 3,0 1,1 2,2 2,3 0,1 0,3 0,5 0,1 0,2 0,3 0,2 -1,4 -1,6 0,1 0,2 0,3 0,0 0,1 0,1 0,0 0,1 0,2 0,0 0,1 0,1 l 0,0 -27,-5 -16,-4 c 0,0 -6,2 -7,2 h -4 l -17,2 c 0,0 -3,5 -3,6 0,1 -1,2 -2,2 -2,0 -2,2 -2,2 l -3,1 c 0,0 -3,1 -5,2 -2,1 -4,4 -5,6 -1,2 -2,4 -6,6 -4,2 -3,2 -6,5 -4,4 -4,2 -6,0 -2,-2 -4,-6 -4,-6 -2,-3 -1,-7 -1,-7 0,0 2,-4 2,-5 1,-1 1,-2 0,-4 -1,-1 -2,-2 -3,-6 -1,-3 -6,-1 -6,-1 l -6,2 c 0,0 -6,2 -8,2 -2,1 -6,2 -9,1 -3,0 -6,-3 -6,-3 0,0 -4,-5 -5,-6 -1,-1 -2,-2 -4,-4 -2,-2 -3,-3 -4,-4 0,-1 -2,-8 -2,-10 0,-2 -2,-4 -3,-5 -1,-2 -1,-4 -1,-6 0,-2 -1,-5 -2,-8 -1,-3 -6,-3 -7,-2 -1,0 -5,1 -6,2 -1,0 -4,1 -4,1 0,0 -2,-1 -4,-1 l -2,-2 c 0,0 -1,-2 -1,-4 0,-2 -1,-5 -2,-6 -1,-1 -2,-1 -3,1 -1,2 -2,4 -2,4 l -8,-4 c 0,0 0,-4 0,-6 0,-2 2,-4 2,-4 l -4,-5 2,-5 -4,-2 c 0,0 -3,1 -4,2 -1,1 -2,1 -5,-1 -3,-2 0,-10 0,-11 1,-1 1,-5 2,-6 0,-2 0,-5 0,-7 0,-2 0,-4 0,-6 0,-2 1,-6 1,-7 0,-1 -5,-6 -5,-6 0,0 0,-2 2,-4 2,-2 8,-13 8,-14 0,-1 2,-3 3,-5 0,-2 0,-5 3,-5 2,0 2,-3 2,-3 l -1,-11"/>
+    <path id="region-otago" data-region="Otago" class="mta-region" d="m 557,1695 c 0,0 -6,0 -8,0 -2,0 -5,0 -5,0 l -1,4 -1,8 c 0,0 -4,0 -5,0 -1,0 -5,0 -5,0 l -2,3 -8,1 -1,3 c 0,0 -2,1 -4,2 -2,1 -3,3 -4,3 -2,0 -4,-1 -6,-2 -2,-1 -3,-6 -3,-6 l -5,0 c 0,0 -2,2 -2,4 -1,2 -3,2 -4,2 -2,0 -5,0 -7,0 -2,0 -5,-1 -5,-2 0,-1 -1,-3 -6,0 -5,3 -8,2 -8,2 l -8,2 -2,3 -4,1 1,5 h -3 l -1,5 c 0,0 -3,1 -6,1 -3,0 -7,5 -7,5 l -3,2 v 4 c 0,2 -2,2 -2,2 l 0,9 -9,5 -5,0 -1,5 c 0,0 -6,-2 -7,-3 -1,-1 -3,0 -4,0 -1,1 -3,3 -7,6 -4,3 -8,2 -11,3 -3,1 -5,2 -7,3 -2,1 -8,4 -8,4 0,0 -17,0 -21,0 -4,0 -4,2 -5,4 -1,2 -5,3 -5,3 0,0 -1,6 -1,8 0,1 -2,4 -2,5 -1,1 -4,7 -4,8 0,1 1,4 0,5 -1,1 -2,4 -1,8 1,4 4,2 4,2 0,0 0,4 -2,6 -1,2 -4,8 -4,8 h -5 l -2,10 c 0,0 1,3 2,5 1,2 0,6 0,6 l 6,4 1,4 c 0,0 4,2 6,4 2,2 4,4 4,4 0,0 5,0 6,-1 2,-1 4,2 3,3 -1,2 -2,8 -2,8 0,0 -1,2 -2,3 -1,0 -4,2 -4,2 0,0 -1,2 0,4 0,1 2,8 4,10 2,2 5,3 5,4 0,1 0,4 0,5 0,1 0,4 0,4 l 2,8 c 0,0 4,1 5,1 2,0 7,0 8,0 l 12,-1 c 0,0 2,0 6,-1 4,0 4,-3 4,-3 0,0 1,-3 5,-3 4,0 3,-3 3,-4 0,-1 2,-3 2,-3 l 4,0 c 0,0 3,4 3,8 0,3 0,8 0,8 l 8,6 4,0 0,10 c 0,0 3,3 4,4 2,1 4,1 4,1 l 3,-2 2,3 3,1 2,-2 c 3,-4 8,-12 8,-12 l 3,-6 15,-14 c 0,0 2,-1 2,2 1,2 2,7 2,7 0,0 2,2 4,2 2,0 4,1 4,2 0,1 2,4 3,6 1,1 2,2 4,2 2,0 4,0 3,1 0,2 -3,7 -3,7 l -5,2 -4,2 -4,16 -1,4 -4,8 c 0,1 -2,3 -3,3 -1,0 -3,1 -3,1 l -2,5 -3,5 c 0,0 -1,4 0,5 0,2 1,5 2,6 1,2 3,4 3,4 0,0 2,2 1,3 -1,1 -4,3 -4,3 0,0 -2,3 1,3 3,0 5,-1 6,-2 2,-1 2,-1 3,1 1,2 1,3 2,4 1,1 2,2 0,4 -1,2 -2,5 -2,6 0,1 1,3 -1,4 -2,1 -3,2 -2,4 1,2 3,7 3,7 0,0 2,1 3,2 2,1 4,1 6,1 1,0 2,2 2,3 0,1 1,6 1,6 0,0 -3,5 -3,6 0,1 -2,2 0,4 1,2 4,7 4,7 0,0 3,6 3,7 0,1 1,3 0,4 -1,1 -2,2 -2,5 1,2 0,6 0,7 -1,1 -4,5 -5,6 l -4,2 v 5 l 3,0 c 0,0 2,0 4,2 1,2 2,4 2,5 0,2 -2,3 -2,3 l 0,6 c 0,0 3,1 4,2 1,1 1,2 2,2 2,0 4,1 4,1 0,0 -4,5 -5,6 -2,1 -4,1 -4,1 0,0 0,2 0,3 1,1 2,4 2,4 l 7,1 3,2 0,0 c 1,-1 3,-1 4,-1 1,0 2,1 3,1 1,0 1,0 2,0 1,0 2,1 3,2 l 1,0 c 0,-1 0,-2 1,-3 2,-2 3,-1 6,-1 1,0 2,0 3,0 1,0 2,1 4,2 1,0 1,-1 2,-2 0,-1 -1,-2 -2,-3 l 0,-1 c 1,-1 3,-2 4,-3 1,-1 3,-1 4,-1 0,0 1,0 1,-1 2,-1 5,-1 6,-1 0,0 3,1 3,1 1,0 1,1 2,1 1,-1 2,-2 4,-2 0,-1 1,-1 2,-2 1,0 3,0 5,-1 0,0 1,-1 1,-1 1,0 1,-1 2,-1 1,-1 1,-2 2,-3 1,-1 3,-2 2,-4 l -1,-1 c -1,0 -3,0 -4,0 0,0 -1,-1 -1,-1 -2,0 -5,2 -8,0 l 0,-1 c 2,0 3,-1 6,-2 1,0 4,0 5,0 0,0 1,0 1,0 1,0 2,0 3,0 0,0 1,0 1,0 1,0 2,0 3,1 0,-1 0,-2 1,-2 2,0 4,-1 6,-2 1,0 1,-1 2,-1 0,0 0,-1 0,-1 0,-1 0,-3 -1,-4 0,-2 0,-3 0,-5 0,-2 0,-3 1,-5 1,-1 2,-1 3,-2 0,0 1,-1 1,-1 1,-1 3,-2 4,-3 0,0 1,0 1,-1 0,0 1,-1 1,-1 1,0 1,-1 2,-1 2,-1 4,-2 6,-3 0,0 1,-1 1,-1 1,0 2,-1 2,-1 0,0 1,-1 1,-1 0,0 1,0 1,-1 0,0 1,-1 1,-1 0,0 1,0 1,-1 0,0 1,-1 1,-1 0,0 1,0 1,-1 1,-1 1,-2 2,-3 0,0 1,-1 1,-1 1,-1 2,-1 3,-2 1,-1 1,-1 2,-2 0,0 1,0 1,-1 1,-1 2,-1 3,-2 2,-1 4,-1 5,-2 1,0 2,-1 3,-2 2,-1 6,-5 7,-7 0,-1 0,-2 0,-3 l 0,-1 1,-1 c 1,-1 1,-4 1,-5 0,-1 0,-3 1,-4 0,0 0,-1 1,-1 0,0 0,-1 0,-1 0,0 1,-1 1,-1 1,-1 1,-2 2,-3 0,-1 1,-1 1,-2 0,0 0,-1 1,-1 0,-1 1,-1 2,-2 0,-1 1,-1 1,-2 1,-1 3,-2 4,-3 1,-1 5,-3 6,-3 0,0 1,0 1,0 0,0 1,0 1,-1 2,-1 4,-2 6,-3 4,-1 7,-1 11,-2 2,0 3,-1 4,-1 1,0 1,0 2,0 1,0 1,0 2,0 1,0 2,0 4,0 2,0 3,0 5,-1 1,0 3,-1 4,-1 2,0 3,0 5,1 l 1,-1 c 0,-1 0,-2 0,-3 1,0 1,-1 2,-2 l 1,0 1,1 c 1,0 2,0 3,0 1,0 2,0 3,1 1,0 2,-1 2,-1 1,-2 1,-2 1,-4 0,0 0,-1 0,-1 0,-1 -1,-3 -1,-3 l 0,-1 1,-1 c 0,0 0,-1 0,-1 0,0 -1,-3 -1,-3 l -1,-1 c -2,3 -2,3 -5,5 -1,0 -2,0 -2,1 -2,2 -2,5 -4,6 -1,1 -4,1 -5,2 -1,1 -2,1 -3,2 -1,0 -2,1 -2,1 -1,1 -2,2 -3,2 -2,1 -4,0 -6,1 l 0,-1 c 1,-2 4,-3 6,-3 0,-1 1,-1 2,-2 1,-1 1,-2 2,-3 l 2,-2 c 1,-1 3,0 4,-1 l 1,-1 c 0,0 0,-1 0,-1 0,-1 1,-1 1,-2 l 1,0 c 1,0 3,0 4,-1 1,0 2,-1 2,-1 1,0 1,0 2,0 1,0 3,-1 3,-2 l 0,-1 0,-1 c -2,-1 -5,0 -7,-2 0,0 -1,-1 -1,-2 l -1,0 c -1,1 -2,2 -4,2 0,-1 -1,-1 -2,-2 l -3,0 -1,-1 c 0,-1 0,-2 0,-3 0,-1 1,-1 2,-2 1,0 2,0 3,1 l 1,0 c 0,-1 0,-2 1,-2 1,-1 3,-1 4,-1 1,-1 1,-3 1,-4 0,-1 2,-2 2,-3 l -1,-1 c -1,0 -2,1 -3,0 -1,0 -2,-1 -2,-2 l 0,-1 1,-1 c 1,-1 3,-1 4,0 0,0 1,1 1,1 1,0 2,0 3,0 1,-1 1,-2 2,-3 0,0 1,-1 1,-1 0,0 0,-1 0,-1 -1,-1 -2,-3 -2,-5 l 1,0 c 0,1 1,2 2,2 2,0 3,-3 4,-4 l -1,-1 c 0,-2 1,-3 2,-5 1,-1 1,-1 2,-1 0,0 1,-1 1,-1 1,-1 2,-1 3,-2 1,-1 1,-3 0,-4 0,-1 -1,-2 -1,-2 0,0 0,-1 0,-1 0,-1 3,-5 3,-5 1,-1 3,-2 4,-3 l 1,-1 c 0,-1 0,-3 -1,-4 -1,0 -2,0 -3,1 l -1,0 c 0,-1 -1,-2 0,-3 0,0 1,-1 1,-1 0,-1 0,-2 1,-2 1,-2 2,-4 3,-5 1,-1 1,-3 1,-4 0,-1 1,-3 1,-4 1,-4 3,-7 5,-10 1,-2 1,-3 2,-5 0,-1 1,-1 1,-2 0,0 0,-1 1,-1 1,-2 4,-2 6,-4 0,-1 0,-2 0,-3 1,-1 6,-5 7,-6 0,0 1,-1 1,-1 0,0 0,-1 1,-1 0,0 1,-1 1,-1 1,-1 1,-2 2,-3 2,-3 4,-4 6,-6 0,0 2,-4 3,-4 0,0 0,-1 0,-1 l 3,-5 c 1,-1 1,-1 2,-2 l 0,0 -27,-5 -16,-4 c 0,0 -6,2 -7,2 h -4 l -17,2 c 0,0 -3,5 -3,6 0,1 -1,2 -2,2 -2,0 -2,2 -2,2 l -3,1 c 0,0 -3,1 -5,2 -2,1 -4,4 -5,6 -1,2 -2,4 -6,6 -4,2 -3,2 -6,5 -4,4 -4,2 -6,0 -2,-2 -4,-6 -4,-6 -2,-3 -1,-7 -1,-7 0,0 2,-4 2,-5 1,-1 1,-2 0,-4 -1,-1 -2,-2 -3,-6 -1,-3 -6,-1 -6,-1 l -6,2 c 0,0 -6,2 -8,2 -2,1 -6,2 -9,1 -3,0 -6,-3 -6,-3 0,0 -4,-5 -5,-6 -1,-1 -2,-2 -4,-4 -2,-2 -3,-3 -4,-4 0,-1 -2,-8 -2,-10 0,-2 -2,-4 -3,-5 -1,-2 -1,-4 -1,-6 0,-2 -1,-5 -2,-8 -1,-3 -6,-3 -7,-2 -1,0 -5,1 -6,2 -1,0 -4,1 -4,1 0,0 -2,-1 -4,-1 l -2,-2 c 0,0 -1,-2 -1,-4 0,-2 -1,-5 -2,-6 -1,-1 -2,-1 -3,1 -1,2 -2,4 -2,4 l -8,-4 c 0,0 0,-4 0,-6 0,-2 2,-4 2,-4 l -4,-5 2,-5 -4,-2 c 0,0 -3,1 -4,2 -1,1 -2,1 -5,-1 -3,-2 0,-10 0,-11 1,-1 1,-5 2,-6 0,-2 0,-5 0,-7 0,-2 0,-4 0,-6 0,-2 1,-6 1,-7 0,-1 -5,-6 -5,-6 0,0 0,-2 2,-4 2,-2 8,-13 8,-14 0,-1 2,-3 3,-5 0,-2 0,-5 3,-5 2,0 2,-3 2,-3 l -1,-11"/>
+    <path id="region-southland" data-region="Southland" class="mta-region" d="m 166,1899 1,1 c 0,1 0,2 -1,2 0,2 1,3 2,4 0,1 0,2 0,3 1,1 3,2 4,3 1,1 0,3 0,4 0,1 2,3 2,4 l 0,1 c -1,0 -2,0 -2,0 l 0,1 c -2,1 -4,-1 -6,-2 0,0 0,-1 -1,-1 -1,-1 -4,-2 -6,-2 -2,-1 -2,-3 -4,-5 l -1,-1 0,-1 2,-2 c 0,-1 0,-2 0,-3 1,-2 4,-3 5,-5 1,-2 1,-4 3,-5 l 0,0 c 0,0 1,2 1,2 z m -42,71 c -1,0 -2,0 -3,0 l 0,-1 c 1,-1 2,-1 3,-2 0,1 1,2 0,3 z m 8,8 c 1,1 1,2 1,3 0,0 0,1 0,1 0,0 0,1 1,1 1,2 1,8 0,10 0,1 -2,2 -3,3 -1,1 -2,1 -3,1 l -1,-1 c 0,-1 -1,-2 -2,-3 -1,1 -2,2 -2,3 -1,0 -2,1 -2,1 l -1,-1 c 0,-1 0,-2 1,-3 -1,-2 -2,-3 -3,-4 -1,-2 1,-5 -1,-6 0,0 -1,-1 -2,-1 l -1,0 c -1,0 -2,1 -3,2 0,1 -1,1 -1,2 0,1 -1,1 -2,2 0,0 -1,0 -1,1 -1,1 -1,2 -1,2 -1,1 -3,1 -3,2 -1,0 -2,1 -3,0 0,-2 2,-5 3,-7 0,0 1,-1 1,-1 0,0 0,-1 1,-1 1,-1 2,-2 2,-3 1,-1 1,-2 2,-3 1,-1 3,-1 4,0 1,0 1,-1 2,-2 2,-1 4,0 5,0 0,0 1,0 1,0 1,0 2,0 3,0 2,0 3,-2 5,-1 1,1 2,2 2,4 z m -19,21 c -1,0 -1,0 -2,1 -2,1 -5,2 -7,0 1,-1 2,-1 4,-1 2,-1 3,-2 5,-1 l 0,1 z m 26,2 -1,1 c -3,1 -11,2 -13,2 l -1,-1 0,-1 c 2,-2 3,-1 5,-2 2,-1 3,-2 5,-2 2,0 4,1 6,1 l 0,1 c 0,1 -1,1 -2,2 z m 19,-5 0,1 c -1,1 -1,1 -2,1 -3,1 -5,1 -7,1 0,-1 0,-2 0,-3 0,0 1,-1 1,-1 1,-1 6,-2 7,-1 0,0 2,1 2,1 l 0,0 z m -46,43 1,0 1,1 c -1,1 -1,1 -2,1 0,1 0,2 0,3 -1,0 -2,-1 -2,-2 l 0,-1 c 0,0 1,-1 1,-1 z m -3,6 1,1 0,1 0,1 -1,0 0,-1 c 0,0 0,0 0,0 0,0 0,-1 0,-2 z m -3,7 c 1,-1 2,-1 2,-1 l 1,1 c 0,1 -1,2 -1,2 l -1,0 -1,-1 c 0,0 0,-1 0,-1 z m 14,11 c 1,-1 3,-1 4,0 l 0,1 c 0,0 -1,1 -1,1 0,0 -1,0 -1,0 -1,0 -2,1 -3,1 0,-1 1,-2 2,-3 0,0 1,-1 1,-1 z m 192,102 c 1,1 1,2 2,3 1,1 1,1 2,2 1,1 1,1 1,2 1,1 1,1 2,2 0,1 0,3 0,4 1,1 3,1 4,1 1,3 2,4 5,5 1,0 2,1 2,1 1,1 1,3 1,3 2,0 4,0 5,1 0,0 1,2 1,2 0,1 -2,2 -2,3 1,1 2,1 2,1 l 0,1 c -1,0 -2,1 -3,1 -1,0 -2,0 -3,0 -1,0 -1,0 -2,0 -2,0 -4,-1 -5,-1 -1,1 -2,1 -3,1 l -1,-1 c 0,0 1,-1 1,-2 -1,0 -2,0 -3,0 -2,0 -4,-1 -6,-1 l -1,1 0,1 c 1,1 2,3 2,5 0,1 -1,1 -2,2 -1,1 -1,1 -2,2 -1,1 -1,1 -2,1 -1,1 -1,1 -2,2 l 0,1 c 0,0 1,0 2,0 2,0 3,-2 5,-4 0,0 1,-1 1,-1 0,0 0,0 0,0 1,0 2,-1 3,-1 0,0 0,0 0,0 0,0 1,0 2,0 1,0 2,2 3,2 1,0 1,0 2,0 1,0 3,1 4,2 2,0 4,1 6,1 l 0,1 c -1,0 -2,2 -3,2 l 0,1 c 1,0 2,0 3,0 1,0 3,-2 4,-3 1,0 2,1 3,1 1,0 2,-1 3,-2 2,2 1,4 5,5 -1,1 -1,2 -2,3 0,1 0,3 -1,4 -2,0 -4,-1 -6,-1 l -1,1 c 1,1 2,1 3,1 1,1 2,1 3,2 1,0 3,1 3,2 l 0,1 c -1,0 -2,0 -3,0 -1,-1 -1,-3 -3,-4 -2,0 -4,0 -5,2 0,1 1,2 2,3 l 0,1 -1,1 c -2,-1 -2,-2 -4,-3 l -1,1 c 1,1 2,2 2,3 -2,0 -5,-1 -6,-2 -2,0 -4,1 -5,2 l -1,0 -1,-1 c -1,0 -2,0 -3,0 -1,2 -4,1 -5,2 -1,1 -2,2 -3,3 -1,1 -2,1 -3,2 -1,0 -1,1 -2,1 0,0 -1,0 -1,1 -3,2 -4,5 -8,4 -2,0 -3,-1 -4,-3 l -1,0 -1,1 c -1,0 -2,-1 -2,-1 -1,0 -3,1 -4,0 0,0 -1,-1 -1,-1 0,0 0,-1 0,-1 0,-1 -1,-1 -1,-2 l -1,-1 c -1,0 -2,1 -2,1 -1,0 -1,1 -2,1 0,0 -1,0 -1,0 0,0 -1,1 -1,1 0,1 0,3 0,4 l -1,1 c -1,-1 -2,-2 -3,-2 0,1 -1,1 -1,2 l -2,1 c 0,1 -1,2 -1,2 -1,1 -5,2 -7,2 l 0,1 c 1,1 5,1 6,0 0,0 1,0 1,-1 1,0 2,0 3,0 1,0 3,-1 4,-2 l 1,0 c 0,1 -1,2 -1,2 0,0 0,3 0,3 -1,2 -2,1 -3,2 -1,0 -1,1 -2,2 l -1,0 c -1,-1 0,-3 0,-4 l -1,-1 -1,0 -1,1 c 0,1 -1,2 -1,2 0,1 -3,3 -4,3 l -1,0 c -2,0 -4,0 -5,0 -2,0 -4,1 -6,1 l -1,-1 c 0,-2 0,-3 0,-5 0,-2 1,-6 2,-8 1,-1 2,-2 3,-2 1,0 2,0 3,0 1,-1 2,-1 3,-2 1,0 2,-1 3,-1 1,0 1,-1 1,-2 l -2,0 -1,-1 c 0,-2 1,-3 2,-5 0,-3 -1,-4 -1,-7 0,-1 1,-3 2,-3 1,-1 6,-4 8,-5 1,0 2,0 3,0 1,1 2,2 3,2 l 1,0 c 1,-1 0,-2 1,-3 0,0 0,-1 0,-1 0,0 0,-1 0,-1 0,0 0,-1 0,-1 0,0 0,-1 -1,-1 -1,-1 -1,-3 -1,-4 l 0,-1 c 2,-1 4,0 6,-1 1,0 2,-1 2,-1 1,0 1,-1 1,-2 1,-2 3,-5 2,-8 0,-1 -1,-1 -1,-2 0,-1 0,-2 0,-3 0,-1 -1,-3 -2,-3 0,0 -1,-1 -1,-1 0,0 0,-1 -1,-1 -1,-1 -1,-1 -2,-2 0,-1 -1,-1 -1,-2 l 0,-1 c 0,-1 2,-2 2,-3 l 0,-1 c 0,-1 -1,-1 -1,-2 0,-1 -1,-2 -1,-2 l 0,-1 c 1,0 1,-1 2,-2 0,-2 -1,-4 0,-6 0,0 1,-1 1,-1 0,0 1,0 1,-1 1,0 1,-1 2,-1 6,-1 7,2 10,2 3,0 4,-3 7,-3 1,1 2,2 3,2 1,1 3,1 4,2 0,0 1,1 1,1 1,0 2,1 2,1 1,1 1,2 2,3 z m -44,12 c -1,0 -2,1 -3,1 -1,0 -2,-2 -2,-3 0,-1 0,-3 1,-4 1,0 2,0 3,0 1,0 2,-1 3,0 l 0,1 c 1,0 2,1 3,1 0,1 0,2 -1,2 -1,1 -2,1 -3,2 z m -30,73 0,0 h 0 c 0,1 -1,1 -1,2 -1,0 -2,1 -3,1 -1,1 -2,2 -3,2 l -1,-1 c 0,-1 1,-3 1,-4 0,0 1,-1 2,-1 2,-1 4,-2 6,-1 l 1,1 c 0,0 -1,1 0,1 z m 41,-5 0,1 0,0 c 0,0 -2,1 -2,1 -1,-1 -2,-3 -1,-5 l 1,0 c 0,0 2,2 2,2 z m 64,-41 -1,0 0,-1 c 0,-1 1,-1 2,-2 l 1,0 c 0,0 0,1 -1,2 -1,0 -1,1 -2,1 z m 10,-5 -1,-1 0,-1 1,-1 1,0 c 0,0 1,1 0,1 0,0 -1,1 -2,1 z m 38,-22 c 0,1 -1,2 -2,3 l -1,0 c 0,-1 0,-2 0,-3 -2,0 -3,0 -5,0 l 0,-1 1,-1 0,-1 0,-1 1,0 c 1,0 2,1 3,1 2,-1 2,-4 4,-5 l 1,0 c 1,1 1,5 0,7 -1,1 -2,2 -3,2 z m -64,-430 0,0 c 2,1 5,2 6,4 0,1 0,2 0,3 -1,0 -1,1 -2,2 -1,0 -2,1 -2,1 -1,0 -2,0 -3,-1 -2,0 -4,1 -6,1 0,0 -1,0 -1,-1 -1,0 -2,0 -3,0 0,2 2,2 1,5 0,1 -1,1 -1,2 0,1 -1,1 -2,2 -1,1 -5,2 -6,3 0,0 -1,0 -1,0 0,0 -2,1 -2,1 -1,1 -2,4 -3,5 -1,1 -3,2 -5,4 -1,1 -2,3 -3,4 -2,1 -5,3 -5,5 0,1 1,2 1,3 0,1 0,2 0,3 0,2 1,5 1,6 0,1 -1,3 -1,4 2,2 8,1 7,6 1,0 2,0 3,0 l 1,1 c 0,1 0,2 0,3 1,1 1,2 1,3 0,0 -1,2 -1,2 l -1,1 -1,-1 c 0,0 -1,-4 -2,-4 -1,-1 -2,-2 -3,-2 0,0 0,-1 -1,-1 0,0 -3,-2 -3,-2 -1,-1 -3,-2 -4,-3 -2,-1 -3,-4 -5,-5 -1,0 -3,1 -4,1 -1,0 -1,1 -2,1 0,0 -1,0 -1,0 -1,0 -2,1 -3,2 -1,1 -1,1 -2,2 -1,1 -3,1 -4,2 -1,1 -2,3 -2,4 -2,0 -3,0 -5,0 -1,0 -2,1 -2,1 -1,1 -2,1 -3,2 0,1 0,2 0,3 1,2 3,2 4,3 1,1 1,2 1,3 1,1 2,1 3,1 1,1 1,3 4,3 -1,0 -2,0 -3,0 -1,0 -1,0 -2,0 l -1,-1 c -1,-1 -1,-1 -1,-2 0,0 -1,-1 -1,-1 -1,-2 -2,-4 -5,-4 0,0 -1,0 -1,0 -1,0 -1,1 -2,1 -1,0 -2,0 -2,1 l 0,1 c 1,1 1,1 2,1 1,1 0,3 3,4 0,1 0,2 1,2 1,0 2,0 3,1 1,2 -1,3 -2,4 0,1 0,2 -1,3 -1,1 -3,2 -3,4 l 1,2 -1,1 c -1,0 -2,-1 -3,-2 0,0 -1,-1 -1,-2 -1,-2 0,-5 1,-7 1,-1 2,-3 3,-4 l 0,-1 c -1,-1 -1,-1 -2,-2 -1,-1 -1,-1 -1,-2 -1,-1 -2,-1 -4,-1 -1,0 -1,0 -2,0 -2,0 -3,1 -5,2 0,0 -1,1 -1,1 -2,2 -2,5 -2,8 0,0 0,1 0,1 0,0 0,1 0,1 0,1 0,2 1,2 0,0 0,1 0,1 0,0 0,1 1,1 1,1 2,4 3,5 0,2 -1,3 -1,5 1,2 3,2 3,3 0,1 0,2 0,3 0,0 0,1 1,1 0,1 1,1 1,2 l 0,1 -1,1 -1,0 c -1,0 -1,-1 -1,-2 l -1,0 c -1,1 -2,1 -3,0 -1,-1 1,-4 1,-5 -1,-1 -2,-1 -3,-2 -1,-1 -1,-4 -1,-5 0,0 0,-1 1,-1 0,0 1,-3 1,-3 0,0 0,0 0,0 0,-2 -2,-2 -3,-4 -1,-1 -1,-4 -2,-6 l -1,-1 c -2,0 -3,2 -4,3 -1,0 -2,0 -3,1 -1,0 -2,1 -3,2 -2,1 -3,0 -5,2 l 0,1 c 1,0 1,1 2,1 l -1,1 c -2,0 -3,-1 -5,-1 0,0 -1,0 -1,1 0,0 -1,0 -1,0 -1,1 -2,2 -3,3 -1,1 -2,1 -3,2 0,1 -1,1 -1,2 -1,1 -2,1 -3,2 0,1 0,2 0,2 1,1 6,2 8,3 1,1 2,2 3,2 0,0 0,0 0,0 1,0 1,1 2,1 0,0 1,0 1,0 1,0 3,1 4,2 0,0 1,1 1,1 1,0 2,0 3,1 l 0,1 -1,1 c -1,0 -2,0 -3,0 0,0 -1,-1 -1,-1 -1,0 -2,-1 -3,-1 -1,0 -2,-1 -3,-2 -1,-1 -3,-2 -5,-2 0,0 -1,0 -1,0 -3,-1 -5,-2 -8,-2 -1,0 -3,2 -4,3 0,1 0,1 0,2 0,1 0,2 0,2 2,0 2,1 3,2 0,0 1,1 1,1 1,1 1,2 2,3 0,0 2,1 2,1 1,0 1,0 2,0 0,0 1,0 1,0 2,1 6,0 7,2 l 0,1 c -4,1 -8,-1 -11,0 l -1,1 0,2 1,2 c 0,1 0,2 0,3 l -1,0 c -2,-1 -2,-4 -2,-6 0,0 0,-1 0,-1 l 0,-1 c -1,-2 -2,-2 -3,-3 -1,-1 -1,-3 -2,-4 0,-1 -1,-1 -2,-1 -1,0 -2,1 -2,1 0,0 0,1 -1,1 0,0 -1,1 -1,1 0,0 0,1 0,1 0,1 -1,2 -1,2 0,1 -1,1 -2,2 0,0 -1,0 -1,1 -1,1 -1,1 -2,2 1,1 2,0 4,1 2,1 2,2 3,3 1,1 2,1 3,2 0,0 1,2 1,2 0,1 0,2 1,2 2,1 3,0 5,1 l 1,1 0,1 c -1,0 -1,1 -2,1 -1,0 -2,0 -3,0 -1,-1 -2,-2 -2,-3 0,0 -1,-1 -1,-1 0,-1 -1,-1 -1,-2 0,-1 -1,-1 -2,-2 0,0 0,-1 -1,-1 -1,-1 -5,-3 -6,-3 -2,0 -5,3 -6,4 0,1 1,2 2,3 0,1 0,3 -1,4 0,1 0,3 1,4 1,0 2,1 3,1 1,1 1,2 1,3 0,1 1,1 1,2 0,1 0,4 0,5 0,1 2,1 2,1 1,0 3,-1 4,-1 1,0 2,0 3,0 3,0 3,-1 6,-1 0,0 1,0 1,0 1,0 2,-2 3,-2 1,0 1,-10e-4 2,0 2,0 4,-1 5,-1 l 1,1 c 0,1 -1,2 -1,2 0,0 -1,0 -1,1 -1,1 -2,2 -2,3 l 0,1 c 2,1 2,2 4,3 2,1 6,-1 8,1 l 0,1 c -1,1 -3,1 -4,1 -1,0 -2,1 -3,1 -1,0 -3,-1 -4,-1 0,0 -1,-1 -1,-1 -1,-1 -2,-1 -3,-2 0,0 0,-1 0,-1 0,0 -1,-1 -2,-2 -2,0 -3,0 -4,1 -1,0 -2,0 -3,0 -2,0 -3,1 -5,1 -1,0 -1,0 -2,0 -1,0 -4,1 -5,2 0,0 -1,1 -1,1 -1,1 -1,1 -2,2 0,0 2,3 2,3 0,0 1,0 1,1 1,1 1,1 2,2 l 1,1 c 0,0 1,0 1,0 1,0 2,1 2,1 0,0 1,1 1,1 1,1 1,1 2,1 0,0 0,1 1,1 1,2 3,2 4,5 1,0 2,2 2,3 0,1 0,2 1,2 1,1 3,2 4,3 l 0,1 -1,0 c -1,0 -2,-1 -4,-1 -1,0 -1,0 -2,1 0,-2 -1,-3 -2,-5 0,-1 -1,-2 -1,-3 0,0 0,-1 0,-1 0,-2 -2,-3 -3,-4 -1,0 -2,-1 -2,-1 -1,0 -1,-1 -2,-1 -2,2 0,7 -5,9 -2,-1 -4,0 -6,0 l 0,-1 0,-1 c 1,-1 3,-1 4,-1 0,-1 1,-1 2,-2 0,-1 1,-2 1,-2 0,-1 0,-2 -1,-3 0,0 -1,-1 -1,-1 -1,-1 -1,-1 -2,-2 -1,-1 -4,-3 -6,-3 -1,0 -2,0 -2,1 -1,1 -3,3 -4,3 0,0 -2,0 -2,0 l -1,-1 0,-1 c 1,-1 3,-2 4,-3 l 0,-1 c -2,-1 -3,-1 -4,-1 l -4,-3 c -1,-1 -1,-3 -2,-4 l -2,0 c -1,1 -2,4 -3,5 -1,1 -2,1 -3,2 0,1 0,2 -1,3 -1,1 -2,3 -3,4 l 0,1 c 1,1 3,1 4,0 l 1,0 c 1,1 1,1 2,2 1,0 3,1 4,2 0,0 1,1 1,1 1,0 1,1 2,1 l 1,0 c 0,-1 1,-3 2,-4 l 1,0 1,1 c 0,1 1,3 1,4 1,1 1,2 2,4 0,0 0,0 0,1 l 0,1 c -1,0 -2,0 -3,0 -1,0 -1,-1 -2,-2 -2,-1 -3,-1 -5,-2 -1,0 -2,0 -3,-1 0,0 -1,-1 -1,-1 -1,0 -3,0 -4,0 0,0 -1,-1 -1,-1 -1,0 -4,0 -5,1 -2,1 -4,2 -5,5 0,1 0,2 -1,2 0,1 -1,2 -1,3 0,2 0,4 -1,6 0,0 -1,1 -1,1 -2,3 -3,3 -4,6 0,1 -1,2 -1,3 1,0 1,1 1,2 l 0,1 c 0,1 3,2 3,2 0,0 2,0 2,0 1,0 2,0 3,-1 0,0 1,0 1,-1 0,0 1,0 1,0 1,0 2,-1 2,-1 0,0 1,-1 1,-1 1,0 2,-1 3,-1 1,0 3,-1 4,-1 l 1,0 c 1,0 1,0 2,0 1,0 4,0 5,-1 2,0 4,-2 6,-3 2,-1 5,-1 7,-2 0,0 1,0 1,-1 2,-1 6,-1 7,-3 l 1,0 c 0,1 0,3 -1,4 -2,1 -5,2 -6,2 -1,0 -1,0 -2,0 0,0 -3,1 -4,1 -1,0 -1,1 -2,2 l 0,1 c 2,1 5,1 8,1 0,1 -1,2 -2,3 -1,0 -2,0 -3,-1 -2,0 -3,0 -5,-1 -3,-1 -4,-2 -8,-1 -2,0 -3,1 -5,2 0,0 -1,1 -1,1 -1,1 -2,1 -4,2 -2,1 -5,1 -7,2 -1,3 1,5 1,8 0,1 0,2 0,3 l 1,1 c 1,0 2,-1 3,-1 2,-1 9,-1 11,-1 l 0,1 c -3,1 -10,2 -12,4 0,0 -2,1 -2,2 -1,1 -1,4 -2,5 l 0,1 1,0 c 2,0 4,-2 6,-3 1,0 3,-1 4,-1 1,0 1,0 2,0 1,0 2,0 3,0 2,0 4,0 5,0 4,1 6,2 10,0 1,0 2,-1 3,-1 l 1,0 c 0,1 -1,4 -2,4 -1,1 -3,1 -4,1 -3,1 -7,2 -9,5 0,0 -1,1 -1,1 -1,1 -1,1 -2,2 -2,1 -5,-1 -7,-1 -1,0 -2,1 -3,1 -1,0 -3,1 -4,1 -2,0 -4,1 -5,2 -2,0 -3,0 -5,0 -2,0 -3,1 -5,1 -1,0 -3,0 -4,0 -2,0 -3,2 -6,3 l 0,-1 1,-1 c 0,0 -1,0 -1,0 -1,0 -4,0 -5,0 -1,0 -4,-1 -6,0 l -1,0 c -1,0 -1,0 -2,1 -1,1 -2,2 -4,1 l -1,-1 -1,0 c -1,1 -1,2 -1,3 0,1 0,1 0,2 0,0 0,2 0,3 0,0 0,1 0,1 0,1 0,2 0,3 0,2 -1,4 -2,6 0,1 2,3 2,4 0,1 0,2 1,2 0,0 0,1 0,1 0,0 0,1 0,1 0,1 -1,3 0,4 0,0 0,1 1,1 0,0 0,1 0,1 0,1 1,1 1,2 l 1,0 c 1,-1 1,-3 3,-4 2,-1 4,0 6,0 4,0 3,-2 6,-3 2,-1 4,0 6,-1 0,0 2,-2 2,-3 1,-1 1,-2 2,-3 1,-2 3,-3 5,-4 1,0 1,-1 2,-2 0,-1 0,-2 0,-3 2,-2 3,-1 4,-3 1,0 2,1 2,1 0,1 0,2 0,3 -2,1 -3,2 -4,3 0,1 -1,2 -1,2 -1,1 -3,1 -4,3 l 0,1 c 0,0 1,1 1,1 1,0 2,0 2,1 1,0 2,1 3,1 1,0 3,-1 4,-2 0,0 2,0 2,0 0,0 0,0 0,0 1,0 1,0 2,-1 0,0 1,-1 1,-1 1,0 2,-1 3,0 0,1 -1,2 -2,3 l 0,1 c -2,2 -7,0 -9,1 -1,2 -3,2 -5,2 0,0 -4,2 -4,3 -1,1 -1,2 -1,2 0,1 -1,1 -2,2 0,2 1,4 0,7 l -1,-1 -1,0 c -2,2 -1,4 -2,7 l 0,1 c 1,-1 2,-1 3,-2 l 2,0 c 1,1 1,1 2,1 3,0 4,-1 6,-3 0,0 1,-1 1,-1 1,-1 1,0 2,-1 1,-1 1,-3 2,-3 l 1,1 c 0,2 -1,3 0,5 l 1,1 1,0 c 0,0 1,-1 1,-1 0,0 0,-1 0,-1 0,-1 1,-2 1,-2 l 1,1 2,0 1,-1 0,-1 c 0,-1 -1,-2 -1,-2 l 0,-1 c 2,-3 3,-2 5,-4 1,-1 1,-1 2,-2 2,-1 3,0 4,-1 1,0 1,-1 2,-1 0,0 0,0 0,0 0,0 1,-1 1,-1 1,0 2,-1 2,-1 2,-1 3,-2 5,-3 0,0 1,0 2,0 l 0,1 c 0,0 -1,1 -1,1 0,0 -1,0 -1,1 -1,1 -4,3 -5,4 -1,1 -1,1 -2,2 0,0 -3,0 -3,0 0,0 -1,0 -2,0 0,0 -1,1 -2,1 -1,0 -1,1 -2,1 0,0 -1,1 -1,1 -2,2 -1,2 -1,4 0,0 0,1 0,1 -1,4 -2,2 -4,5 -1,1 -1,2 -2,3 l -1,0 c -2,1 -2,3 -3,5 -1,1 -1,1 -2,1 -1,1 -2,2 -3,2 0,0 -1,0 -1,0 0,0 -1,1 -1,1 0,0 -1,0 -1,0 0,0 -2,1 -2,1 l 0,1 c 1,1 2,2 3,2 2,2 2,5 5,6 1,0 2,0 3,1 1,0 2,1 3,1 3,1 6,0 8,1 2,0 3,0 5,0 1,0 2,0 4,0 1,0 3,-1 5,-1 2,0 3,0 5,0 l 0,0 c 1,0 1,0 2,0 0,0 1,0 1,0 1,0 2,0 4,0 1,0 3,1 4,2 2,0 3,0 5,0 0,0 1,0 1,0 1,0 1,0 2,0 1,0 3,1 4,1 1,0 3,1 4,1 l 1,1 c 0,0 1,2 1,2 3,1 4,-1 7,-1 2,0 4,0 5,0 2,0 4,2 6,1 1,0 1,-1 2,-1 1,0 3,-1 4,-2 1,0 4,0 5,0 1,0 2,1 3,1 1,0 2,-2 3,-2 1,-2 1,-2 1,-4 0,-1 0,-2 0,-3 1,-2 3,-2 3,-3 1,-1 0,-3 1,-4 2,-3 8,-2 11,-1 1,0 2,0 4,0 1,0 3,1 4,1 0,0 1,0 1,1 0,0 1,0 1,0 0,0 1,1 1,1 1,0 2,1 3,1 2,1 3,2 5,2 2,0 5,-1 7,0 l 1,1 c -1,0 -1,2 -1,2 1,1 1,2 2,3 0,0 1,1 1,1 0,1 1,1 1,2 0,1 1,1 1,2 1,1 2,2 3,2 0,0 1,0 1,1 0,0 0,1 1,1 0,0 1,1 1,1 1,1 1,3 0,5 -1,0 -4,1 -5,2 l 0,1 c 1,1 2,0 3,1 3,1 2,3 3,5 1,1 2,1 3,2 1,1 1,3 3,4 1,0 2,0 3,0 2,-1 4,-3 6,-2 1,1 2,2 3,2 1,0 2,-1 2,-1 0,0 0,-1 1,-1 1,-1 2,-2 3,-2 2,0 3,1 5,1 1,0 2,0 3,0 1,0 2,1 3,1 1,1 2,2 4,1 l 0,-1 c 0,-1 -1,-2 -1,-2 l 0,-1 c 1,-1 6,-1 8,-2 2,-1 4,0 6,0 1,0 2,0 3,0 1,0 4,2 5,3 0,1 1,2 1,2 0,0 1,1 1,1 0,1 0,1 1,2 0,1 1,1 1,1 1,0 1,1 2,2 1,1 1,3 2,4 1,1 2,2 2,3 1,1 2,6 3,7 1,1 2,1 2,1 l 1,-1 c 0,-1 0,-2 0,-3 1,0 3,-1 4,-2 l 0,-1 c -1,-2 -1,-3 -2,-5 l 1,-1 c 1,0 2,0 3,0 l 1,1 c 0,4 5,9 3,12 -2,3 -5,2 -6,4 0,1 0,3 -1,4 l -1,0 -1,-1 c 0,-1 0,-2 0,-3 -1,0 -2,0 -3,0 -2,0 -3,0 -4,1 0,1 0,1 1,2 0,1 0,2 0,3 2,0 3,-1 5,-1 l 1,1 c -1,2 1,4 2,5 1,1 3,1 3,2 0,0 0,1 0,1 1,1 2,2 2,3 1,0 2,0 3,1 l 1,-1 c 0,-2 -1,-3 -2,-4 -4,-1 -3,-3 -5,-5 0,-1 0,-2 0,-3 l 1,-1 1,0 1,1 1,0 0,-1 1,0 c 0,1 1,2 1,2 0,0 2,1 2,1 3,0 6,-1 8,-1 2,0 5,1 8,2 1,0 1,0 2,0 0,0 1,1 1,1 1,1 2,2 2,3 l -1,1 c 0,0 -1,0 -1,0 -1,0 -2,0 -3,-1 -1,0 -2,0 -3,0 l -1,-1 1,-1 0,-1 c -1,0 -1,0 -2,0 -1,0 -2,0 -3,0 -1,0 -3,0 -4,0 0,0 -1,0 -1,0 -1,3 0,2 -2,4 1,1 3,0 5,0 2,0 3,0 5,1 0,0 1,0 1,0 2,0 3,0 5,0 5,0 9,1 14,-1 1,0 2,0 2,-1 l -1,-1 -1,-1 c 1,-1 2,-2 2,-3 l -1,0 -1,0 c -1,-1 -2,-2 -2,-3 l 1,-1 c 1,0 2,0 3,0 1,0 2,1 4,1 1,0 3,0 5,1 0,0 1,1 1,1 l -1,1 c -1,0 -4,0 -5,1 0,0 -1,1 -1,1 l 0,1 c 3,1 5,0 8,0 0,0 1,0 2,0 0,0 1,-1 1,-1 1,0 2,0 3,0 1,0 2,-1 3,-1 1,0 2,0 3,0 2,0 3,-2 5,-1 0,1 0,2 0,3 0,1 2,2 3,4 0,1 -1,3 0,4 0,2 3,3 2,6 l 1,1 c 0,0 1,10e-4 1,0 0,0 1,0 1,-1 1,-1 5,-1 6,-1 1,0 3,1 4,1 2,1 3,2 5,2 2,-1 5,-1 7,0 l 1,-1 c 0,-2 -1,-6 1,-7 1,1 2,3 2,4 l 2,2 c 1,1 4,0 5,1 1,0 2,-1 3,-2 0,-1 1,-2 2,-3 0,-1 0,-3 -1,-4 l 0,-1 2,0 c 1,1 3,3 2,4 0,1 -1,2 -1,2 l 0,1 c 2,1 3,0 4,0 2,0 4,0 6,-1 l 2,-1 c 0,0 0,-1 1,-1 0,0 1,-1 2,-1 l 0,0 -3,-2 -7,-1 c 0,0 -2,-2 -2,-4 -1,-1 0,-3 0,-3 0,0 3,0 4,-1 2,-1 5,-6 5,-6 0,0 -2,-1 -4,-1 -2,0 -1,-1 -2,-2 -1,-1 -4,-2 -4,-2 l 0,-6 c 0,0 2,-2 2,-3 0,-2 0,-4 -2,-5 -1,-2 -4,-2 -4,-2 l -3,0 v -5 l 4,-2 c 2,-1 4,-5 5,-6 1,-1 1,-5 0,-7 -1,-2 1,-4 2,-5 1,-1 0,-4 0,-4 0,-1 -3,-7 -3,-7 0,0 -2,-5 -4,-7 -1,-2 0,-3 0,-4 0,-1 3,-6 3,-6 0,0 0,-4 -1,-6 0,-1 -2,-3 -2,-3 -1,0 -4,0 -6,-1 -2,-1 -3,-2 -3,-2 0,0 -2,-5 -3,-7 -1,-2 0,-4 2,-4 2,-1 1,-3 1,-4 0,-1 1,-5 2,-6 1,-2 0,-3 0,-4 -1,-1 -1,-2 -2,-4 -1,-2 -2,-2 -3,-1 -2,1 -4,2 -6,2 -3,0 -1,-3 -1,-3 0,0 2,-2 4,-3 1,-1 -1,-3 -1,-3 0,0 -2,-2 -3,-4 -1,-2 -2,-5 -2,-6 0,-2 0,-5 0,-5 l 3,-5 2,-5 c 0,0 2,-1 3,-1 1,0 2,-2 3,-3 l 4,-8 1,-4 4,-16 4,-2 5,-2 c 0,0 3,-6 3,-7 0,-2 -1,-2 -3,-1 -2,0 -3,-1 -4,-2 -1,-1 -3,-4 -3,-6 0,-1 -2,-2 -4,-2 -2,0 -4,-2 -4,-2 0,0 -1,-5 -2,-7 -1,-2 -2,-2 -2,-2 l -15,14 -3,6 c 0,0 -5,8 -8,12 l -2,2 -3,-1 -2,-3 -3,2 c 0,0 -2,0 -4,-1 -2,-1 -4,-4 -4,-4 l 0,-10 -4,0 -8,-6 c 0,0 0,-4 0,-8 0,-3 -3,-8 -3,-8 l -4,0 c 0,0 -1,2 -2,3 0,1 1,4 -3,4 -4,0 -5,3 -5,3 0,0 0,2 -4,3 -4,0 -6,1 -6,1 l -12,1 c -2,0 -7,0 -8,0 -2,0 -5,-1 -5,-1 l -2,-8 c 0,0 -1,-3 0,-4 0,-1 0,-4 0,-5 0,-1 -3,-2 -5,-4 -2,-2 -3,-8 -4,-10 0,-1 0,-4 0,-4 0,0 2,-2 4,-2 1,0 2,-3 2,-3 0,0 2,-6 2,-8 1,-2 -1,-4 -3,-3 -2,1 -6,1 -6,1 0,0 -2,-3 -4,-4 -2,-2 -6,-4 -6,-4 l -1,-4 -6,-4 c 0,0 1,-3 0,-6 -1,-2 -2,-5 -2,-5 l 2,-10 h 5 c 0,0 3,-6 4,-8 1,-2 2,-6 2,-6 0,0 -3,2 -4,-2 -1,-4 0,-7 1,-8 1,-1 0,-4 0,-5 0,-1 3,-8 4,-8 1,-1 2,-4 2,-5 0,-1 1,-8 1,-8 0,0 4,-2 5,-3 1,-2 1,-4 5,-4 1,0 2,0 3,0 l 1,0 3,-5 c 0,0 1,-2 1,-5 0,-2 1,-5 1,-5 0,0 2,0 5,-1 3,-1 2,-4 2,-4 0,0 -4,-1 -5,-2 -2,-1 -2,-2 -2,-4 0,-2 -2,-5 -2,-5 h -6 c -2,0 -2,0 -4,-2 -2,-2 -5,-2 -6,-2 -1,0 -3,1 -5,2 -2,1 -4,1 -6,2 -2,0 -4,-1 -6,-3 -2,-2 -4,-1 -4,-1 z"/>
+  </g>
+</svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="mta-regions__phones">
+        <a href="tel:092815094"><span>Auckland</span><strong>09 281 5094</strong></a>
+        <a href="tel:072821439"><span>Hamilton</span><strong>07 282 1439</strong></a>
+        <a href="tel:045954287"><span>Wellington</span><strong>04 595 4287</strong></a>
+        <a href="tel:035955890"><span>Christchurch</span><strong>03 595 5890</strong></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="mta-footer" id="articles">
+    <div class="mta-container mta-footer__grid">
+      <div class="mta-footer__brand">
+        <img src="assets/logo.png" alt="My Top Agent" class="mta-footer__logo" />
+        <p>Free, independent agent matching for New Zealand property owners.</p>
+      </div>
+      <div>
+        <h4>Service</h4>
+        <ul><li><a href="#how-it-works">How It Works</a></li><li><a href="#">For Home Owners</a></li><li><a href="#">Overseas Vendors</a></li></ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul><li><a href="#about">About Us</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Auckland <a href="tel:092815094">09 281 5094</a></li>
+          <li>Wellington <a href="tel:045954287">04 595 4287</a></li>
+          <li>Christchurch <a href="tel:035955890">03 595 5890</a></li>
+          <li><a href="mailto:hello@mytopagent.co.nz">hello@mytopagent.co.nz</a></li>
+          <li>Level 1, Example St, Auckland, NZ</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mta-footer__bar">
+      <span>© 2026 My Top Agent</span>
+      <div><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <a href="#">Disclaimer</a></div>
+    </div>
+  </footer>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="js/main.js?v=10"></script>
+</body>
+</html>
