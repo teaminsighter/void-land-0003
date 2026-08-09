@@ -92,30 +92,30 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   cursor: pointer; text-align: center;
   z-index: 0;
 }
-/* Primary CTA - white idle w/ red border+text, brand-red (#FF5900) slide-fill on hover */
+/* Primary CTA - brand-red idle, white slide-fill on hover (inverted, unified across site) */
 .mta-btn--gold {
-  background: #FFFFFF;
-  color: var(--mta-brand);
+  background: var(--mta-brand);
+  color: #FFFFFF;
   border: 1.5px solid var(--mta-brand);
   box-shadow:
-    0 2px 4px rgba(15, 23, 42, .08),
-    0 10px 24px -8px rgba(15, 23, 42, .22);
+    0 2px 6px rgba(15, 23, 42, .12),
+    0 14px 34px -10px rgba(15, 23, 42, .32);
 }
 .mta-btn--gold::before {
   content: '';
   position: absolute; inset: 0;
   width: 0; height: 100%;
-  background: var(--mta-brand);
+  background: #FFFFFF;
   border-radius: 100px;
   transition: width .45s cubic-bezier(.6,.2,.15,1);
   z-index: -1;
 }
 .mta-btn--gold:hover {
-  color: #FFFFFF;
+  color: var(--mta-brand);
   transform: translateY(-3px);
   box-shadow:
-    0 4px 8px rgba(15, 23, 42, .12),
-    0 18px 36px -10px rgba(15, 23, 42, .32);
+    0 4px 10px rgba(15, 23, 42, .16),
+    0 22px 44px -12px rgba(15, 23, 42, .42);
 }
 .mta-btn--gold:hover::before { width: 100%; }
 .mta-btn--gold svg { transition: transform .35s var(--mta-ease); }
@@ -398,27 +398,8 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 }
 .mta-badge--nz .mta-badge__score { color: var(--mta-brand); }
 
-/* Hero CTA - inverted vs. the rest of the site (red idle, white on hover) */
+/* Hero CTA - inherits the unified red-idle / white-hover style from .mta-btn--gold */
 .mta-hero__cta { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 8px; }
-.mta-hero__cta .mta-btn--gold {
-  background: var(--mta-brand);
-  color: #FFFFFF;
-  border: 1.5px solid var(--mta-brand);
-  box-shadow:
-    0 2px 6px rgba(15, 23, 42, .12),
-    0 14px 34px -10px rgba(15, 23, 42, .32);
-}
-/* White slide-fill on hover (inverse of the site default) */
-.mta-hero__cta .mta-btn--gold::before {
-  background: #FFFFFF;
-}
-.mta-hero__cta .mta-btn--gold:hover {
-  color: var(--mta-brand);
-  transform: translateY(-3px);
-  box-shadow:
-    0 4px 10px rgba(15, 23, 42, .16),
-    0 22px 44px -12px rgba(15, 23, 42, .42);
-}
 .mta-hero__note { font-size: 13px; color: rgba(255,255,255,.72); margin: 0; }
 
 /* Form fields (used inside quiz section) */
