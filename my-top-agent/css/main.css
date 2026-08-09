@@ -317,11 +317,11 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 .mta-hero .mta-hero__sub { margin-left: auto; margin-right: auto; }
 .mta-hero .mta-eyebrow { color: var(--mta-brand); }
 .mta-hero__title {
-  font-family: 'Big Shoulders Display', 'Inter', sans-serif;
-  font-weight: 800;
-  font-size: clamp(58px, 8.5vw, 128px);
-  line-height: 0.95;
-  letter-spacing: -0.005em;
+  font-family: var(--mta-font-display);   /* Archivo Black — same as other titles */
+  font-weight: 400;                        /* Archivo Black is intrinsically 900 */
+  font-size: clamp(46px, 7vw, 108px);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
   color: #fff;
   text-transform: uppercase;
   margin: 0 0 26px;
