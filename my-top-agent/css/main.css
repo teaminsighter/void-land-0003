@@ -1,5 +1,5 @@
 /* =========================================================
-   MY TOP AGENT — Design system
+   MY TOP AGENT - Design system
    All selectors prefixed .mta- to prevent GHL collisions
    ========================================================= */
 
@@ -64,7 +64,7 @@ button { font: inherit; }
 .mta-mini { font-size: 13px; color: var(--mta-muted); }
 .mta-strong { font-weight: 600; color: var(--mta-navy); }
 
-/* -------- Headings — Archivo Black is intrinsically 900 weight -------- */
+/* -------- Headings - Archivo Black is intrinsically 900 weight -------- */
 h1, h2, h3, .mta-h2 {
   font-family: var(--mta-font-display);
   font-weight: 400;
@@ -92,7 +92,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   cursor: pointer; text-align: center;
   z-index: 0;
 }
-/* Primary CTA — white idle w/ red border+text, brand-red (#FF5900) slide-fill on hover */
+/* Primary CTA - white idle w/ red border+text, brand-red (#FF5900) slide-fill on hover */
 .mta-btn--gold {
   background: #FFFFFF;
   color: var(--mta-brand);
@@ -130,14 +130,14 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 .mta-btn--ghost:hover { border-color: var(--mta-navy); transform: translateY(-1px); }
 
 /* =========================================================
-   NAV — transparent over hero, solid on scroll
+   NAV - transparent over hero, solid on scroll
    ========================================================= */
 .mta-nav {
   position: fixed; top: 14px; left: 0; right: 0; z-index: 50;
   background: transparent;
   transition: top .4s var(--mta-ease), padding .4s var(--mta-ease);
 }
-/* Glass pill — always visible so logo and nav are readable over the hero video too */
+/* Glass pill - always visible so logo and nav are readable over the hero video too */
 .mta-nav__inner {
   max-width: 1240px; margin: 0 auto; padding: 12px 22px;
   display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 32px;
@@ -152,7 +152,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
               background .4s var(--mta-ease),
               box-shadow .4s var(--mta-ease);
 }
-/* Scrolled state — slightly narrower + a touch more opaque for reading over lighter content */
+/* Scrolled state - slightly narrower + a touch more opaque for reading over lighter content */
 .mta-nav.is-scrolled .mta-nav__inner {
   max-width: 1180px;
   padding: 10px 20px;
@@ -177,7 +177,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 }
 .mta-nav__menu a:hover::after { width: 100%; left: 0; }
 
-/* Header CTA — compact, matches nav height */
+/* Header CTA - compact, matches nav height */
 .mta-nav__cta.mta-btn {
   padding: 11px 22px;
   font-size: 13.5px;
@@ -195,9 +195,9 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 
 @media (max-width: 900px) {
   .mta-nav__menu { display: none; }
-  .mta-nav__cta { display: none !important; }   /* mobile: no CTA in header — replaced by sticky bottom CTA */
+  .mta-nav__cta { display: none !important; }   /* mobile: no CTA in header - replaced by sticky bottom CTA */
   .mta-nav__burger { display: block; }
-  /* Mobile: keep the header IDENTICAL on scroll — no resize, no padding change */
+  /* Mobile: keep the header IDENTICAL on scroll - no resize, no padding change */
   .mta-nav__inner {
     grid-template-columns: auto 1fr auto;
     padding: 10px 18px;
@@ -211,7 +211,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   .mta-nav__logo img { height: 38px; }
   .mta-nav.is-scrolled .mta-nav__logo img { height: 38px; }
 
-  /* Burger sits on the right — no chip, just clean bars over the glass pill */
+  /* Burger sits on the right - no chip, just clean bars over the glass pill */
   .mta-nav__burger {
     justify-self: end;
     padding: 6px;
@@ -223,7 +223,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   .mta-nav__burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
   .mta-nav__burger span { transition: transform .3s var(--mta-ease), opacity .2s; }
 
-  /* Mobile drawer menu — slides down from the pill */
+  /* Mobile drawer menu - slides down from the pill */
   .mta-nav__menu.is-open {
     display: flex;
     flex-direction: column;
@@ -255,7 +255,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   }
 }
 
-/* Sticky bottom CTA — mobile only, appears when user scrolls past the hero */
+/* Sticky bottom CTA - mobile only, appears when user scrolls past the hero */
 .mta-mobile-cta {
   position: fixed;
   left: 12px; right: 12px;
@@ -335,7 +335,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 }
 .mta-hero__title span { display: block; overflow: hidden; }
 
-/* Hand-brushed white paint-swipe behind "New Zealand" — text in brand red */
+/* Hand-brushed white paint-swipe behind "New Zealand" - text in brand red */
 .mta-hero__brush {
   color: var(--mta-brand);
   background: transparent;
@@ -362,7 +362,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   text-shadow: 0 2px 18px rgba(0,0,0,.4);
   line-height: 1.55;
 }
-/* Hero trust badges — Google Reviews + NZ Certified */
+/* Hero trust badges - Google Reviews + NZ Certified */
 .mta-hero__badges {
   display: flex; align-items: stretch; justify-content: center;
   gap: 12px;
@@ -398,7 +398,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 }
 .mta-badge--nz .mta-badge__score { color: var(--mta-brand); }
 
-/* Hero CTA — inverted vs. the rest of the site (red idle, white on hover) */
+/* Hero CTA - inverted vs. the rest of the site (red idle, white on hover) */
 .mta-hero__cta { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 8px; }
 .mta-hero__cta .mta-btn--gold {
   background: var(--mta-brand);
@@ -465,7 +465,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 .mta-float--pin svg { color: var(--mta-brand); }
 
 /* Floats positioned to edges so they never overlap centered copy.
-   Each badge has its own keyframe with rotation baked in — no JS parallax to avoid transform conflicts.
+   Each badge has its own keyframe with rotation baked in - no JS parallax to avoid transform conflicts.
    Entrance fades in AFTER hero title cascade completes (starts ~1.9s).
    Uses two-track animation: opacity fade-in (forwards) + infinite bob. */
 .mta-float--sale, .mta-float--rating, .mta-float--turn, .mta-float--pin {
@@ -547,7 +547,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   .mta-badge__label { font-size: 10px; }
   .mta-badge__stars { font-size: 11px; }
 
-  /* Trust bar — softer bg, less padding, fades in from the hero image
+  /* Trust bar - softer bg, less padding, fades in from the hero image
      instead of a hard dark strip cutting across the bottom */
   .mta-hero__trust {
     background: linear-gradient(to bottom, rgba(11,31,58,0) 0%, rgba(11,31,58,.6) 40%, rgba(11,31,58,.85) 100%);
@@ -687,7 +687,7 @@ body.mta-modal-open { overflow: hidden; }
 }
 
 /* =========================================================
-   HOW IT WORKS — 2+1 grid, card overhangs image's bottom-right
+   HOW IT WORKS - 2+1 grid, card overhangs image's bottom-right
    ========================================================= */
 .mta-how { background: var(--mta-cream); }
 
@@ -722,7 +722,7 @@ body.mta-modal-open { overflow: hidden; }
 .mta-step.is-in .mta-step__media { clip-path: inset(0 0 0 0); }
 .mta-step.is-in .mta-step__media img { transform: scale(1); }
 
-/* Card sits at image bottom, centered — half over image, half below */
+/* Card sits at image bottom, centered - half over image, half below */
 .mta-step__card {
   position: absolute;
   left: 50%;
@@ -786,7 +786,7 @@ body.mta-modal-open { overflow: hidden; }
 }
 
 /* =========================================================
-   AGENTS BEHIND NUMBERS — Sticky split scroll
+   AGENTS BEHIND NUMBERS - Sticky split scroll
    ========================================================= */
 .mta-agents { background: var(--mta-cream); }
 .mta-split { display: grid; grid-template-columns: 0.75fr 1.25fr; gap: 40px; align-items: center; }
@@ -795,7 +795,7 @@ body.mta-modal-open { overflow: hidden; }
 .mta-split__sticky p { font-size: 17px; margin-bottom: 16px; }
 .mta-split__sticky .mta-btn { margin-top: 12px; }
 
-/* Right column — layered photo collage. 8 portraits pinned in a spread quilt
+/* Right column - layered photo collage. 8 portraits pinned in a spread quilt
    pattern (3 top / 2 middle / 3 bottom). Each takes a turn floating to the
    front in a slow continuous cycle. Featured state is a subtle lift, not a
    big scale, so nothing looks like it's ballooning. */
@@ -830,7 +830,7 @@ body.mta-modal-open { overflow: hidden; }
   z-index: 2;
 }
 
-/* Spread-quilt positions — 3 top row, 2 middle row, 3 bottom row.
+/* Spread-quilt positions - 3 top row, 2 middle row, 3 bottom row.
    All positions leave a safety inset so images never clip past the container. */
 .mta-split__scroll .mta-portrait:nth-child(1) { top: 0;    left: 0;      --mta-rot: -4deg;  --mta-z: 1; }
 .mta-split__scroll .mta-portrait:nth-child(2) { top: 6%;   left: 34%;    --mta-rot:  2deg;  --mta-z: 2; }
@@ -841,7 +841,7 @@ body.mta-modal-open { overflow: hidden; }
 .mta-split__scroll .mta-portrait:nth-child(7) { bottom: 4%; left: 34%;   --mta-rot:  2.5deg; --mta-z: 7; }
 .mta-split__scroll .mta-portrait:nth-child(8) { bottom: 0; right: 0;     --mta-rot: -2deg;  --mta-z: 8; }
 
-/* Entrance reveal — respect base rotation. Static after entrance, no z-index cycling
+/* Entrance reveal - respect base rotation. Static after entrance, no z-index cycling
    (that caused a "race" glitch as portraits fought for front). Each portrait has a very
    subtle infinite breathing bob so the collage feels alive without shuffling. */
 .mta-split__scroll .mta-portrait[data-mta-anim="reveal-img"] {
@@ -856,7 +856,7 @@ body.mta-modal-open { overflow: hidden; }
   animation: mta-portrait-breathe 7s ease-in-out infinite;
 }
 
-/* Entrance stagger only — no more racing animation-delay */
+/* Entrance stagger only - no more racing animation-delay */
 .mta-split__scroll .mta-portrait:nth-child(1) { transition-delay: 0s;   animation-delay: -0s; }
 .mta-split__scroll .mta-portrait:nth-child(2) { transition-delay: .10s; animation-delay: -.9s; }
 .mta-split__scroll .mta-portrait:nth-child(3) { transition-delay: .20s; animation-delay: -1.8s; }
@@ -866,7 +866,7 @@ body.mta-modal-open { overflow: hidden; }
 .mta-split__scroll .mta-portrait:nth-child(7) { transition-delay: .60s; animation-delay: -5.4s; }
 .mta-split__scroll .mta-portrait:nth-child(8) { transition-delay: .70s; animation-delay: -6.3s; }
 
-/* Tiny, ambient bob — 4px lift only, base rotation preserved, no z-index change.
+/* Tiny, ambient bob - 4px lift only, base rotation preserved, no z-index change.
    Different animation-delays make each portrait bob at its own phase (never in sync). */
 @keyframes mta-portrait-breathe {
   0%, 100% { transform: rotate(var(--mta-rot)) translateY(0); }
@@ -877,7 +877,7 @@ body.mta-modal-open { overflow: hidden; }
   .mta-split { grid-template-columns: 1fr !important; gap: 24px; }
   .mta-split__sticky { position: static; padding: 0; text-align: center; }
 
-  /* MOBILE: hide portraits entirely — the section just shows text + CTA */
+  /* MOBILE: hide portraits entirely - the section just shows text + CTA */
   .mta-split__scroll { display: none !important; }
   .mta-portraits-track { display: none !important; }
   .mta-split__scroll .mta-portrait,
@@ -902,14 +902,14 @@ body.mta-modal-open { overflow: hidden; }
   .mta-split__sticky .mta-btn { margin-top: 20px; }
 }
 
-/* Seamless loop — JS duplicates the 8 portraits so we can slide by 50% and loop */
+/* Seamless loop - JS duplicates the 8 portraits so we can slide by 50% and loop */
 @keyframes mta-portraits-marquee {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
 
 /* =========================================================
-   WHY — Grid cards
+   WHY - Grid cards
    ========================================================= */
 .mta-why { background: var(--mta-cream); }
 .mta-grid { display: grid; gap: 24px; }
@@ -997,7 +997,7 @@ body.mta-modal-open { overflow: hidden; }
 }
 
 /* =========================================================
-   REVIEWS — Google-style cards
+   REVIEWS - Google-style cards
    ========================================================= */
 .mta-reviews { background: var(--mta-cream); }
 /* Continuously sliding marquee */
@@ -1112,7 +1112,7 @@ body.mta-modal-open { overflow: hidden; }
 /* =========================================================
    MID CTA
    ========================================================= */
-/* Mid-page CTA — rounded contained card (not full-width band) */
+/* Mid-page CTA - rounded contained card (not full-width band) */
 .mta-midcta {
   background: transparent;
   padding: 60px 0;
@@ -1156,7 +1156,7 @@ body.mta-modal-open { overflow: hidden; }
 .mta-regions__intro h2 { margin: 8px 0 16px; }
 .mta-regions__intro p { max-width: 460px; }
 
-/* RIGHT column: two-part stage — a compact region list beside the SVG map */
+/* RIGHT column: two-part stage - a compact region list beside the SVG map */
 .mta-regions__stage {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
@@ -1366,7 +1366,7 @@ body.mta-modal-open { overflow: hidden; }
 [data-mta-anim="rise"] { opacity: 0; transform: translateY(40px) scale(.98); }
 [data-mta-anim="rise"].is-in { opacity: 1; transform: none; transition: opacity 1.1s var(--mta-ease), transform 1.1s var(--mta-ease); }
 
-/* Universal image reveal — soft fade + zoom-in. Uses opacity so if the observer
+/* Universal image reveal - soft fade + zoom-in. Uses opacity so if the observer
    ever fails, the image is still visible (no stuck-clip bug). */
 [data-mta-anim="reveal-img"] {
   opacity: 0;
@@ -1399,7 +1399,7 @@ body.mta-modal-open { overflow: hidden; }
 .mta-sec-head[data-mta-anim].is-in > *:nth-child(3) { opacity: 1; transform: none; transition-delay: .28s; }
 
 /* =========================================================
-   HERO — sequenced entrance (title first, then supporting elements)
+   HERO - sequenced entrance (title first, then supporting elements)
    Timing: 0.15 → title span1 0.35 → span2 0.55 → span3 0.75
            → sub 1.15 → CTA 1.4 → note 1.55 → proof 1.7
    ========================================================= */
@@ -1412,11 +1412,11 @@ body.mta-modal-open { overflow: hidden; }
 .mta-hero__badges[data-mta-anim].is-in { transition-delay: 1.7s; }
 
 /* =========================================================
-   MOBILE FINE-TUNING — consolidated overrides for < 900px
+   MOBILE FINE-TUNING - consolidated overrides for < 900px
    Improves spacing, typography, and alignment across sections
    ========================================================= */
 @media (max-width: 900px) {
-  /* Section headers — tighter */
+  /* Section headers - tighter */
   .mta-sec-head { margin-bottom: 40px; padding: 0 4px; }
   .mta-sec-head p { font-size: 15px; }
   h2, .mta-h2 { font-size: clamp(28px, 7vw, 42px); line-height: 1.1; margin-bottom: 14px; }
@@ -1425,10 +1425,10 @@ body.mta-modal-open { overflow: hidden; }
   .mta-grid--6, .mta-grid--3 { grid-template-columns: 1fr; gap: 16px; }
   .mta-card { padding: 22px 22px; }
 
-  /* Steps — tighter */
+  /* Steps - tighter */
   .mta-steps { gap: 60px; }
 
-  /* Agents (split-scroll) stacks — already handled, tighten more */
+  /* Agents (split-scroll) stacks - already handled, tighten more */
   .mta-split__sticky { text-align: center; }
   .mta-split__sticky p { font-size: 15px; }
   .mta-split__scroll .mta-portrait figcaption { font-size: 8px; padding: 4px 7px; }
@@ -1441,10 +1441,10 @@ body.mta-modal-open { overflow: hidden; }
   /* Reviews marquee */
   .mta-greviews-marquee { margin: 0 -16px 40px; }
 
-  /* Sales — single column */
+  /* Sales - single column */
   .mta-sales__grid { grid-template-columns: 1fr; gap: 20px; }
 
-  /* Coverage / regions section restack — everything centered on mobile */
+  /* Coverage / regions section restack - everything centered on mobile */
   .mta-regions__layout { grid-template-columns: 1fr; gap: 30px; }
   .mta-regions__intro { text-align: center; }
   .mta-regions__intro p { max-width: 100%; }
@@ -1464,7 +1464,7 @@ body.mta-modal-open { overflow: hidden; }
   /* Footer */
   .mta-footer__grid { padding-top: 40px; padding-bottom: 30px; }
 
-  /* Buttons everywhere on mobile — comfortable tap targets */
+  /* Buttons everywhere on mobile - comfortable tap targets */
   .mta-btn { padding: 14px 24px; font-size: 14px; }
 
   /* Center any lone CTAs on mobile */

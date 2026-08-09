@@ -1,5 +1,5 @@
 /* =========================================================
-   MY TOP AGENT — Interaction layer
+   MY TOP AGENT - Interaction layer
    Lenis smooth scroll + GSAP scroll animations
    GHL-safe: waits for DOM, self-scoped, mobile-aware
    ========================================================= */
@@ -114,7 +114,7 @@
     io.observe(hero);
   }
 
-  // ---------- Reveal animations (IntersectionObserver — GHL-safe, no lib deps) ----------
+  // ---------- Reveal animations (IntersectionObserver - GHL-safe, no lib deps) ----------
   function initReveals() {
     const els = document.querySelectorAll('[data-mta-anim]');
     if (!('IntersectionObserver' in window)) {
@@ -132,7 +132,7 @@
     els.forEach((el) => io.observe(el));
 
     // Safety: any element still not revealed 4s after page becomes idle
-    // (e.g. observer missed due to layout shifts) — force it visible.
+    // (e.g. observer missed due to layout shifts) - force it visible.
     setTimeout(() => {
       document.querySelectorAll('[data-mta-anim]:not(.is-in)').forEach((el) => {
         const r = el.getBoundingClientRect();
