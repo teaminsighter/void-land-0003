@@ -309,18 +309,18 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 .mta-hero__inner {
   position: relative; z-index: 2;
   max-width: var(--mta-max); margin: 0 auto; padding: 0 var(--mta-pad);
-  display: flex; align-items: center; justify-content: center;
+  display: flex; align-items: center; justify-content: flex-start;
   min-height: calc(100vh - 120px);
-  text-align: center;
+  text-align: left;
 }
-.mta-hero__copy { max-width: 900px; margin: 0 auto; }
-.mta-hero .mta-hero__sub { margin-left: auto; margin-right: auto; }
+.mta-hero__copy { max-width: 720px; margin: 0; }
+.mta-hero .mta-hero__sub { margin-left: 0; margin-right: 0; }
 .mta-hero .mta-eyebrow { color: var(--mta-brand); }
 .mta-hero__title {
-  font-family: var(--mta-font-display);   /* Archivo Black — same as other titles */
+  font-family: var(--mta-font-display);   /* Archivo Black */
   font-weight: 400;                        /* Archivo Black is intrinsically 900 */
-  font-size: clamp(46px, 7vw, 108px);
-  line-height: 1.02;
+  font-size: clamp(34px, 4.6vw, 72px);     /* Archivo Black is much wider than Big Shoulders */
+  line-height: 1.1;
   letter-spacing: -0.01em;
   color: #fff;
   text-transform: uppercase;
@@ -364,7 +364,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 }
 /* Hero trust badges - Google Reviews + NZ Certified */
 .mta-hero__badges {
-  display: flex; align-items: stretch; justify-content: center;
+  display: flex; align-items: stretch; justify-content: flex-start;
   gap: 12px;
   margin-top: 22px;
   flex-wrap: wrap;
@@ -399,7 +399,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 .mta-badge--nz .mta-badge__score { color: var(--mta-brand); }
 
 /* Hero CTA - inherits the unified red-idle / white-hover style from .mta-btn--gold */
-.mta-hero__cta { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 8px; }
+.mta-hero__cta { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 8px; }
 .mta-hero__note { font-size: 13px; color: rgba(255,255,255,.72); margin: 0; }
 
 /* Form fields (used inside quiz section) */
@@ -514,9 +514,17 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   /* Hero: give enough breathing room. Content needs bottom padding to clear
      the absolutely-positioned trust bar; overall section stays natural height. */
   .mta-hero { padding: 90px 0 0; min-height: auto; }
-  .mta-hero__inner { padding-top: 20px; padding-bottom: 100px; min-height: auto; }
+  /* Mobile: re-center everything (desktop is left-aligned) */
+  .mta-hero__inner {
+    padding-top: 20px; padding-bottom: 100px; min-height: auto;
+    justify-content: center; text-align: center;
+  }
+  .mta-hero__copy { max-width: 100%; margin: 0 auto; }
+  .mta-hero .mta-hero__sub { margin-left: auto; margin-right: auto; }
+  .mta-hero__cta { align-items: center; }
+  .mta-hero__badges { justify-content: center; }
   .mta-hero__floats { display: none; }
-  .mta-hero__title { font-size: clamp(44px, 12vw, 68px); margin-bottom: 20px; }
+  .mta-hero__title { font-size: clamp(30px, 7.5vw, 48px); margin-bottom: 20px; }
   .mta-hero__brush { padding: 0.04em 0.24em 0.08em; }
   .mta-hero__sub { font-size: 16px; max-width: 92%; }
   .mta-hero__cta { padding-bottom: 0; margin-bottom: 6px; }
