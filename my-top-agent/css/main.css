@@ -308,12 +308,13 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 
 .mta-hero__inner {
   position: relative; z-index: 2;
-  max-width: var(--mta-max); margin: 0 auto; padding: 0 var(--mta-pad);
+  max-width: var(--mta-max); margin: 0 auto;
+  padding: 0 clamp(16px, 2vw, 28px) 0 clamp(16px, 2vw, 28px);  /* tighter than default so content moves further left */
   display: flex; align-items: center; justify-content: flex-start;
   min-height: calc(100vh - 120px);
   text-align: left;
 }
-.mta-hero__copy { max-width: 720px; margin: 0; }
+.mta-hero__copy { max-width: 820px; margin: 0; }
 .mta-hero .mta-hero__sub { margin-left: 0; margin-right: 0; }
 .mta-hero .mta-eyebrow { color: var(--mta-brand); }
 .mta-hero__title {
@@ -334,6 +335,8 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
   display: inline;
 }
 .mta-hero__title span { display: block; overflow: hidden; }
+/* Keep "in NEW ZEALAND" on ONE line — the brush-wrapped word should sit next to "in" */
+.mta-hero__title span:last-child { white-space: nowrap; }
 
 /* Hand-brushed white paint-swipe behind "New Zealand" - text in brand red */
 .mta-hero__brush {
