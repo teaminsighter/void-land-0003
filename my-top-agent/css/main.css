@@ -402,8 +402,7 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 .mta-badge--nz .mta-badge__score { color: var(--mta-brand); }
 
 /* Hero CTA - inherits the unified red-idle / white-hover style from .mta-btn--gold */
-/* CTA sits shifted right so it visually centers above the two trust badges below */
-.mta-hero__cta { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 8px; padding-left: 90px; }
+.mta-hero__cta { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 8px; }
 .mta-hero__note { font-size: 13px; color: rgba(255,255,255,.72); margin: 0; }
 
 /* Form fields (used inside quiz section) */
