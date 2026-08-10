@@ -298,8 +298,8 @@ p { line-height: 1.6; color: #3B4152; margin: 0 0 14px; }
 .mta-hero__grad {
   position: absolute; inset: 0;
   background:
-    radial-gradient(1200px 500px at 20% 30%, rgba(11,31,58,.45), transparent 60%),
-    linear-gradient(180deg, rgba(11,31,58,.55) 0%, rgba(11,31,58,.75) 60%, rgba(11,31,58,.92) 100%);
+    radial-gradient(1200px 500px at 20% 30%, rgba(11,31,58,.28), transparent 60%),
+    linear-gradient(180deg, rgba(11,31,58,.32) 0%, rgba(11,31,58,.48) 60%, rgba(11,31,58,.68) 100%);
 }
 .mta-hero__noise {
   position: absolute; inset: 0; opacity: .06; pointer-events: none;
